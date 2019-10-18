@@ -5,5 +5,5 @@ categories: general
 published: true
 ---
 
-Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
+Este es el blog de CoderDojo La Rinconada. Os informaremos de los eventos y noticias relacionadas con este club de programación.
 
