@@ -1,15 +1,13 @@
 ---
 layout: page
-title: About
+title: Acerca de
 permalink: /about/
 ---
 
-Some information about you!
+Club de programación gratuito para niños y jóvenes de 7 a 17 años
 
-### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
 
-### Contact me
+### Contacto
 
-[email@domain.com](mailto:coderdojolarinconada@gmail.com)
+[coderdojolarinconada@gmail.com](mailto:coderdojolarinconada@gmail.com)
