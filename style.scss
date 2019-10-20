@@ -109,6 +109,11 @@ strong, b {
 img {
   max-width: 100%;
 }
+#foto_centro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 // Fixes images in popup boxes from Google Translate
 .gmnoprint img {
