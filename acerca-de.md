@@ -1,13 +1,14 @@
 ---
-layout: page
-title: Acerca de
+layout: about
 permalink: /about/
 ---
 
-Club de programación gratuito para niños y jóvenes de 7 a 17 años
+&nbsp;
+
+&nbsp;
 
 
-
-### Contacto
+## Contacto
 
 [coderdojolarinconada@gmail.com](mailto:coderdojolarinconada@gmail.com)
+

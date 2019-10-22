@@ -185,6 +185,14 @@ img {
   }
 }
 
+.center{
+   text-align: center;
+}
+
+.cimg{
+   border-radius: 10px;
+}
+
 .site-info {
   float: left;
 
@@ -245,6 +253,20 @@ nav {
 //
 // .main
 //
+
+.foto{
+    float: left;
+    width: 50%;  
+}
+.foto img{
+    width: 150px;
+    height: 200px;
+    margin: 10px auto;
+    display: block;
+}
+.desc{
+    text-align: center;
+}
 
 .posts > .post {
   padding-bottom: 2em;
