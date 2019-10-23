@@ -7,7 +7,7 @@ author: CoderDojo La Rinconada
 
 
 
-Hola a todos, ya se han terminado las vacaciones,siempre son cortas, aunque hay algo positivo, empezamos las sesiones en Coderdojo La Rinconada. 
+Hola a todos, ya se han terminado las vacaciones,siempre son cortas, aunque hay algo positivo, empezamos las sesiones en CoderDojo La Rinconada. 
 😉
 
 ![Comenzamos los eventos]({{site.baseurl}}/images/twitter.jpeg)
