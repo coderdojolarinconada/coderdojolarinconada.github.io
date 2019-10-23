@@ -8,7 +8,7 @@ image: /images/cerro macareno.jpg
 
 
 
-Hola a todos, este año escolar 2019-2020, el Centro de Adultos Cerro Macareno nos vuelve a ceder un aula para la realización de nuestros eventos de [Coderdojo](https://coderdojo.com/es-ES).
+Hola a todos, este año escolar 2019-2020, el Centro de Adultos Cerro Macareno nos vuelve a ceder un aula para la realización de nuestros eventos de [CoderDojo](https://coderdojo.com/es-ES).
 Agradecemos al Director y Jefe de Estudios su inestimable ayuda sin la cuál sería imposible llevarlo a cabo.
 
 ![Centro Adultos Cerro Macareno]({{site.baseurl}}/images/cerro macareno.jpg)
