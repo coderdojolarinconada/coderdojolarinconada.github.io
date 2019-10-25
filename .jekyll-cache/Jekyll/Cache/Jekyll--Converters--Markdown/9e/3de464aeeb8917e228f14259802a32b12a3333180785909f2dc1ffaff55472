@@ -1,0 +1,31 @@
+I"�<h1 class="center">Recursos disponibles para descarga</h1>
+
+<p>&lt;!DOCTYPE html&gt;</p>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/estilo.css" />
+</head>
+<body>
+   
+    <div class="container">
+       <h2>Scratch</h2>
+        <div class="galeria">
+            <a target="_blank" href="https://drive.google.com/open?id=18lu80aTm6ruhqVS9Sz8MIwUIbDe0t_hS"><img src="/images/banda.jpg" alt="Banda de rock" title="Banda de rock" /></a>
+            <a target="_blank" href="https://drive.google.com/open?id=1Klz2C7Ut9J7CyyrQQcvixzHcZXo9yXeY"><img src="/images/perdidos.jpg" alt="Perdidos en el espacio" title="Perdidos en el espacio" /></a>
+            <a target="_blank" href="https://drive.google.com/open?id=1jUhltWOm7meKfOFQxNXumR-6omUP3cKt"><img src="/images/cazafantasmas.jpg" alt="Cazafantasmas" title="Cazafantasmas" /></a>
+            <a target="_blank" href="https://drive.google.com/open?id=16RHQZF8cwbKvgQO9_9ork2qeGB6S22PG"><img src="/images/chatbot.jpg" alt="Chatbot" title="Chatbot" /></a>
+            <a target="_blank" href="https://drive.google.com/open?id=1t0JZFnlmU7OwAKDPDPRxD76myCAPeFR-"><img src="/images/capturar.png" alt="Captura las manzanas" title="Captura las manzanas" /></a>
+            <a target="_blank" href="https://drive.google.com/open?id=1CRxSGMFUMNPhxfIuxzyGN6Zrp4eXZLaf"><img src="/images/carreras.png" alt="Carreras de vehículos" title="Echamos una carrera" /></a>
+            <a target="_blank" href="https://drive.google.com/open?id=1hLeIM1MfWmSeTnD8_VJx5MWadzD6xKpC"><img src="/images/tiroblanco.jpg" alt="Tiro al blanco" title="Tiro al blanco" /></a>
+            <a target="_blank" href="https://drive.google.com/open?id=1AlUSdUy8f7dm0vjAJ0c5kO7q78jOrdId"><img src="/images/obstaculos.png" alt="Cuidado con los obstáculos" title="Esquiva los obstáculos" /></a>
+            <a target="_blank" href="https://drive.google.com/open?id=1MbOouBeiI6nKZJQFemqL5cPpoSlq99qa"><img src="/images/tanques.png" alt="Una de tanques" title="Una de tanques" /></a>
+            
+        </div>
+    </div>
+</body>
+</html>
+
+<p>Más recursos <a href="https://projects.raspberrypi.org/es-ES/projects">aquí</a></p>
+:ET

@@ -185,11 +185,11 @@ img {
   }
 }
 
-.center{
+.center{//centrar el texto
    text-align: center;
 }
 
-.cimg{
+.cimg{//imagen central de index con bordes redondeados
    border-radius: 10px;
 }
 
@@ -254,6 +254,10 @@ nav {
 // .main
 //
 
+/**************/
+/*  Includes  */
+/**************/
+
 .foto{
     float: left;
     width: 50%;  
@@ -264,6 +268,41 @@ nav {
     margin: 10px auto;
     display: block;
 }
+//recursosg
+
+h2{
+    text-align: center;
+    font-family:sans-serif;
+}
+
+
+.container{
+    width: 80%;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.galeria{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+    width: 100%;
+    justify-content: space-around;
+    align-content: space-between;
+}
+
+.galeria img{
+    width: 300px;
+    height: auto;
+}
+
+.galeria img:hover{
+    border: solid 2px red;
+}
+
+
+/**/
 .desc{
     text-align: center;
 }
