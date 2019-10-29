@@ -305,6 +305,17 @@ h2{
     text-align: center;
 }
 
+.mapago{
+    text-align: center;
+}
+
+iframe {
+	@include mobile {
+        width: 250px;
+	heght: auto;
+    }
+}
+
 /**/
 
 .posts > .post {

@@ -1,0 +1,23 @@
+I"<h2 class="center">Quiénes somos</h2>
+<div class="foto">
+        <img src="/images/andres.jpg" alt="Andrés Ramos" />
+        <div class="desc"><p>Andrés Ramos</p> Desarrollo de aplicaciones web</div>
+</div>
+<div class="foto">
+	<img src="/images/manuel.jpg" alt="Manuel Aguirre" />
+        <div class="desc"><p>Manuel Aguirre</p> Ingeniería Informática</div>
+</div>
+
+<p> </p>
+
+<p>CoderDojo La Rinconada empezó su andadura en abril de 2019, estando incluidos en la comunidad de clubes que forman parte de la Fundación <a href="https://coderdojo.com/es-ES">CoderDojo</a> y de la Asociación <a href="http://www.coderdojo.es/">CoderDojo España</a>.</p>
+
+<p>Creemos en la oportunidad del acceso a los conocimientos de programación, de manera inclusiva y gratuita en un ambiente distendido, seguro y social para todos los niños, niñas y jóvenes .</p>
+
+<p><br />
+<br /></p>
+<div class="center">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d791.5199429935827!2d-5.944403570808951!3d37.482443862958554!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd126969b21af225%3A0x6f88dc69f655f0b!2sCoderDojo%20La%20Rinconada!5e0!3m2!1ses!2ses!4v1572390992002!5m2!1ses!2ses" max-width="600" max-height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+</div>
+
+:ET
