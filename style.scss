@@ -301,11 +301,11 @@ h2{
     border: solid 2px red;
 }
 
-
-/**/
 .desc{
     text-align: center;
 }
+
+/**/
 
 .posts > .post {
   padding-bottom: 2em;
@@ -347,6 +347,29 @@ h2{
 footer {
   padding: 20px 0;
   text-align: center;
+}
+
+.grande{
+  float: left;
+  width: 40%;
+
+  @include mobile {
+      display: none;
+    }
+}
+
+.pequeno{
+   display: none;
+   float: left;
+   width: 40%;
+
+   @include mobile {
+      display : block;
+    }
+}
+
+
+footer .icon{
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
