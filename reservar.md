@@ -4,6 +4,9 @@ title: Reserva tu plaza para asistir a CoderDojo
 permalink: /reservar/
 ---
 
+### Nuestro próximo evento será el 15 de noviembre de 2019 de 17:00 a 18:30 horas.
+
+{% include calendario.html %}
   
   Es un club de programación donde aprenderás a pensar de manera lógica, desarrollarás tu creatividad y podrás hacer amigos con los que compartir tus creaciones.
 
