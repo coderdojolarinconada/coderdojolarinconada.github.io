@@ -4,7 +4,7 @@ title: Reserva tu plaza para asistir a CoderDojo
 permalink: /reservar/
 ---
 
-### Nuestro próximo evento será el 29 de noviembre de 2019 de 17:00 a 18:30 horas.
+### Nuestro próximo evento será el 13 de diciembre de 2019 de 17:00 a 18:30 horas.
 
 {% include calendario.html %}
   
