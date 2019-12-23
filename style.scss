@@ -276,7 +276,8 @@ nav {
    height : 300px;
 }
 
-//recursosg
+
+//*****************************pagina de recursosg
 
 h2{
     text-align: center;
@@ -289,7 +290,7 @@ h2{
     margin: 0px auto;
 }
 
-.galeria{
+.galeria{                              //galería de archivos pdf de Scratch
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-row-gap: 20px;
