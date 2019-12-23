@@ -22,6 +22,8 @@ En segundo lugar, os dejo las guías en pdf de carrera de barcos y caja de lápi
 
 <span>[Caja de lápices](https://drive.google.com/open?id=1Hphe-BezZmKJ3d8EZ43IARfBmc41rm63)</span>
 
+Desde CoderDojo La Rinconada os deseamos felices fiestas.
+
 
  [Scratch]:https://scratch.mit.edu/
 
