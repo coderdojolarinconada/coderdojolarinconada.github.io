@@ -4,7 +4,7 @@ title: Reserva tu plaza para asistir a CoderDojo
 permalink: /reservar/
 ---
 
-### Nuestro próximo evento será el 07 de febrero de 2020 de 17:00 a 18:30 horas.
+### Nuestro próximo evento será el 
 
 {% include calendario.html %}
   
