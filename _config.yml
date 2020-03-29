@@ -52,9 +52,7 @@ baseurl: ""
 #
 # !! You don't need to change any of the configuration flags below !!
 #
-#collections:
-# posts:
-#   output: true
+
 
 #
 permalink: /:title/
