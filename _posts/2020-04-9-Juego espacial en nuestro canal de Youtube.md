@@ -5,7 +5,7 @@ categories: general
 author: CoderDojo La Rinconada
 ---
 
-Hola a todos, al no poder organizar nuestros eventos, este domingo pasado publicamos otro video en el canal de Youtube de [CoderDojo La Rinconada],  creando un juego espacial desde cero, en el que nuestro protagonista, un astronauta, debe recoger cápsulas de combustible para repostar el cohete y volver a casa.
+Hola a todos, al no poder organizar nuestros eventos, este domingo pasado, publicamos otro video en el canal de Youtube de [CoderDojo La Rinconada],  creando un juego espacial desde cero, en el que nuestro protagonista, un astronauta, debe recoger cápsulas de combustible para repostar el cohete y volver a casa.
 
 
 
