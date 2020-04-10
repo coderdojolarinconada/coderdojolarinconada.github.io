@@ -4,10 +4,21 @@ title: Reserva tu plaza para asistir a CoderDojo
 permalink: /reservar/
 ---
 
-### Nuestro próximo evento será el 
+<!--### Nuestro próximo evento será el--> 
 
-{% include calendario.html %}
-  
+<br>
+
+***
+
+<span style="display:block;text-align:center;font-size:30px;color:red;">
+*__¡AVISO!__*</span><br><span style="display:block;text-align:justify;font-size:30px;color:red;">*__Debido al confinamiento por el COVID-19 y la necesidad de quedarnos en casa, los eventos de CoderDojo La Rinconada se suspenden hasta nuevo aviso.__*</span>
+<br>
+
+***
+
+<!--{% include calendario.html %}-->
+
+<br><br>
   Es un club de programación donde aprenderás a pensar de manera lógica, desarrollarás tu creatividad y podrás hacer amigos con los que compartir tus creaciones.
 
 Requisitos: 
@@ -23,6 +34,6 @@ Requisitos:
 
 
 
- Reserva tu plaza [aquí](https://zen.coderdojo.com/dojos/es/san-jose-de-la-rinconada/la-rinconada-sevilla)
+<!--Reserva tu plaza [aquí](https://zen.coderdojo.com/dojos/es/san-jose-de-la-rinconada/la-rinconada-sevilla)-->
 
  
