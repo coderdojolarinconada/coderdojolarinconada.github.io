@@ -16,9 +16,11 @@ permalink: /reservar/
 
 ***
 
+<br>
+Puedes seguirnos a través de [Twitter], el [blog] de nuestra página y nuestro canal en [Youtube]
+
 <!--{% include calendario.html %}-->
 
-<br><br>
   Es un club de programación donde aprenderás a pensar de manera lógica, desarrollarás tu creatividad y podrás hacer amigos con los que compartir tus creaciones.
 
 Requisitos: 
@@ -35,5 +37,12 @@ Requisitos:
 
 
 <!--Reserva tu plaza [aquí](https://zen.coderdojo.com/dojos/es/san-jose-de-la-rinconada/la-rinconada-sevilla)-->
+
+
+[Twitter]:https://twitter.com/dojolarinconada
+[blog]:https://coderdojolarinconada.github.io/noticias/
+[Youtube]:https://www.youtube.com/channel/UC7AelXV3QJB-nmJ_MZQudVQ
+
+
 
  
