@@ -1,0 +1,17 @@
+I"}<p>Hola a todos, esta semana toca hacer una simulación de la gravedad en un juego de plataformas de una manera fácil. Ya sabeis que la velocidad no es constante, pues cuando un objeto cae atraído por la fuerza de gravedad, la acelaración es cada vez mayor en función de la distancia y el tiempo, pero como esto es un juego y estamos aprendiendo programación, no vamos a complicarlo y utilizaremos una velocidad constante.</p>
+
+<p><br />
+<span style="display:block;text-align:center"><img src="/images/gravedad.gif" alt="gravedad" /></span>
+<br /></p>
+
+<p>Vamos a utilizar el bucle condicional, y vamos a utilizar dos condiciones, la primera se cumplirá cuando el color que le demos a los zapatos de nuestro amigo el gato toque el otro color y la segunda condición se cumplirá cuando nuestro amigo toque el objeto “plataforma”.</p>
+
+<p><br />
+<span style="display:block;text-align:center"><img src="/images/sentencias.png" alt="Bloque de sentencias" /></span>
+<br /></p>
+
+<p>Esperamos que os guste nuestro [video] y que nos mandeis vuestras creaciones</p>
+
+<p><a href="https://youtu.be/0h7flavoLec">video</a> {:target=”_blank”}</p>
+
+:ET
