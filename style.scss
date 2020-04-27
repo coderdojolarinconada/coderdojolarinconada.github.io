@@ -405,6 +405,13 @@ footer .icon{
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-column-gap: 50px;
 
+   @include mobile{
+    	
+   grid-template-areas: "entry"
+			"noticias";
+   grid-template-columns: 1fr;
+   }
+
 }
 
 .entry{
