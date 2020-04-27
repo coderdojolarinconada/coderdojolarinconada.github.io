@@ -11,7 +11,7 @@ permalink: /reservar/
 ***
 
 <span style="display:block;text-align:center;font-size:30px;color:red;">
-*__¡AVISO!__*</span><br><span style="display:block;text-align:justify;font-size:30px;color:red;">*__Debido al confinamiento por el COVID-19 y la necesidad de quedarnos en casa, los eventos de CoderDojo La Rinconada se suspenden hasta nuevo aviso.__*</span>
+*__¡AVISO!__*</span><br><span style="display:block;text-align:center;">![letrero]</span>
 <br>
 
 ***
@@ -42,6 +42,7 @@ Requisitos:
 [Twitter]:https://twitter.com/dojolarinconada
 [blog]:https://coderdojolarinconada.github.io/noticias/
 [Youtube]:https://www.youtube.com/channel/UC7AelXV3QJB-nmJ_MZQudVQ
+[letrero]: /images/letrero.png "Letrero COVID-19"
 
 
 
