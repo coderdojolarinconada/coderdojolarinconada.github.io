@@ -1,0 +1,7 @@
+<h2>Últimos posts publicados</h2>
+<div class="posts">
+{% for post in site.posts limit:5 %}
+<p><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a><p>
+{% endfor %}
+</div>
+
