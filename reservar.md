@@ -11,7 +11,7 @@ permalink: /reservar/
 ***
 
 <span style="display:block;text-align:center;font-size:30px;color:red;">
-*__¡AVISO!__*</span><br><span style="display:block;text-align:center;">![letrero]</span>
+*__¡AVISO!__*</span><br><span id="letra" style="display:block;text-align:center;">![letrero]</span>
 <br>
 
 ***

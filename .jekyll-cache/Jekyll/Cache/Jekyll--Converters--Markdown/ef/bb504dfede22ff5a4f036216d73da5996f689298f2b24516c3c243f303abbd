@@ -1,0 +1,21 @@
+I"6<p>Hola a todos, empezamos el mes de mayo estrenando un video en el canal de YouTube de CoderDojo La Rinconada. Esta vez nos introducimos en las aplicaciones para móviles.</p>
+
+<p>Empezaremos por la interfaz de usuario donde tenemos muchos componentes que podremos utilizar  en nuestras aplicaciones, pero en este caso solo utilizaremos la tres marcadas en rojo: botón, imagen y etiqueta.</p>
+
+<div class="container">
+        <div class="galeria">
+            <img src="/images/interfaz.png" alt="Interfaz de usuario" title="Interfaz de usuario" />
+            <img src="/images/disposicion.png" alt="disposición" title="disposición" />
+	    <img src="/images/medios.png" alt="medios" title="medios" />
+	</div>
+</div>
+
+<p>Crearemos tres disposiciones horizontales, arrastrando a la primera una etiqueta llamada “título”, en la segunda la imagen de nuestro gato y en la última un botón al que daremos el nombre de “btnSalida” que cerrará nuestra aplicación. Además, en la sección de medios utilizaremos un componente no visible de sonido. Subiremos al almacén nuestro archivos de imagen y sonido para posteriormente asignarlos a cada componente. En la imagen vemos la estructura y como queda nuestra aplicación en la pantalla de nuestro móvil.</p>
+
+<p><br />
+<span style="display:block;text-align:center"><img src="/images/arbol.png" alt="arbol" /> <img src="/images/movil.png" alt="movil" /></span>
+<br /></p>
+
+<p>Esperamos que os guste nuestro <a href="https://youtu.be/0h7flavoLec" target="_blank">video</a> y que nos mandéis vuestras creaciones. Hasta pronto</p>
+
+:ET
