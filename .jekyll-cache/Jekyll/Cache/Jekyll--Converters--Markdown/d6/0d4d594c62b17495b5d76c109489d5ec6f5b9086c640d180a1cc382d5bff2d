@@ -1,0 +1,31 @@
+I"�<p>Hola a todos, seguimos actualizando nuestro juego espacial que publicamos hace algunas semanas. Esta vez, vamos a aplicar una aceleración al astronauta y programaremos el cambio de escenario mediante un evento.</p>
+
+<p>Crearemos dos variables que indicarán la velocidad del eje X y del eje Y a las que llamaremos movX y movY respectivamente. Debemos tener en cuenta que las variables suelen nombrarse con la primera palabra en minúscula y la segunda palabra comienza por mayúsculas(ejemplos: miPrograma, movX).</p>
+
+<p><br />
+<span style="display:block;text-align:center"><img src="/images/variables.png" alt="variables" /></span>
+<br /></p>
+
+<p>Una vez creadas nuestras variables, situamos al astronauta en el centro de la pantalla con el bloque de ir a x=0 e y=0. Inicializamos las variables movX y movY a 0 al inicio del juego y creamos un bucle que siempre esté sumando al astronauta el valor de movX y el valor de movY.Por ello, si el valor de movX es igual a 2, sumaría dos pasos positivamente a X, desplazándose hacia la derecha donde el valor se incrementa positivamente.</p>
+
+<p><br />
+<span style="display:block;text-align:center"><img src="/images/bloque1.png" alt="bloque1" /></span>
+<br /></p>
+
+<p><br />
+<span style="display:block;text-align:center"><img src="/images/bloque2.png" alt="bloque2" /></span>
+<br /></p>
+
+<p><br />
+<span style="display:block;text-align:center"><img src="/images/bloque3.png" alt="bloque3" /></span>
+<br /></p>
+
+<p><br />
+<span style="display:block;text-align:center"><img src="/images/bloque4.png" alt="bloque4" /></span>
+<br /></p>
+
+<p><a href="https://scratch.mit.edu/projects/395841606/" target="_blank">Star Wars</a> y <a href="https://scratch.mit.edu/projects/395710836/" target="_blank">Titanic</a>.</p>
+
+<p>Y a una página donde tenéis muchas partituras entre las que elegir <a href="https://tomapartituras.wordpress.com/" target="_blank">Toma partituras</a></p>
+
+:ET
