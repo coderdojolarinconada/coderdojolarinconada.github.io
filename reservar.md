@@ -6,20 +6,21 @@ permalink: /reservar/
 
 <!--### Nuestro próximo evento será el--> 
 
+<!--{% include calendario.html %}-->
+
 <br>
 
 ***
 
 <span style="display:block;text-align:center;font-size:30px;color:red;">
-*__¡AVISO!__*</span><br><span id="letra" style="display:block;text-align:center;">![letrero]</span>
+**CERRADO TEMPORALMENTE**
 <br>
 
 ***
 
 <br>
-Puedes seguirnos a través de [Twitter], el [blog] de nuestra página y nuestro canal en [Youtube]
+Puedes seguirnos a través de [Twitter], el [blog] de nuestra página y nuestro canal en [Youtube].
 
-<!--{% include calendario.html %}-->
 
   Es un club de programación donde aprenderás a pensar de manera lógica, desarrollarás tu creatividad y podrás hacer amigos con los que compartir tus creaciones.
 

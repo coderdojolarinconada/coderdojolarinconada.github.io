@@ -1,0 +1,37 @@
+I"�<p>Hola a todos, continuamos esta semana con la tercera parte de nuestro juego espacial. Practicaremos con el cambio de escenarios y la pantalla de presentación de un juego, así como con el intercambio de mensajes entre componentes de un programa.</p>
+
+<p>Crearemos una pantalla de inicio donde situaremos el titulo de nuestro juego y un botón(jugar), y al hacer clic sobre él,  enviaremos un mensaje al resto de componentes del juego.</p>
+
+<p><br />
+<span style="display:block;text-align:center"><img src="/images/pinicio.png" alt="pinicio" /></span>
+<br /></p>
+
+<p>Lo primero será clonar el fondo principal del juego, nombrándolo como “Inicio”. Posteriormente, pulsando sobre el botón de sprites y la opción pintar, crearemos un texto que nombraremos “play” con la palabra “Jugar”. A este, le añadiremos una animación que aumentará su tamaño y tras esperar medio segundo, disminuirá al valor inicial. Además, al hacer clic sobre este, enviará un mensaje de inicio al resto de sprites y cambiará el fondo. El fondo “Inicio” es igual al “principal”, incluso no hubiera hecho falta cambiarlo, sin embargo, si fueran diferentes el fondo de presentación y el del juego, esta es la secuencia a seguir.</p>
+
+<p><br />
+<span style="display:block;text-align:center"><img src="/images/cjugar.png" alt="cjugar" /></span>
+<br /></p>
+
+<p>El siguiente paso es crear el título del juego en pantalla. Lo crearemos de la misma forma que el anterior. Pero esta vez, no enviará mensaje de inicio, sino que lo recibirá al igual que el resto de sprites. Vemos el código.</p>
+
+<p><br />
+<span style="display:block;text-align:center"><img src="/images/ctitulo.png" alt="ctitulo" /></span>
+<br /></p>
+
+<p>En el siguiente introducimos un bloque por siempre y una condición. Esto representa la programción de un bloque que escucha permanentemente si el astronauta ha tocado el borde. Es como la alarma de nuestro despertador. Está comparando continuamente la hora actual del reloj con la grabada en la memoria de la alarma. En el momento que son iguales, el despertador suena. Aunque en este caso, lo que hace es enviar un mensaje para el cambio del escenario.</p>
+
+<p><br />
+<span style="display:block;text-align:center"><img src="/images/bloque3.png" alt="bloque3" /></span>
+<br /></p>
+
+<p>El siguiente bloque lo creamos en la programación del escenario. Cuando recibe el mensaje, cambiamos el fondo del escenario y aparece el escenario llamado “perder”. Tras ello, detenemos todos los objetos del programa terminando su ejecución</p>
+
+<p><br />
+<span style="display:block;text-align:center"><img src="/images/bloque4.png" alt="bloque4" /></span>
+<br /></p>
+
+<p>Os dejo el video de <a href="https://youtu.be/lnTL5N7n0V0" target="_blank">Juego Espacial 2ª parte</a> subido a nuestro canal y el <a href="https://scratch.mit.edu/projects/401764203/" target="_blank">enlace</a> al programa de Sratch en el que podais introducir el código.</p>
+
+<p>Espero que os guste y seguimos en contacto.</p>
+
+:ET
