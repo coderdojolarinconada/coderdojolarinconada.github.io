@@ -27,7 +27,7 @@ footer-links:
   pinterest:
   rss: RSS
   twitter: DojoLaRinconada
-  stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
+  stackoverflow: # your stackoverflow profile
   youtube: channel/UC7AelXV3QJB-nmJ_MZQudVQ
   googleplus: # anything in your profile username that comes after plus.google.com/
 
@@ -39,7 +39,7 @@ disqus:
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 google_analytics: 
 
-# Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
+# Your website URL (e.g. http://coderdojolarinconada.github.io)
 # Used for Sitemap.xml and your RSS feed
 url: http://coderdojolarinconada.github.io
 
