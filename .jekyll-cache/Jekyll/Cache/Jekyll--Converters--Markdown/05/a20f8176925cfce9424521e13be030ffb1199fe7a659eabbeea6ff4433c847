@@ -1,0 +1,38 @@
+I"o<p>Hola a todos, en este post, tratamos sobre la edición de imágenes para su utilización en Scratch o en otros programas que las necesitemos. Actualmente existen muchos formatos de imágenes, pero los más conocidos o utilizados son:</p>
+
+<ul>
+  <li><strong>jpeg</strong></li>
+  <li><strong>png</strong></li>
+  <li><strong>gif</strong></li>
+  <li><strong>tif o tiff</strong></li>
+</ul>
+
+<p>Ultimamente se está utilizando un nuevo formato de imagen con extensión <strong>webp</strong> desarrollado por Google y que tiene una compresión bastante alta sin perdidas de demasiada calidad. Este formato se utiliza principalmente en internet, pues al ser imágenes con poco peso, la carga de la página web es mucho más rápida.</p>
+
+<p>Hemos descargado esta imagen de internet. Y queremos utilizarla para un trabajo de clase o una foto o para personaje de un juego. Pero queremos que solo se vea la estatua sin ningún fondo.</p>
+
+<p><br />
+<span style="display:block;text-align:center"><img src="/images/elpensador.jpg" alt="elpensador" /></span>
+<br /></p>
+
+<p>Para acometer nuestra tarea vamos a utilizar un programa gratuito de edición de imágenes y retoque fotográfico llamado <a href="http://www.gimp.org.es/descargar-gimp.html" target="_blank">Gimp</a>.</p>
+
+<p>Una vez que lo tengamos instalado, o utilicemos la version portable, lo abrimos y seguimos los siguientes pasos:</p>
+
+<p><strong>Archivo&gt;abrir archivo</strong> y buscamos la imagen que queremos abrir.</p>
+
+<p>Tras ello debemos añadir el <strong>canal Alfa</strong> a la imagen siguiendo los siguientes pasos:</p>
+
+<p><strong>Capa&gt;Transparencia&gt;Añadir canal Alfa</strong></p>
+
+<p>Y despueś con la herramienta selección difusa seleccionamos zonas de color uniforme y eliminamos con el borrador o con la tecla <strong>supr</strong>.</p>
+
+<p>Después exportamos la imagen en formato png siguiendo <strong>Archivo&gt; exportar</strong>. Ya tenemos la imagen preparada para su utilización.</p>
+
+<p><br />
+<span style="display:block;text-align:center"><img src="/images/comparativa.png" alt="comparativa" /></span>
+<br /></p>
+
+<p>Espero que os guste y seguimos en contacto.</p>
+
+:ET
