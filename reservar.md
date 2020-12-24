@@ -13,7 +13,7 @@ permalink: /reservar/
 ***
 
 <span style="display:block;text-align:center;font-size:30px;color:red;">
-**CERRADO TEMPORALMENTE**
+**SESIONES ONLINE**
 <br>
 
 ***
