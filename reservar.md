@@ -13,7 +13,9 @@ permalink: /reservar/
 ***
 
 <span style="display:block;text-align:center;font-size:30px;color:red;">
-**SESIONES ONLINE**
+**SESIONES ONLINE**</span>
+<br>
+<span style="display:block;text-align:center">Apúntate a través de la plataforma de CoderDojo o en nuestro correo electrónico</span>
 <br>
 
 ***
