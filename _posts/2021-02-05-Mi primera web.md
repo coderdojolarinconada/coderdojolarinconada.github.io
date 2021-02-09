@@ -11,7 +11,7 @@ Aprendimos la plantilla común en todas las páginas web, a utilizar los título
 
 En otra sesión aprenderemos más elementos para usar en las páginas web y aplicaremos estos en nuestras páginas.
 
-Los ninjas elegieron temas para sus páginas y las imágenes. Muy buenos resultados para la primera toma de contacto con un lenguaje de marcado, dejando a un lado los bloques de código.
+Los ninjas eligieron temas para sus páginas y las imágenes. Muy buenos resultados para la primera toma de contacto con un lenguaje de marcado, dejando a un lado los bloques de código.
 
 <br>
 <span style="display:block;text-align:center">![nieve]</span>
