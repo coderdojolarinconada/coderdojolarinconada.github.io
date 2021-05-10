@@ -4,6 +4,7 @@ title: Agradecimientos al Centro de Educación de Adultos Cerro Macareno
 categories: general
 author: CoderDojo La Rinconada  
 image: /images/cerro macareno.jpg
+anyo : "2019"
 ---
 
 

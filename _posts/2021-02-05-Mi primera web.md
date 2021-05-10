@@ -1,8 +1,9 @@
 ---
 layout: post
 title: Mi primera web
-categories: general
+categories: paginas web
 author: CoderDojo La Rinconada
+anyo : "2021"
 ---
 
 Hola a todos, el viernes 5 de febrero hemos realizado una nueva sesión online en CoderDojo La Rinconada, en la cual comenzamos aprendiendo los conceptos básicos de una página web, y después, nos pusimos manos a la obra para diseñar practicando nuestra primera página web. 

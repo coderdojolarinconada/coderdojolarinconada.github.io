@@ -1,8 +1,9 @@
 ---
 layout: post
 title: Edición de imágenes. Transparencias
-categories: general
+categories: Gimp
 author: CoderDojo La Rinconada
+anyo : "2020"
 ---
 
 Hola a todos, en este post, tratamos sobre la edición de imágenes para su utilización en Scratch o en otros programas que las necesitemos. Actualmente existen muchos formatos de imágenes, pero los más conocidos o utilizados son:

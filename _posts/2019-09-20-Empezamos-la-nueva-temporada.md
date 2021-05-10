@@ -2,7 +2,8 @@
 layout: post
 title: Empezamos la nueva temporada
 categories: general
-author: CoderDojo La Rinconada  
+author: CoderDojo La Rinconada 
+anyo : "2019"
 ---
 
 

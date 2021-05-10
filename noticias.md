@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+<!--<h2><a href="/listado/">Listado por años</a></h2>-->
 
 <div class="posts">
 {% for post in site.posts %}

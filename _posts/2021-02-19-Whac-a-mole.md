@@ -3,6 +3,7 @@ layout: post
 title: Whac-a-mole
 categories: general
 author: CoderDojo La Rinconada
+anyo : "2021"
 ---
 
 Hola a todos, esta vez nos hemos dedicado a realizar el juego de **Whac-a-mole**. Esa máquina que hemos visto alguna vez en los recreativos, en la que debemos usar un mazo y golpear al topo que aparece alternativamente por cada uno de los agujeros. 

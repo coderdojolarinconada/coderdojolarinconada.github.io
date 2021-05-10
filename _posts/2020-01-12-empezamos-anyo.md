@@ -3,6 +3,7 @@ layout: post
 title: Empezamos nuestras sesiones en 2020
 categories: general
 author: CoderDojo La Rinconada
+anyo : "2020"
 ---
 
 

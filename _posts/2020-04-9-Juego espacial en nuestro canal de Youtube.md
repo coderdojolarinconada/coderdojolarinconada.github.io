@@ -1,8 +1,9 @@
 ---
 layout: post
 title: Juego espacial en nuestro canal de Youtube.
-categories: general
+categories: Youtube
 author: CoderDojo La Rinconada
+anyo : "2020"
 ---
 
 Hola a todos, al no poder organizar nuestros eventos, este domingo pasado, publicamos otro video en el canal de Youtube de [CoderDojo La Rinconada],  creando un juego espacial desde cero, en el que nuestro protagonista, un astronauta, debe recoger cápsulas de combustible para repostar el cohete y volver a casa.

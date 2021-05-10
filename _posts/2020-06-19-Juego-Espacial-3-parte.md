@@ -3,6 +3,7 @@ layout: post
 title: Juego Espacial 3ª parte. Presentación del juego y mensajes entre componentes
 categories: general
 author: CoderDojo La Rinconada
+anyo : "2020"
 ---
 
 Hola a todos, continuamos esta semana con la tercera parte de nuestro juego espacial. Practicaremos con el cambio de escenarios y la pantalla de presentación de un juego, así como con el intercambio de mensajes entre componentes de un programa.

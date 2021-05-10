@@ -3,6 +3,7 @@ layout: post
 title: Mi primera aplicación para Android
 categories: general
 author: CoderDojo La Rinconada
+anyo : "2020"
 ---
 
 Hola a todos, empezamos el mes de mayo estrenando un video en el canal de YouTube de CoderDojo La Rinconada. Esta vez nos introducimos en las aplicaciones para móviles.

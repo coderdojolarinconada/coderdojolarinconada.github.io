@@ -3,6 +3,7 @@ layout: post
 title: Eventos online 2020
 categories: general
 author: CoderDojo La Rinconada
+anyo : "2020"
 ---
 
 Hola a todos, después de un tiempo sin sesiones por motivos del COVID-19, se ha decidido realizar las sesiones Online. 

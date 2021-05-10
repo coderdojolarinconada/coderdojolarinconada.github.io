@@ -3,6 +3,7 @@ layout: post
 title: Más proyectos para practicar
 categories: general
 author: CoderDojo La Rinconada
+anyo : "2019"
 ---
 
 

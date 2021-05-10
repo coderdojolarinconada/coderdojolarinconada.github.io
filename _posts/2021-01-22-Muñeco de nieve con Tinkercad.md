@@ -3,6 +3,7 @@ layout: post
 title: Sesión en Tinkercad
 categories: general
 author: CoderDojo La Rinconada
+anyo : "2021"
 ---
 
 Hola a todos, el viernes 22 de enero hemos realizado un sesión online en CoderDojo La Rinconada, en la cuál creamos un muñeco de nieve en la aplicación Tinkercad en 3D.

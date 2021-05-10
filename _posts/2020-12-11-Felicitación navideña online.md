@@ -3,6 +3,7 @@ layout: post
 title: Felicitación navideña online 2020
 categories: general
 author: CoderDojo La Rinconada
+anyo : "2020"
 ---
 
 Hola a todos, tras un pequeño receso, seguimos con las sesiones online de CoderDojo La Rinconada. En esta ocasión y teniendo en cuenta en la época que estamos, hemos decidido realizar una felicitación para nuestros familiares y amigos en Scratch.

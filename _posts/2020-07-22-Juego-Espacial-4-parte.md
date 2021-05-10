@@ -3,6 +3,7 @@ layout: post
 title: Juego Espacial 4ª parte. Movimiento e intercambio de mensajes.
 categories: general
 author: CoderDojo La Rinconada
+anyo : "2020"
 ---
 
 Hola a todos, continuamos esta semana con la cuarta y última parte de nuestro juego espacial. En esta ocasión realizamos intercambios de mensajes entre los objetos que inician las acciones.

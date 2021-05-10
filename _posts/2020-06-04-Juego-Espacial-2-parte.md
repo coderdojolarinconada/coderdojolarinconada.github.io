@@ -3,6 +3,7 @@ layout: post
 title: Juego Espacial 2ª parte. Aceleración y cambios de escenario
 categories: general
 author: CoderDojo La Rinconada
+anyo : "2020"
 ---
 
 Hola a todos, seguimos actualizando nuestro juego espacial que publicamos hace algunas semanas. Esta vez, vamos a aplicar una aceleración al astronauta y programaremos el cambio de escenario mediante un evento.

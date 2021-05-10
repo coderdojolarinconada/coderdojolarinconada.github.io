@@ -3,6 +3,7 @@ layout: post
 title: Seguimos avanzando
 categories: general
 author: CoderDojo La Rinconada
+anyo : "2020"
 ---
 
 

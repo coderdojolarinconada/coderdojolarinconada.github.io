@@ -3,6 +3,7 @@ layout: post
 title: Las tablas de multiplicar
 categories: general
 author: CoderDojo La Rinconada
+anyo : "2021"
 ---
 
 Hola a todos, esta vez nos hemos dedicado a realizar el juego de **"Las tablas de multiplicar"**. Conocemos a nuestra amiga Abby, quien nos preguntará nuestro nombre y poder guardarlo en una variable que podremos utilizar durante toda la ejecución del programa. Posteriormente, nos preguntará la tabla que queremos practicar y nos hará preguntas aleatorias sobre la tabla seleccionada.

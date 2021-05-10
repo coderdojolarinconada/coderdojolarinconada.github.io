@@ -1,0 +1,17 @@
+I"<h3>Categories</h3>
+<ul>
+
+    <a href="/category/general/" style="text-decoration: none;">General</a><br />
+
+    <a href="/category/Scratch/" style="text-decoration: none;">SCRATCH</a><br />
+
+    <a href="/category/Youtube/" style="text-decoration: none;">Youtube</a><br />
+
+    <a href="/category/Gimp/" style="text-decoration: none;">Gimp</a><br />
+
+    <a href="/category/paginas/" style="text-decoration: none;">Paginas</a><br />
+
+    <a href="/category/web/" style="text-decoration: none;">Web</a><br />
+
+</ul>
+:ET

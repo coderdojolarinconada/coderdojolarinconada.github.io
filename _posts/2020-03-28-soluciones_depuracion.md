@@ -1,8 +1,9 @@
 ---
 layout: post
 title: Soluciones depuración
-categories: general
+categories: Scratch
 author: CoderDojo La Rinconada
+anyo : "2020"
 ---
 
 Hola a todos, después de unos días en los que pensar como depurar los archivos de [Scratch], en [CoderDojo] La Rinconada os dejamos un video con las soluciones de los retos planteados la semana pasada, en el recién inaugurado canal de youtube.

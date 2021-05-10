@@ -1,8 +1,9 @@
 ---
 layout: post
 title: Bucles y condiciones
-categories: general
+categories: Scratch
 author: CoderDojo La Rinconada
+anyo : "2020"
 ---
 
 
