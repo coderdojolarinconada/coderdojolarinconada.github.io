@@ -1,4 +1,4 @@
-I"<h3>Categories</h3>
+I"¦<h3>Categories</h3>
 <ul>
 
     <a href="/category/general/" style="text-decoration: none;">General</a><br />
@@ -12,6 +12,10 @@
     <a href="/category/paginas/" style="text-decoration: none;">Paginas</a><br />
 
     <a href="/category/web/" style="text-decoration: none;">Web</a><br />
+
+    <a href="/category/Tinkercad,/" style="text-decoration: none;">Tinkercad,</a><br />
+
+    <a href="/category/3D/" style="text-decoration: none;">3d</a><br />
 
 </ul>
 :ET

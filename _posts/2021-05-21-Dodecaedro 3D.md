@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Crea un dodecaedro con Tinkercad
-categories: Scratch
+categories: Tinkercad, 3D
 author: CoderDojo La Rinconada
 anyo : "2021"
 ---

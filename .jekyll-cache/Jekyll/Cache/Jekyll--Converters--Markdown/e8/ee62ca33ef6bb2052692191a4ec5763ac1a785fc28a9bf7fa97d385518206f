@@ -1,6 +1,18 @@
-I"LB<!--<h2><a href="/listado/">Listado por años</a></h2>-->
+I"iE<!--<h2><a href="/listado/">Listado por años</a></h2>-->
 
 <div class="posts">
+
+<article class="post">
+
+<h1><a href="/Mapa-de-Espa%C3%B1a/">Mapa de Andalucía</a></h1>
+
+<div class="entry">
+<p>Hola a todos, en esta sesión hemos realizado un juego que servirá para repasar las provincias de Andalucía. Lo primero, descargamos de internet un mapa mudo de Andalucía (<a href="https://d-maps.com" target="blank">Mapas</a>) y lo subimos a Scratch como objeto y lo transformamos a mapa de bits, para poder pintarlo con la herramienta cubo de pintura, no como fondo. Se agranda hasta ocupar el espacio del escenario y se crean diferentes disfraces, uno por provincia, y un último dizfraz donde aparece el nombre de todas las provincias, introducidos con la herramienta texto de Scratch.</p>
+
+</div>
+
+<a href="/Mapa-de-Espa%C3%B1a/" class="read-more">Sigue leyendo</a>
+</article>
 
 <article class="post">
 

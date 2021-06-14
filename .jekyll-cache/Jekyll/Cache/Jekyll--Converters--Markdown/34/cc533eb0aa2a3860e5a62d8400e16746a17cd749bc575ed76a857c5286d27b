@@ -1,0 +1,15 @@
+I"k<p>Hola a todos, en esta sesión hemos realizado un juego que servirá para repasar las provincias de Andalucía. Lo primero, descargamos de internet un mapa mudo de Andalucía (<a href="https://d-maps.com" target="blank">Mapas</a>) y lo subimos a Scratch como objeto y lo transformamos a mapa de bits, para poder pintarlo con la herramienta cubo de pintura, no como fondo. Se agranda hasta ocupar el espacio del escenario y se crean diferentes disfraces, uno por provincia, y un último dizfraz donde aparece el nombre de todas las provincias, introducidos con la herramienta texto de Scratch.</p>
+
+<p>Utilizamos bucles que se ejecutan hasta cumplir una condición, variables y listas donde se irán introduciendo los números de las provincias seleccionados, además utilizamos funciones o métodos, o <strong>“mis bloques”</strong> como se llama en Scratch.</p>
+
+<p>Para dar vuestro toque personal podeís utilizar sonidos cuando acierte o falle el nombre de la provincia y añadir el himno de Andalucía cuando las acertemos todas.</p>
+
+<p>Nos vemos en el siguiente post.</p>
+
+<p><br />
+<span style="display:block;text-align:center;font-size:30px"><a href="https://scratch.mit.edu/projects/542118540" target="blank">Provincias de Andalucía</a></span>
+<br /></p>
+
+<p><span style="display:block;text-align:center"><img src="/images/provincias.jpg" alt="provincias" /></span></p>
+
+:ET
