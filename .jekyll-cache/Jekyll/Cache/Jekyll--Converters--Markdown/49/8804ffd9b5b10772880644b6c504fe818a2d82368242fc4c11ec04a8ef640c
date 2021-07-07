@@ -1,0 +1,85 @@
+I"�<p>Hola a todos, en este post vamos a hablar un poco de seguridad, materia muy importante hoy en día. 
+Últimamente escuchamos la palabra <strong>Phishing</strong>, palabra que viene a significar la acción de pescar. Pero, ¿qué pescan los que quieren (phishers)  hacerse con la propiedad ajena?.</p>
+
+<p><span style="display:block;text-align:center"><img src="/images/hacker.jpg" alt="hacker" /></span></p>
+
+<p>Pues nada más y nada menos que nuestros datos personales, contraseñas y demás datos (tarjetas de crédito u otra información de nuestro banco) con los que puedan realizar sus atracos digitales.</p>
+
+<p><span style="display:block;text-align:center"><img src="/images/phishing.jpeg" alt="phishing" /></span></p>
+
+<p>Estos ciberdelincuentes se hacen pasar por una persona de nuestra confianza, empresas o administraciones en un correo electrónico, donde nos pide que hagamos clic en un enlace, que normalmente suele llevarnos a páginas no oficiales o descargar algún malware que se instala en nuestro pc, móvil o tablet.</p>
+
+<h5 id="hay-alguna-forma-de-detectar-estos-fraudes">¿Hay alguna forma de detectar estos fraudes?</h5>
+
+<p>Estos correos electrónicos suelen tener unas características comunes que podemos ver:</p>
+
+<ul>
+  <li>
+    <p>Suelen tener <strong>faltas de ortografía</strong> evidentes, tiene una redacción genérica o demasiado informal para una empresa.</p>
+  </li>
+  <li>
+    <p>El remitente del correo electrónico no es conocido y suele ser un mensaje en el que tenemos que hacer una acción urgente.</p>
+  </li>
+  <li>
+    <p>Nos ofrecen <strong>grandes ofertas o regalos</strong> (recordad que nadie da duros a pesetas) o <strong>algún problema con nuestras contraseñas, tarjetas o cuentas</strong> indicándonos que hagamos clic en el enlace para poder contactar con las supuestas empresas, administraciones o bancos.</p>
+  </li>
+  <li>
+    <p>Si nos fijamos en el enlace (<strong>NO HACER CLIC</strong>), podemos ver al pasar el ratón por encima, que la dirección no coincide con la real, aunque es parecida. Por ejemplo, hace un par de meses, mandaron por WhatsApp un anuncio de Amazon donde daban regalos por su 30 aniversario. Al examinar su dirección, hubiéramos visto que empezaba por www.<strong>d8</strong>.amazon.com, pero realmente la dirección de Amazon es www.amazon.com. Vemos que nos sobra <strong>d8</strong>.</p>
+  </li>
+  <li>
+    <p>Para no hacer clic en el enlace, podemos copiarlo en un papel e introducirlo directamente en la barra de dirección del navegador. Pero quizás, sea mejor introducir la dirección real de la empresa o banco y comprobar si existe esa oferta o esos supuestos problemas bancarios o administrativos.</p>
+  </li>
+</ul>
+
+<h5 id="debemos-tener-en-cuenta-lo-siguiente-para-evitar-que-seamos-pescados">Debemos tener en cuenta lo siguiente para evitar que seamos pescados:</h5>
+
+<ul>
+  <li>
+    <p>Ninguna empresa o banco te pedirá que le mandes los datos o contraseñas por correo electrónico. (Nunca, jamás y en ningún momento).</p>
+  </li>
+  <li>
+    <p>Si no lo tienes muy claro, no hagas clic en el link o enlace.</p>
+  </li>
+  <li>
+    <p>Comprueba la dirección de correo desde la que se envía para ver si coincide.</p>
+  </li>
+</ul>
+
+<p><span style="display:block;text-align:center"><img src="/images/correo.png" alt="correo" /></span></p>
+
+<ul>
+  <li>
+    <p>Si quieres seguir pensando que puede ser real, llama al banco, empresa o administración y pregunta. Será mejor.</p>
+  </li>
+  <li>
+    <p>Pero si eres <strong>Erre que erre</strong>, pon la dirección en la barra direcciones del navegador, aunque….., ya te lo advertí.</p>
+  </li>
+</ul>
+
+<p><span style="display:block;text-align:center"><img src="/images/barradir.png" alt="barradir" /></span></p>
+
+<ul>
+  <li>
+    <p>También puedes comprobar que la página web es segura (en la barra de direcciones del navegador), examinando si antes de la dirección tiene <strong>https</strong> y un candado (mira la imagen superior). Espera……., el candado últimamente lo pueden simular y también pueden empezar algunas páginas por <strong>https</strong>. Es necesario comprobar todo. Mucho cuidado.</p>
+  </li>
+  <li>
+    <p>Y si después de todas estas advertencias, pensáis que debéis (<strong>y sigue y sigue y sigue</strong>) mandar los datos o contraseñas, contactar inmediatamente con el banco, empresa o administración es lo más importante, e informad que habéis pasado el punto sin retorno. Y sobre todo, mucha suerte.</p>
+  </li>
+</ul>
+
+<h5 id="qué-hago-si-recibo-un-correo-de-este-tipo">¿Qué hago si recibo un correo de este tipo?</h5>
+
+<ul>
+  <li>Si recibes un correo electrónico como los que hemos citado anteriormente, a la papelera y a otro tema.</li>
+</ul>
+
+<p>Seguiremos en próximos posts con otros términos de seguridad y si tenéis alguna duda, ya sabéis nuestro correo electrónico.</p>
+
+<p>Nos vemos en el siguiente post.</p>
+
+<p><strong>Enlaces:</strong><br />
+<a href="https://www.youtube.com/watch?v=7T32WBQRrBA" target="blank"> Ver video sobre phishing</a><br />
+<a href="https://www.incibe.es/" target="blank"> Instituto Nacional de Ciberseguridad</a><br />
+<a href="https://www.incibe.es/protege-tu-empresa/blog/busca-otro-al-enganar-yo-no-voy-picar">Busca otro al que engañar, yo no voy a picar</a></p>
+
+:ET
