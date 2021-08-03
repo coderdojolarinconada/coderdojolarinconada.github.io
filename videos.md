@@ -3,6 +3,6 @@ layout: page
 ---
 
 
-<h1 class="center">Últimos videos publicados en YouTube</h1>
+<h1 class="center">Videos publicados en nuestro <a href="https://www.youtube.com/channel/UC7AelXV3QJB-nmJ_MZQudVQ" target="blank" id="canal">canal</a> de YouTube</h1>
 
 {% include video.html %}

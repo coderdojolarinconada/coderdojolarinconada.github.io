@@ -15,13 +15,13 @@ permalink: /reservar/
 <span style="display:block;text-align:center;font-size:30px;color:red;">
 **SESIONES ONLINE**</span>
 <br>
-<span style="display:block;text-align:center">Apúntate a través de la plataforma de CoderDojo o en nuestro correo electrónico</span>
+<span style="display:block;text-align:center">Apúntate a través de la plataforma de <a href="https://zen.coderdojo.com/dojos/es/san-jose-de-la-rinconada/la-rinconada-sevilla" target="blank">CoderDojo</a> o en nuestro correo electrónico</span>
 <br>
 
 ***
 
 <br>
-Puedes seguirnos a través de [Twitter], el [blog] de nuestra página y nuestro canal en [Youtube].
+Puedes seguirnos a través de [Twitter]{:target="_blank"}, [Facebook]{:target="_blank"}, el [blog]{:target="_blank"} de nuestra página y nuestro canal en [Youtube]{:target="_blank"}.
 
 
   Es un club de programación donde aprenderás a pensar de manera lógica, desarrollarás tu creatividad y podrás hacer amigos con los que compartir tus creaciones.
@@ -45,6 +45,7 @@ Requisitos:
 [Twitter]:https://twitter.com/dojolarinconada
 [blog]:https://coderdojolarinconada.github.io/noticias/
 [Youtube]:https://www.youtube.com/channel/UC7AelXV3QJB-nmJ_MZQudVQ
+[Facebook]:https://www.facebook.com/coderdojorinconada 
 [letrero]: /images/letrero.png "Letrero COVID-19"
 
 

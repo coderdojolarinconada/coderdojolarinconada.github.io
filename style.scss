@@ -428,6 +428,31 @@ footer .icon{
 /*********************/
 /* VIDEOS            */
 /*********************/
+
+#videogaleria{
+    width: 70%;
+    height: auto;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5px;    
+}
+
+.mini{
+    width: 100%;
+    height: 100%;
+}
+
+#videogaleria img {
+    width: 100%;
+    height: auto;
+}
+
+#canal {
+    color: blue;
+}
+
+/*********************/
 #slider{
     display: flex;
     align-items: center;
