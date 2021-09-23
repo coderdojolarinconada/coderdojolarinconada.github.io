@@ -1,0 +1,36 @@
+I"�<p>Hola a todos, en este post hablaremos sobre Internet of Things(IoT) o Internet de las cosas y lo que significa.<br /></p>
+
+<p>El Internet of Things(IoT) es la red de objetos físicos (cosas) que incorporan sensores, software y otras tecnologías para conectar e intercambiar datos con otros dispositivos y sistemas a través de Internet. Pueden ser objetos de uso doméstico o industrial.</p>
+
+<p><span style="display:block;text-align:center"><img src="/images/evolucion.png" alt="evolucion" /><br />Evolución dispositivos IoT. Statista.</span></p>
+
+<p>A día de hoy existen multitud de objetos que se pueden conectar a Internet y que usamos diariamente como puede ser un frigorífico, un vehículo o cámaras con las que podemos vigilar nuestras casas o locales. Utilizan un almacenamiento virtual al que llamamos nube y el Big Data, essa base de datos enorme que es analizada continuamente para extraer estadísticas y análisis.</p>
+
+<p>La conectividad en cámaras, electrodomesticos que realizan las compras por nosotros, el aprendizaje automático ,la inteligencia artificial ,dispositivos que monitorizan nuestro esfuerzo físico y el tiempo de sueño(pulseras de actividad, Smartwatch), la localización, la comunicación mediante la IA(Alexa, OK Google, Cortana, Siri) y el mundo audiovisual (Smart Tv, Netflix, Amazon, cámaras), obtienen datos que analizan nuestras preferencias.</p>
+
+<p>La seguridad suele ser secundaria, debido a las aplicaciones que no suelen estar actualizadas y las contraseñas por defecto de estos aparatos están disponibles en Internet. Si consiguen burlar la seguridad de estos dispositivos pueden obtener acceso a nuestros datos, imágenes y redes.</p>
+
+<p>Para mejorar la seguridad de estos, podemos realizar lo siguiente:</p>
+
+<ul>
+  <li><strong>Actualizar las aplicaciones a la ultima versión.</strong></li>
+  <li><strong>Eliminar las contraseñas que traen por defecto.</strong>
+<a href="https://www.worldwidewebsize.com/" target="blank">Worldwidewebsize.com<a></a>.</a></li>
+</ul>
+
+<p>Cuando hacemos referencia a la deep web, hablamos de todas esas páginas que no están indexadas en los buscadores, y que representan un 90% de las páginas de Internet. Pero esto no quiere decir que todas esas páginas ocultas a los buscadores sean ilegales, sino que no todos los usuarios tienen acceso a ellas. Por ejemplo, tenemos las bases de datos, las redes de intranet de las empresas (red interna de una empresa comercial), las páginas accesibles a través de pago (Netflix) o las mismas páginas bancarias donde solo pueden acceder los usuarios que estén autorizados.</p>
+
+<p><span style="display:block;text-align:center"><img src="/images/darkweb.jpg" alt="darkweb" /></span></p>
+
+<p>Por otro lado, la dark web, supone un 0.1% por ciento de la deep web. Estas son las páginas de la red oscura y que solo son accesibles a través de la darknet.</p>
+
+<p>Cuando hablamos de darknet o red oscura, nos referimos a las redes que se utilizan para acceder a esas web oscuras y que son solo accesibles a través de aplicaciones específicas para ello. Las redes oscuras más conocidas son Tor, Freenet, Zeronet e I2P.</p>
+
+<p><span style="display:block;text-align:center"><img src="/images/tor.jpg" alt="tor" /></span></p>
+
+<p>No todas las páginas que se encuentran en estas redes son ilegales, pues hay personas que han utilizado este tipo de redes para poder tener comunicación o recibir información en países donde no les dejan acceder a ello. Pero si no nos protegemos bien, podemos ser victimas de los virus informáticos. 
+Así que si no eres un usuario avanzado, mejor no las uses. Pero es importante tener conocimiento de lo que existe en Internet.</p>
+
+<p>Espero que te haya gustado y nos vemos en el siguiente post.</p>
+
+:ET
