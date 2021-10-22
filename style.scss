@@ -402,14 +402,16 @@ footer .icon{
 
 #principal{
     display: grid;
-    grid-template-areas: "entry entry entry noticias";
+    grid-template-areas: "entry entry entry noticias"
+    			  "entry entry entry logo";
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-column-gap: 50px;
 
    @include mobile{
     	
    grid-template-areas: "entry"
-			"noticias";
+			"noticias"
+			"logo";
    grid-template-columns: 1fr;
    }
 
@@ -423,6 +425,15 @@ footer .icon{
 #noticias{
     grid-area: noticias;
     
+}
+
+#logo{
+   grid-area: logo;
+   margin: auto;
+   text-align: center;
+   padding : 20px 0 20px 0;
+   
+   
 }
 
 /*********************/
