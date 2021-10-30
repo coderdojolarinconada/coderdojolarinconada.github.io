@@ -398,7 +398,7 @@ footer {
 footer .icon{
 }
 
-//*****************************include de categorias
+//*****************************include de categorias*********************
 
 #principal{
     display: grid;
@@ -431,9 +431,12 @@ footer .icon{
    grid-area: logo;
    margin: auto;
    text-align: center;
-   padding : 20px 0 20px 0;
-   
-   
+   padding : 20px 0 20px 0; 
+}
+
+#eventos{
+   text-align: center;
+   font-size: 40px;
 }
 
 /*********************/

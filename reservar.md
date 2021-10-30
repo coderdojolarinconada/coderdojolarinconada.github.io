@@ -11,17 +11,21 @@ permalink: /reservar/
 <br>
 
 ***
-
-<span style="display:block;text-align:center;font-size:30px;color:red;">
-**SESIONES ONLINE**</span>
-<br>
-<span style="display:block;text-align:center">Apúntate a través de la plataforma de <a href="https://zen.coderdojo.com/dojos/es/san-jose-de-la-rinconada/la-rinconada-sevilla" target="blank">CoderDojo</a> o en nuestro correo electrónico</span>
+{% comment %}
+"<span style="display:block;text-align:center;font-size:30px;color:red;">
+**SESIONES ONLINE**</span>"
+{% endcomment %}
+<div id="eventos">
+<h3>Próximo evento programado</h3>
+<p>12 de noviembre de 2021 a las 16:30h</p>
+</div>
+<span style="display:block;text-align:center">Apúntate a través de la plataforma de <a href="https://zen.coderdojo.com/dojos/es/san-jose-de-la-rinconada/la-rinconada-sevilla" target="blank">CoderDojo</a>.<br> ¿Tienes problemas? Mándanos un correo electrónico.</span>
 <br>
 
 ***
 
 <br>
-Puedes seguirnos a través de [Twitter]{:target="_blank"}, [Facebook]{:target="_blank"}, el [blog]{:target="_blank"} de nuestra página y nuestro canal en [Youtube]{:target="_blank"}.
+Puedes seguirnos a través de [Twitter]{:target="_blank"}, [Facebook]{:target="_blank"}, nuestro [blog]{:target="_blank"} y nuestro canal en [Youtube]{:target="_blank"}.
 
 
   Es un club de programación donde aprenderás a pensar de manera lógica, desarrollarás tu creatividad y podrás hacer amigos con los que compartir tus creaciones.

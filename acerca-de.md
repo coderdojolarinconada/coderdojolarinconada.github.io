@@ -12,12 +12,12 @@ CoderDojo La Rinconada empezó su andadura en abril de 2019, estando incluidos e
 
 Creemos en la oportunidad del acceso a los conocimientos de programación, de manera inclusiva y gratuita en un ambiente distendido, seguro y social para todos los niños, niñas y jóvenes .
 
-
-<span style="display:block;text-align:center">![sesion]</span>
-
-[sesion]: /images/sesion_online.jpg
-
-
 {% comment %}
-  "{% include mapa.html %}"
+"<span style="display:block;text-align:center">![sesion]</span>
+
+[sesion]: /images/sesion_online.jpg"
+
 {% endcomment %}
+
+{% include mapa.html %}
+
