@@ -1,4 +1,4 @@
-I"ı<h3>Categories</h3>
+I"L<h3>Categories</h3>
 <ul>
 
     <a href="/category/general/" style="text-decoration: none;">General</a><br />
@@ -18,6 +18,8 @@
     <a href="/category/3D/" style="text-decoration: none;">3d</a><br />
 
     <a href="/category/Seguridad/" style="text-decoration: none;">Seguridad</a><br />
+
+    <a href="/category/Redes/" style="text-decoration: none;">Redes</a><br />
 
 </ul>
 :ET

@@ -1,0 +1,52 @@
+I"<p>Hola a todos, hoy vamos a explicar como funcionan las conexiones en Internet.</p>
+
+<p>Internet se conoce como la red de redes. ¿Pero sabéis cómo funciona?</p>
+
+<p>Para empezar, unos conceptos que se confunden a la hora de hablar de Internet. Muchas veces he escuchado decir tengo Internet o tratar la conexión wifi como si fuera internet o pensar que la conexión wifi se encuentra en todo lugar de la tierra.</p>
+
+<p>Como primera aclaración, podemos decir que internet no es algo virtual, sino una red a la que se conectan pc’s, servidores, móviles y demás hardware. Internet no está en el móvil, lo que tenemos es una conexión con Internet (la red).</p>
+
+<p>La siguiente idea es la conexión. Wifi es un tipo de conexión, al igual que Ethernet (cable), por satélite u otros sistemas de conexión existentes. Pero el hecho de tener conexión, no implica que tengamos acceso a Internet, sino que estamos conectado a una red, como podría ser la de nuestra casa.</p>
+
+<p>Otra aclaración, no hay wifi ni internet en todo lugar de la tierra. Como ya hemos dicho debemos conectarnos a Internet mediante un tipo de conexión, y la conexión Wifi es inalámbrica, es decir no tiene alambre como el que está dentro de los cables y las señales se mandan por el aire. Pero como toda señal, tiene un alcance limitado, así que si no estás cerca de un aparato (punto de acceso) que extienda esa conexión, probablemente no puedas conectarte.
+Una vez aclarados estos términos, vamos a comenzar a ver como se conectan nuestros pc’s o aparatos electrónicos a la red.</p>
+
+<p>Muchos, si no la mayoría, tenemos en casa esos aparatos que nos instalan las compañías telefónicas (ISP. Proveedor de acceso de Internet) en nuestras casas con muchas luces de diferentes colores y que tienen varios cables conectados. Pues bien, el nombre de esos aparatos es router. Antiguamente se utilizaban los llamados módem analógicos (datos analógicos a digital y viceversa), que aunque eran aparatos para conectarse a Internet, solo permitían una conexión (por lo menos el mío) y que cuando llamaban a tu casa, solía cortarse la conexión a Internet. ¡¡Vaya rollo!!</p>
+
+<p>Pero afortunadamente la tecnología ha evolucionado y hoy en día podemos conectar varios aparatos a la vez y la linea telefónica va separada de los datos compartiendo el enlace pero con otro protocolo (forma de comunicarse).
+Y la misión principal del router es conectarnos a Internet, pero también tiene otras misiones no menos importantes. Dentro de nuestra casa solemos tener varios aparatos conectados a nuestro router, y para ello, cada uno debe tener su dirección dentro de la casa y nuestro router se encarga de dar una identidad a cada aparato conocida como Dirección IP( dirección dentro del protocolo de Internet). Y aunque sé que lo estás pensando, no, no es la MAC del aparato( DNI del aparato-00:1e:c2:9e:28:6b), sino que la dirección IP es la identidad de la conexión.</p>
+
+<p>Esta dirección suele tener el formato siguiente:   <strong>192.168.1.25</strong></p>
+
+<p>Las posibles direcciones pueden ser 192.168.1.0 hasta 192.168.1.255 (aunque hay algunas que suelen reservarse para otras conexiones).</p>
+
+<p>Una vez que sabemos como es el formato, todos los dispositivos tienen una donde suele cambiar el ultimo grupo de números. Por ejemplo:</p>
+
+<ul>
+  <li>televisor smart TV 192.168.1.35</li>
+  <li>móvil de papá 192.168.1.56</li>
+  <li>tablet de mamá 192.168.1.15</li>
+  <li>pc 192.168.1.26</li>
+</ul>
+
+<p><span style="display:block;text-align:center"><img src="/images/redes.png" alt="red" /><br />Red pública y red privada.</span></p>
+
+<p>Así que cada aparato que se conecte a la red interna privada de nuestra casa tendrá una dirección diferente. Si tuviéramos, aunque no es lo normal, dos redes diferentes dentro de nuestra casa, como diferencia normalmente cambiaría el penúltimo grupo de dígitos</p>
+
+<p><span style="display:block;text-align:center"><img src="/images/variasRedes.png" alt="redes" /><br />Varias redes privadas</span></p>
+
+<p>RED 1 192.168.1.XX
+RED 2 192.168.2.XX</p>
+
+<p>Pero por ahora como no es lo normal, nos quedamos solo con la primera.</p>
+
+<p>Una vez visto todo esto, ya sabemos que cada aparato que se conecte a nuestra red tiene su propia dirección para que nuestro router sepa a qué aparato debe enviar la información que solicitamos. Si el televisor está pidiendo una película de un canal de pago, el router se encarga de enviar los datos al aparato que los haya solicitado (la TV) y no a otros que estén en nuestra red privada (móvil) de casa que no hubiera solicitado nada. ¿Os imagináis el lío que se podría montar si al llegar los datos solicitados no supiera el router a qué dirección debe mandar esos datos o llegara a todos los dispositivos?</p>
+
+<p>Y para no hacer demasiado largo este post, lo guardaremos como primera parte. 
+La dirección predeterminada que está reservada a nuestro router, llamada puerta de enlace ( 192.168.1.1), es la dirección donde todos los aparatos conectados envían o por donde reciben los datos que salen desde nuestra red privada a internet y entran los datos desde internet dirigidos a nuestros pc, móviles, consolas, smart TV, etc. Este es el funcionamiento de nuestra red privada sin entrar en demasiadas complicaciones.</p>
+
+<p>Como resumen, ya sabes lo que es la conexión a Internet, diferentes tipos de conexión, que es la M.A.C. de los dispositivos, que es la dirección IP de la conexión, qué es un router y la puerta de enlace de nuestra red privada con la red pública.</p>
+
+<p>Seguimos en el siguiente post. Hasta pronto</p>
+
+:ET
