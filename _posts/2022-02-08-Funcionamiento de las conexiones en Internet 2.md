@@ -3,7 +3,7 @@ layout: post
 title: ¿Qué es Internet y cómo funciona? (2ª parte)
 categories: Redes
 author: CoderDojo La Rinconada
-anyo : "2021"
+anyo : "2022"
 ---
 
 Hola a todos, hoy empezamos con la segunda parte del funcionamiento de las conexiones en Internet.
