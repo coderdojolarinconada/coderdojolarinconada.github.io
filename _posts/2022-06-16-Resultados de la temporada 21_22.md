@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Resultados temporada CoderDojo La Rinconada 21/22
+title: Temporada CoderDojo La Rinconada 21/22
 categories: estadísticas
 author: CoderDojo La Rinconada
 anyo : "2022"
@@ -15,8 +15,13 @@ A estos 16 eventos, han asistido la cantidad de 218 ninjas sobre 256 de capacida
 
 <span style="display:block;text-align:center">![grafico]</span>
 
+Con respecto a la asistencia por género, queda reflejado en el siguiente gráfico.
 
-Esperamos que hayan disfrutado y aprendido durante las sesiones. Volverán los eventos en septiembre.
+
+<span style="display:block;text-align:center">![grafico2]</span>
+
+
+Esperamos que hayan disfrutado y aprendido durante las sesiones todos los ninjas asistentes. Volverán los eventos en septiembre.
 
 Seguimos en el siguiente post. Hasta pronto.
 
