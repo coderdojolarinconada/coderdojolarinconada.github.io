@@ -1,8 +1,10 @@
 ---
 layout: page
-title: Reserva tu plaza para asistir a CoderDojo
+title: Reserva tu plaza
 permalink: /reservar/
 ---
+
+<h1 class="center">Reserva tu plaza en nuestro próximo evento</h1>
 
 <!--### Nuestro próximo evento será el--> 
 

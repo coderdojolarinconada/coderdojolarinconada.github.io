@@ -1,9 +1,9 @@
 ---
 layout: page
+title: Recursos para descargar
 ---
 
-
-<h1 class="center">Recursos disponibles para descarga</h1>
+<h1 class="center">Recursos para aprender</h1>
 
 {% include recursosg.html %}
 

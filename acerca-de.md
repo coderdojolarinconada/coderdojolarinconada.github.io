@@ -1,7 +1,10 @@
 ---
 layout: page
+title: Nuestro Dojo
 permalink: /about/
 ---
+
+<h1 class="center">Nuestro Dojo</h1>
 
 {% include fotos.html %}
 

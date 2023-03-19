@@ -6,10 +6,14 @@
 name: CoderDojo La Rinconada
 
 # Short bio or description (displayed in the header)
-description: Club de programación
-
+description: Club de programación gratuito para jóvenes realizado en La Rinconada donde aprenderás programación.
+title: Club de Programación
+tagline: Aprende a programar en La Rinconada
+locale: es_ES
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: /images/CoderDojo_azul.webp
+
+
 
 #
 # Flags below are optional
@@ -78,7 +82,9 @@ sass:
 gems:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
-
+  
+plugins:
+  - jekyll-seo-tag
 # Exclude these files from your production _site
 exclude:
   - Gemfile

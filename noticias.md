@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Blog
 ---
 <!--<h2><a href="/listado/">Listado por años</a></h2>-->
 
