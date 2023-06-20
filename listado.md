@@ -1,9 +1,17 @@
 ---
-layout: default
+layout: page
+title: Listado anual de posts
 ---
-{% assign numeros = "2022,2021,2020,2019"|split: ',' %}
+<h1 class="titulo">Listado de posts por año</h1>
+
+<!-- <a class="boton-negro-verde" href="{{ site.baseurl }}/noticias/" alt="Enlace para volver al blog">Volver al blog</a> -->
+
+{% assign numeros = "2023,2022,2021,2020,2019"|split: ',' %}
+
+<div class="listado container">
+
 {% for numero in numeros %} 
-  Posts año {{ numero }}:
+  <h3>Año {{ numero }}:</h3>
   <ul>
   {% for post in site.posts %}
     {% if post.anyo == numero %}
@@ -13,4 +21,4 @@ layout: default
   </ul>
 {% endfor %}
 
-
+</div>

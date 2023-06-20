@@ -29,7 +29,7 @@ footer-links:
   instagram:
   linkedin:
   pinterest:
-  rss: RSS
+  rss:
   twitter: DojoLaRinconada
   stackoverflow: # your stackoverflow profile
   youtube: channel/UC7AelXV3QJB-nmJ_MZQudVQ
@@ -82,6 +82,8 @@ sass:
 gems:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
+  - jekyll-paginate-v2
+  #- jekyll-paginate
   
 plugins:
   - jekyll-seo-tag
@@ -92,3 +94,16 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
+  
+
+
+# Configuración de paginación
+paginación :
+  habilitado : verdadero
+  por_página : 2
+  enlace permanente : ' /pagina/:num/ '
+  título : ' - página :num '
+  límite : 0
+  sort_field : ' fecha '
+  sort_reverse : verdadero
+

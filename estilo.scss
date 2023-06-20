@@ -1,0 +1,1123 @@
+---
+---
+
+//
+// IMPORTS
+//
+
+
+@import "reset";
+@import "variables";
+
+
+
+// Imagen de inicio
+  
+  $imagenInicio: "images/centralN.webp";
+
+// Syntax highlighting @import is at the bottom of this file
+
+/**************/
+/* BASE RULES */
+/**************/
+
+html {
+  font-size: 100%;
+}
+
+body {
+  background: $fondo;
+  font: 18px/1.4 $helvetica;
+  color: $letra;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1000px;
+  padding: 0 10px;
+  width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $helveticaNeue;
+  color: $letra;
+  font-weight: bold;
+
+  line-height: 1.7;
+  margin: 1em 0 15px;
+  padding: 0;
+
+  @include mobile {
+    line-height: 1.4;
+  }
+}
+
+h1 {
+  font-size: 30px;
+  a {
+    color: $enlaces;
+  }
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+h4 {
+  font-size: 18px;
+  color: $letra;
+}
+
+p {
+  margin: 15px 0;
+}
+
+a {
+  color: $enlaces;
+  text-decoration: none;
+	cursor: pointer;
+  &:hover, &:active {
+    color: $hover;
+  }
+}
+
+ul, ol {
+  margin: 15px 0;
+  padding-left: 30px;
+}
+
+ul {
+  list-style-type: disc;
+}
+
+ol {
+  list-style-type: decimal;
+}
+
+ol ul, ul ol, ul ul, ol ol {
+  margin: 0;
+}
+
+ul ul, ol ul {
+  list-style-type: circle;
+}
+
+em, i {
+  font-style: italic;
+}
+
+strong, b {
+  font-weight: bold;
+}
+
+img {
+  max-width: 100%;
+}
+#foto_centro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+// Fixes images in popup boxes from Google Translate
+.gmnoprint img {
+  max-width: none;
+}
+
+.date {
+  font-style: italic;
+  color: $letra;
+}
+
+// Specify the color of the selection
+::-moz-selection {
+  color: $black;
+  background: $lightGray;
+}
+::selection {
+  color: $black;
+  background: $lightGray;
+}
+
+// Nicolas Gallagher's micro clearfix hack
+// http://nicolasgallagher.com/micro-clearfix-hack/
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/*********************/
+/* LAYOUT / SECTIONS */
+/*********************/
+
+//
+// .masthead
+//
+
+.cabecera {
+  background-color: $fondoHeadFooter;
+  padding: 2rem;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: center;
+ 
+}
+
+@media (min-width: 768px) {
+  .cabecera{
+    flex-direction: row;
+  }
+
+}
+
+.titulo{
+  text-align: center;
+  padding: 0 1rem;
+}
+
+.titulo h3 {
+  font-size: 22px;
+}
+
+.encabezado{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imagen-encabezado{
+  display: none;
+  min-width: 50px;
+  min-height: 50px;
+}
+
+@media (min-width: 600px){
+  .imagen-encabezado{
+    display: flex;
+  }
+}
+
+
+.center{//centrar el texto
+   text-align: center;
+}
+
+
+.boton-negro-verde{
+  background-color: $letra;
+  color: #000000;
+  padding: 5px;
+  border-radius: 10px;
+  &:hover{
+    background-color: #000000;
+    color: $letra;
+  }
+}
+
+
+// Icono de hamburguesa en versión móvil--------------------------------------
+
+.hamburguer{
+  margin: auto;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .hamburguer{
+    display: none;
+  }
+
+}
+
+.down{
+  display: none;
+}
+
+.down a {
+  margin-top: 10px;
+}
+
+.mostrar {
+  display: flex;
+  flex-direction: column;
+}
+
+.boton .fa{
+  font-size: 25px;
+}
+
+// Navegación---------------------------------------------------------------
+
+nav {
+  display: none;
+  justify-content:center;
+  align-items: center;
+  font-family: $helveticaNeue;
+  font-size: 18px;
+  
+  a {
+    color: $enlaces;
+    font-weight: 900;
+    text-align: right;
+    letter-spacing: 1px;
+    margin-left: 20px;
+  }
+
+  a.active{
+    border-bottom: 2px solid $enlaces;
+  }
+
+  a:hover{
+    color: $hover;
+  } 
+
+  
+}
+
+
+@media (min-width: 768px) {
+  nav{
+    display: flex;
+  }
+
+}
+
+// Contenido de la página principal---------------------------------------
+
+.imagen-inicio{
+  position: relative;
+  background-image: linear-gradient(rgba(28, 27, 27, 0.5), rgba(28,27,27,0.35)) ,url($imagenInicio);
+  background-repeat: no-repeat;
+  object-fit: cover;
+  height: 550px;
+}
+
+.frase{
+  position: absolute;
+  color: $enlaces;
+  font-size: 3rem;
+  left: 80px;
+
+  @include mobile {
+    left: 0;
+  }
+}
+
+// Contenido con video
+
+.entrada-header{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+
+  @include mobile {
+    grid-template-columns: 1fr;
+  }
+}
+
+.video-promocional{
+  text-align: center;
+  margin: auto 0;
+
+  img{
+    border-radius: 15px;
+    width: 100%;
+    display: block;
+  }  
+}
+
+// Ventana modal de video CoderDojo
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1; /* Situado encima */
+  padding-top: 100px; /* Localización en la caja */
+  left: 0;
+  top: 0;
+  width: 100%; /* Anchura máxima */
+  height: 100%; /* Alto máximo */
+  overflow: auto; /* Activo el scroll si es necesario */
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.9); //Opacidad
+}
+
+.boton-modal{
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+/* Botón de cierre */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 20%;
+  color: #f1f1f1;
+  font-size: 80px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.videoiframe{
+  border-radius: 15px;
+}
+
+/* Imagen máxima en pantallas pequeñas */
+@media only screen and (max-width: 700px){
+  .videoiframe {
+    width: 100%;
+  }
+}
+
+.texto-promocional{
+  text-align: justify;
+  text-indent: 20px;
+  padding-left: 10px;
+}
+
+// Integrantes
+
+
+.integrantes{
+  margin: 4rem 0;
+}
+
+.denominar-integrantes{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+
+  @include mobile{
+    grid-template-columns: 1fr;
+  }
+}
+
+.texto-integrantes{
+  text-align: center;
+}
+
+.lista-integrantes{
+  margin: auto 0;
+}
+
+.lista-integrantes li{
+  padding: 5px 0;
+}
+
+.imagen-ninjas img{
+  border-radius: 0 0 10px 10px;
+}
+
+// Fin Integrantes
+
+// Qué podemos aprender
+
+.aprender{
+  margin: 4rem 0;
+}
+
+.imagen-aprender{
+  margin: 2rem auto; 
+  border-radius: 15px;
+  display: block;
+  width: auto;
+  max-height: 300px;
+}
+
+// Reservas principal inicio
+
+.reservas{
+  text-align: center;
+  margin: 4rem 0;
+}
+
+.imagen-reserva {
+  max-width: 250px;
+  margin: auto;
+  &:hover{
+    filter: drop-shadow(8px 8px 10px rgb(255, 255, 255));
+  }
+
+}
+
+// Reservas principal final
+
+// Noticias
+
+.noticias{
+  margin: 4rem 0;
+}
+
+.card:hover{
+  filter: drop-shadow(8px 8px 10px rgb(255, 255, 255));
+}
+
+// Recursos
+
+.recursos{
+  margin: 4rem 0;
+
+  h2{
+    width: 100%;
+  }
+}
+
+
+//Suscribirse inicio
+
+.saber{
+  text-align: center;
+  margin: 4rem 0;
+
+  span{
+    font-size: 1rem;
+    font-weight: normal;
+  }
+}
+
+// Suscribirse final
+
+.imagen-corazon{
+  display: block;
+  width: auto;
+  max-height: 200px;
+  margin: auto;
+
+  &:hover{
+    filter: drop-shadow(8px 8px 10px rgb(255, 255, 255));
+  }
+  
+}
+
+
+
+/**************/
+/*  Includes  */
+/**************/
+
+// Include categoria.html--------------------------------------------
+
+.ultimas{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 20px;
+
+  @include mobile{
+    grid-template-columns: 1fr;
+  }
+}
+
+.card{
+  background-color: rgb(74, 74, 255);
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  min-width: 130px;
+  height: 250px;
+  border-radius: 10px;
+  overflow: hidden;
+
+  @include mobile{
+    height: auto;
+  }
+}
+
+.icono-card{
+  text-align: center;
+  padding-top: 5px;
+}
+
+.card-title{
+  font-size: 25px;
+  text-align: center;  
+  padding: 30px 20px;
+  
+
+
+  @include mobile{
+    padding: 25px 5px 0 5px;
+  }
+}
+
+.card-title a{
+  margin: auto;
+}
+
+// Fin categoria.html
+
+.mentores{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+
+  @include mobile{
+    grid-template-columns: 1fr;
+  }
+
+}
+
+.foto img{
+    width: 150px;
+    height: auto;
+    margin: 10px auto;
+    padding: 10px;
+    display: block;
+    border-radius: 20px;
+}
+
+.centroImagen img{
+   display: block;
+   margin: auto;
+   height : 300px;
+}
+
+// Página reservar -------------------------------------------------------
+
+.problemas{
+  text-align: $centrado;
+  margin-bottom: 2rem;
+}
+
+.imagen-sobre img{
+  display: block;
+  width: 200px;
+  margin: auto;
+}
+
+.base{
+  vertical-align: middle;
+}
+
+//Pagina de recursos ----------------------------------------------------
+
+h2{
+    text-align: center;
+    font-family:sans-serif;
+}
+
+
+.container-menu{
+
+   width:100%;
+   margin: 0px auto;
+   padding: 10px 15px;
+
+}
+
+.container{
+    width: 90%;
+    margin: 0px auto;
+}
+
+.centro{
+  text-align: center;
+}
+
+.mas{
+  font-size: 2rem;
+  text-align: center;
+}
+
+// Menú de recursos
+
+.container-menu-recursos{
+  width: 70%;
+  margin: auto;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+
+  @include mobile{
+    grid-template-columns: 1fr;
+  }
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+}
+
+.imagen-card{
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.titulo-card{
+  text-align: center;
+  margin-top: 10px;
+
+  h3{
+    font-size: 1.7rem;
+  }
+
+}
+
+
+//galería de archivos pdf de Scratch
+.galeria{                    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+    width: 100%;
+    justify-content: space-around;
+    align-content: space-between;
+
+    @include mobile {
+      grid-template-columns: 1fr;
+      margin-top: 20px;
+    }
+}
+
+.galeria a{
+  margin: auto;
+}
+
+.galeria img{
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.galeria img:hover{
+    border: solid 2px red;
+}
+
+.desc{
+    text-align: center;
+}
+
+iframe {
+	@include mobile {
+        width: 250px;
+	height: auto;
+    }
+}
+
+.calen{
+   margin : auto;
+   max-width: 350px;
+   height: auto;
+}
+
+/*posts*/
+
+.posts > .post {
+  padding-bottom: 2em;
+  border-bottom: 1px solid $lightGray;
+}
+
+.posts > .post:last-child {
+  padding-bottom: 1em;
+  border-bottom: none;
+}
+
+.post {
+  blockquote {
+    margin: 1.8em .8em;
+    border-left: 2px solid $gray;
+    padding: 0.1em 1em;
+    color: $gray;
+    font-size: 22px;
+    font-style: italic;
+  }
+
+  .comments {
+    margin-top: 10px;
+  }
+
+  .read-more {
+    text-transform: uppercase;
+    font-size: 15px;
+  }
+}
+
+// Página listado-----------------------------------------------------------
+
+
+.listado{
+  margin: 4rem 0;
+}
+
+// pie de página Footer
+
+.wrapper-footer {
+  
+  width: 100%;
+  height: auto;
+  background-color: $fondoHeadFooter;
+  color: $white;
+}
+
+.icon {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px 0;
+}
+
+.icon a{
+  margin-left: 20px;
+}
+
+
+.grande{
+  color: $letra;
+  padding-left: 15px;
+  text-align: left;
+  padding-bottom: 20px;
+}
+
+
+
+
+//*****************************include de categorias*********************
+
+// include mapa.html-----------------------------------------------------
+
+.mapago{
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+
+.mapago iframe{
+  border-radius: 15px;
+}
+
+.texto-localizacion{
+  margin-left: 10px;
+}
+
+.fa-book{
+  color: red;
+}
+
+// Fin mapa.html
+
+.club{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+  vertical-align: baseline;
+
+  @include mobile {
+    grid-template-columns: 1fr;
+  }
+}
+
+.club p{
+  text-align: justify;
+}
+
+.imagen-entry img{
+  margin: 15px 0;
+  width: 90%;
+  border-radius: 10px;
+}
+
+.logo{
+   width: 20%;
+   text-align: right;
+   padding : 20px 0 20px 0; 
+}
+
+#eventos{
+   text-align: center;
+   font-size: 40px;
+}
+
+/*********************/
+/* VIDEOS            */
+/*********************/
+
+#videogaleria{
+    width: 85%;
+    height: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px;    
+    padding-bottom: 50px;
+
+    @include mobile{
+      grid-template-columns: 1fr;
+    }
+}
+
+.mini{
+    width: 100%;
+    height: 100%;
+}
+
+.mini img{
+  border-radius: 10px;
+}
+
+#videogaleria img {
+    width: 100%;
+    height: auto;
+}
+
+#canal {
+    color: $enlaces;
+}
+
+
+
+/*********************/
+#slider{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 10px;
+    width: 50%;
+    border: solid 2px blue;
+    border-radius: 15px;
+    background-color: #41bac1;
+    background-image: linear-gradient(#642580, #41bac1,#ed684a);
+}
+
+.tit{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+    
+    @include mobile {
+      font-size: 10px;
+    }
+}
+
+img{
+    max-width: 100%;
+}
+
+.container-all{
+    position: relative;
+    max-width: 900px;
+    width: 95%;
+    height: 85%;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.slide{
+    display: flex;
+    transform: translate3d(0, 0, 0);
+    transition: all 600ms;
+    animation-name: autoplay;
+    animation-duration: 20s;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+
+.item-slide{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    flex-grow: 0;
+    max-width: 100%;
+    padding-bottom:  20px;
+}
+
+.pagination{
+    bottom: 5px;
+    left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.pagination-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #ed684a;
+    width: 15px;
+    height: 15px;
+    border-radius: 4px;
+    overflow: hidden;
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.5);
+    margin: auto;
+    text-align: center;
+    transition: all 300ms;
+}
+
+.pagination-item:hover{
+    transform: scale(1.1);
+}
+
+.pagination-item img{
+    display: inline-block;
+    max-width: none;
+    height: auto;
+    transform: scale(1);
+    opacity: 0;
+    transition: all 300ms;
+}
+
+.pagination-item:hover img{
+    opacity: 1;
+    transform: scale(1);
+}
+
+
+input[id="1"]:checked ~ .slide{
+    animation: none;
+    transform: translate3d(0, 0, 0);
+}
+
+input[id="1"]:checked ~ .pagination .pagination-item[for="1"]{
+    background: rgb(228, 7, 7);
+}
+
+input[id="2"]:checked ~ .slide{
+    animation: none;
+    transform: translate3d(calc(-100% * 1), 0, 0);
+}
+
+input[id="2"]:checked ~ .pagination .pagination-item[for="2"]{
+    background: rgb(228, 7, 7);
+}
+
+
+input[id="3"]:checked ~ .slide{
+    animation: none;
+    transform: translate3d(calc(-100% * 2), 0, 0);
+}
+
+input[id="3"]:checked ~ .pagination .pagination-item[for="3"]{
+    background: rgb(228, 7, 7);
+}
+
+input[id="4"]:checked ~ .slide{
+    animation: none;
+    transform: translate3d(calc(-100% * 3), 0, 0);
+}
+
+input[id="4"]:checked ~ .pagination .pagination-item[for="4"]{
+    background: rgb(228, 7, 7);
+}
+
+input[id="5"]:checked ~ .slide{
+    animation: none;
+    transform: translate3d(calc(-100% * 4), 0, 0);
+}
+
+input[id="5"]:checked ~ .pagination .pagination-item[for="5"]{
+    background: rgb(228, 7, 7);
+}
+
+
+@keyframes autoplay{
+    20%{
+        transform: translate3d(calc(-100% * 0), 0, 0);
+    }
+    
+    40%{
+        transform: translate3d(calc(-100% * 1), 0, 0);
+    }
+    60%{
+        transform: translate3d(calc(-100% * 2), 0, 0);
+    }
+    80%{
+        transform: translate3d(calc(-100% * 3), 0, 0);
+    }
+    
+    100%{
+        transform: translate3d(calc(-100% * 4), 0, 0);
+    }
+}
+
+
+// Settled on moving the import of syntax highlighting to the bottom of the CSS
+// ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
+@import "highlights";
+@import "svg-icons";
+
+
+// Cookies
+
+#cajacookies{
+  display: none;
+}
+
+.contenido-cookie{
+  box-shadow: 0px 0px 5px 5px #808080;
+  background-color: white;
+  color: black;
+  padding: 10px;
+  margin-left: -15px;
+  margin-right: -15px;
+  margin-bottom: 0px;
+  position: fixed;
+  bottom: 25%;
+  left: 25%;
+  width: 50%;
+}
+
+.contenido-cookie{
+  text-align: center;
+}
+
+.contenido-cookie a {
+  color: $fondo;
+
+}
+
+#cajacookies button {
+  color: $letra;
+  background-color: $fondo;
+  border-radius: 10px;
+}
+
+// Calendario en la página de posts
+
+.posicion-calendar{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.anyos{
+  position: fixed;
+  top: 150px;
+  right: 10px;
+
+  img{
+    width: 50px;
+    &:hover{
+      filter: drop-shadow(8px 8px 10px rgb(255, 255, 255));
+    }
+  }
+}
+

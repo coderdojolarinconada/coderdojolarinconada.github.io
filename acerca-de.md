@@ -4,6 +4,7 @@ title: Nuestro Dojo
 permalink: /about/
 ---
 
+
 <h1 class="center">Nuestro Dojo</h1>
 
 {% include fotos.html %}
@@ -23,4 +24,6 @@ Creemos en la oportunidad del acceso a los conocimientos de programación, de ma
 {% endcomment %}
 
 {% include mapa.html %}
+
+
 

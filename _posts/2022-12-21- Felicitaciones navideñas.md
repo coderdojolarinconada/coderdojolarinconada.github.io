@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Felicitaciones navideñas en nuestra ultima sesión de Coderdojo La Rinconada
+title: Felicitaciones navideñas en Coderdojo La Rinconada
 categories: estadísticas
 author: CoderDojo La Rinconada
 anyo : "2022"

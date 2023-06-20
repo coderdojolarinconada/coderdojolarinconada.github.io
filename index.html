@@ -2,40 +2,98 @@
 layout: default
 
 ---
-
-<article class="page">
- 
-  <img class="cimg" src="images/centralN.webp" alt="Personas programando en el club">
+<div class="imagen-inicio">
+  <h2 class="frase">Aprende con nosotros</h2>
+</div>
+<article class="page container color">
+  <!-- Anuladas las imagenes para situarla en la cabecera -->
+  <!-- <img class="cimg" src="images/centralN.webp" alt="Personas programando en el club"> -->
   <!-- <img class="cimg" src="images/bajo_navidad.webp"> -->
 
-  <h1 class="center">Club gratuito de programación en La Rinconada</h1> 
-
-  <div id="principal">
-      <div class="entry">
-        <h2>¿Qué es CoderDojo La Rinconada?</h2>
-
-        <p>Coderdojo es una iniciativa sin ánimo de lucro surgida en 2011 (Irlanda). CoderDojo es un movimiento internacional de clubes de      	codificación gratuitos (Dojos), abiertos, y a cargo de voluntarios, en los que niños y jóvenes de 7 a 17 años (Ninjas) pueden explorar la 	tecnología digital con el apoyo de otros ninjas compañeros y mentores voluntarios. La misión de CoderDojo es brindar a los jóvenes de todo el 		mundo la oportunidad de aprender a codificar en un entorno social y seguro.</p>
-
-    <h2>Integrantes</h2>
-
-        <p>Los integrantes de un dojo son: champion (gestiona el dojo), mentores (aportan sus conocimientos técnicos), voluntarios (ayudan en tareas 		de apoyo), padres o tutores y ninjas (el principal motivo de la existencia de CoderDojo). </p>
-
-    <h2>¿Qué podemos aprender?</h2>
-
-        <p>Según el dojo, se desarrollan proyectos de Diseño web, Tinkercad, Micro-bit, Makey Makey, Creación de videojuegos o Aplicaciones Android principalmente.</p>
-        <h2>¿Quieres saber más?</h2>
-        <p>Si quieres estar al día de nuestros eventos y publicaciones, haz clic en suscríbete, y te incluiremos en nuestra lista de correo.</p>
-        <h2><a href="https://forms.gle/7uTuoXjKgZ9Qmekg9" target="blank"id="suscribe">SUSCRÍBETE</a></h2>
+  <h1 class="center">Club gratuito de programación en La Rinconada</h1>
+  <h2>¿Qué es CoderDojo La Rinconada?</h2>
+  <div class="entrada-header">
+    <div class="video-promocional">
+      <div id="videoModal" class="modal">
+        <span class="close">&times;</span>
+        <iframe id="video-iframe" class="videoiframe" width="800" height="450"
+          src="https://www.youtube.com/embed/7XQOVKd-vVI" title="What is CoderDojo?" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen></iframe>
       </div>
-      <div id="noticias">
-
-	{% include categoria.html %}
-
-      </div>
-      <div id="logo">
-      		<a href="https://www.trasplantadosdecorazon.es/" target="blank"><img src="images/atcica.png" alt="Asociación de trasplantados de corazón">HAZTE SOCIO</a>
-      </div>
-      
+      <button id="boton-modal" class="boton-modal"><img src="images/video_promocion.png"
+          alt="Imagen de jóvenes"></button>
+    </div>
+    <div class="texto-promocional">
+      <p>Coderdojo La Rinconada pertenece a una iniciativa sin ánimo de lucro surgida en 2011, movimiento
+        internacional de clubes de codificación gratuitos (Dojos), abiertos, y a cargo de voluntarios, en los que niños
+        y jóvenes de 7 a 17 años (Ninjas) pueden explorar la tecnología digital con el apoyo de otros ninjas
+        y mentores voluntarios. La misión de CoderDojo es brindar a los jóvenes la oportunidad de
+        aprender a programar en un entorno social y seguro.</p>
+    </div>
   </div>
-  
+  <div class="principal">
+    <div class="entry">
+      <div class="club">
+        <!-- <div class="imagen-entry">
+          <img src="images/210203.jpg" alt="Imagen de niños programando">
+        </div> -->
+      </div>
+      <div class="integrantes">
+        <h2>Integrantes</h2>
+        <p class="texto-integrantes">Los integrantes de un dojo son: </p>
+        <div class="denominar-integrantes">
+          <ul class="lista-integrantes">
+            <li>Champion (gestiona el dojo)</li>
+            <li>Mentores (aportan sus conocimientos técnicos)</li>
+            <li>Voluntarios (ayudan en tareas de apoyo)</li>
+            <li>Padres o tutores</li>
+            <li>Ninjas (el principal motivo de la existencia de
+              CoderDojo)</li>
+          </ul>
+          <div class="imagen-ninjas">
+            <img src="images/ninjas-principal.png" alt="Grupo de niños y jóvenes">
+          </div>
+        </div>
+      </div>
+      <div class="aprender">
+        <h2>¿Qué podemos aprender?</h2>
+        <p>Según el dojo, se desarrollan proyectos de Diseño web, Tinkercad, Micro-bit, Makey Makey, Creación de
+          videojuegos o Aplicaciones Android principalmente.</p>
+        <img class="imagen-aprender" src="images/muestra.png" alt="Diferentes programas que se pueden aprender">
+      </div>
+    </div>
+    <div class="reservas">
+      <h2>Reserva tu plaza</h2>
+      <p>Reserva tu plaza para poder acudir a nuestros eventos</p>
+      <a href="{{ site.baseurl }}/reservar/"><img src="images/reserva-plaza.png" alt="post-it reserva plaza"
+          class="imagen-reserva"></a>
+    </div>
+    <div class="noticias">
+      {% include categoria.html %}
+    </div>
+    <div class="recursos">
+      <h2>Utiliza nuestros <a class="boton-negro-verde" href="{{ site.baseurl }}/recursos">recursos</a></span> o
+        nuestros <a class="boton-negro-verde" href="{{ site.baseurl }}/videos/">videos</a> para realizar tus proyectos.
+      </h2>
+    </div>
+    <div class="saber">
+      <h2>¿Quieres saber más?</h2>
+      <h2><span>Si quieres estar al día de nuestros eventos y publicaciones,</span> <a class="suscribir boton-negro-verde"
+            href="https://forms.gle/7uTuoXjKgZ9Qmekg9" target="blank" id="suscribe">SUSCRÍBETE</a></h2>
+    </div>
+    <div class="logo-trasplante">
+      <a href="https://www.trasplantadosdecorazon.es/" target="blank" alt="Asociación de trasplantados de corazón">
+        <div class="imagen">
+          <img class="imagen-corazon" src="images/atcica.png" />
+        </div>
+        <div class="titulo-trasplante">
+          <h2>HAZTE SOCIO</h2>
+        </div>
+      </a>
+    </div>
+
+  </div>
+
 </article>
+<script src="../js/modal.js"></script>

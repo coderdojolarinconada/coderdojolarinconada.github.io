@@ -1,66 +1,83 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    {% include analytics.html %}
-    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }}</title>
 
-    {% include meta.html %}
+<head>
+  {% include analytics.html %}
+  <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }}</title>
 
-    <!--[if lt IE 9]>
+  {% include meta.html %}
+
+  <!--[if lt IE 9]>
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
-    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
-    <link rel="shortcut icon" type="image/png" href="{{ site.baseurl }}/images/favicon.png">
-    {% seo %}
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/estilo.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">  
+  <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}"
+    href="{{ site.baseurl }}/feed.xml" />
+  <link rel="shortcut icon" type="image/png" href="{{ site.baseurl }}/images/favicon.png">
+  <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+  {% seo %}
 
-  </head>
+</head>
 
-  <body>
-    <div class="wrapper-masthead">
-      <div class="container">
-        <header class="masthead clearfix">
-          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" alt="Logo de la página"/></a>
-
-          <div class="site-info">
-            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
-            <p class="site-description">Club de Programación</p>
-          </div>
-
-          <nav>
-            <a href="{{ site.baseurl }}/">Inicio</a>
-	    <a href="{{ site.baseurl }}/reservar">Reservar</a>
-            <a href="{{ site.baseurl }}/noticias">Blog</a>
-	    <a href="{{ site.baseurl }}/recursos">Recursos</a>
-            <a href="{{ site.baseurl }}/about">Dojo</a>
-	    <a href="{{ site.baseurl }}/videos">Videos</a>
-           <!--<a href="{{ site.baseurl }}/lista">lista</a>-->
-          </nav>
-        </header>
+<body>
+  <header class="cabecera">
+    <div class="encabezado">
+      <div class="imagen-encabezado">
+        <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" alt="Logo de la página" /></a>
+      </div>
+      <div class="titulo">
+        <h3 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h3>
       </div>
     </div>
-
-    <div id="main" role="main" class="container">
-      {{ content }}
-    </div>
-
-    <div class="wrapper-footer">
-      <div class="container">
-        <footer class="footer">
-	<div class="grande">
-		&copy;2019 Andrés Ramos
-	</div>
-        <div class="pequeno">
-		&copy;2019 A.Ramos
-	</div>
-	<div class="icon">
-		{% include svg-icons.html %}
-	</div>
-        </footer>
+    <div class="hamburguer">
+      <span id="boton" class="boton"><i class="fa fa-bars"></i></span>
+      <div id="down" class="down">
+        <a href="{{ site.baseurl }}/">Inicio</a>
+        <a href="{{ site.baseurl }}/reservar/">Reservar</a>
+        <a href="{{ site.baseurl }}/noticias/">Blog</a>
+        <a href="{{ site.baseurl }}/recursos/">Recursos</a>
+        <a href="{{ site.baseurl }}/about/">Dojo</a>
+        <a href="{{ site.baseurl }}/videos/">Videos</a>
       </div>
     </div>
+    <nav>
+      <a id="inicio" href="{{ site.baseurl }}/">Inicio</a>
+      <a id="reservar" href="{{ site.baseurl }}/reservar/">Reservar</a>
+      <a id="noticias" href="{{ site.baseurl }}/noticias/">Blog</a>
+      <a id="recursos" href="{{ site.baseurl }}/recursos/">Recursos</a>
+      <a id="about" href="{{ site.baseurl }}/about/">Dojo</a>
+      <a id="videos" href="{{ site.baseurl }}/videos/">Videos</a>
+      <!--<a href="{{ site.baseurl }}/lista">lista</a>-->
+    </nav>
+  </header>
 
-    
-  </body>
+  <!-- Contenido de la página -->
+
+  <div id="main" role="main" class="contenedor">
+    {{ content }}
+  </div>
+  <!-- Caja para mostrar las opciones de cookie -->
+  <div id="cajacookies" class="abrir">
+    <div class="contenido-cookie">
+      <p>Éste sitio web usa cookies, si permanece aquí acepta su uso. Puede leer más sobre el uso de cookies en nuestra <a
+          href="{{ site.baseurl }}/politica-privacidad/">política de privacidad</a>.</p>
+      <button onclick="aceptarCookies()">Aceptar cookies</button>
+    </div>
+  </div>
+  <!-- Pie de página -->
+  <div class="wrapper-footer">
+    <div class="icon">
+      {% include svg-icons.html %}
+    </div>
+    <div class="grande">
+      &copy;{{ site.time | date: '%Y' }} Andrés Ramos
+    </div>
+    <script src="../js/archivo.js"></script>
+    <script src="../js/cookie.js"></script>
+  </div>
+</body>
+
 </html>

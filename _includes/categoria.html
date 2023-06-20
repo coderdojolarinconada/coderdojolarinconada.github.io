@@ -1,7 +1,15 @@
-<h2>Últimos posts publicados</h2>
-<div class="posts">
-{% for post in site.posts limit:5 %}
-<p><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a><p>
-{% endfor %}
+<div class="ultimos-post">
+    <h2>Últimos posts publicados</h2>
+    <div class="ultimas">
+    {% for post in site.posts limit:3 %}
+    <div class="card">
+        <div class="icono-card">
+            <img src="../images/icono-post.png" alt="dibujo de un buzón">
+        </div>
+        <div class="card-title">
+            <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+        </div>
+    </div>
+    {% endfor %}
+    </div>
 </div>
-

@@ -2,13 +2,20 @@
 layout: default
 title: Blog
 ---
-<!--<h2><a href="/listado/">Listado por años</a></h2>-->
 
-<div class="posts">
-{% for post in site.posts %}
+<h1 class="center">Para estar al día</h1>
+
+<div class="posicion-calendar">
+    <div class="anyos">
+        <a href="/listado/"><img src="{{site.baseurl}}/images/calendar.png"/></a>
+    </div>
+</div>
+
+<div class="posts container">
+{% for post in site.posts %} <!--site.posts-->
 <article class="post">
 
-<h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+<h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
 
 <div class="entry">
 {{ post.excerpt }}
@@ -18,3 +25,5 @@ title: Blog
 </article>
 {% endfor %}
 </div>
+
+

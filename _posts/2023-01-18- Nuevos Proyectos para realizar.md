@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Añadidos nuevos proyectos de Scratch para realizar
-categories: estadísticas
+title: Añadidos nuevos proyectos de Scratch
+categories: Scratch
 author: CoderDojo La Rinconada
-anyo : "2022"
+anyo : "2023"
 ---
 
 Hola a todos, hemos añadidos nuevos proyectos para su realización en nuestra sesiones o en tu casa, como prefieras. 

@@ -1,12 +1,12 @@
 ---
 layout: page
-title: Recursos para descargar
+title: Recursos para aprender
 ---
 
 <h1 class="center">Recursos para aprender</h1>
 
-{% include recursosg.html %}
+{% include menu_recursos.html %}
 
 &nbsp;
 
-Más recursos [aquí](https://projects.raspberrypi.org/es-ES/projects)
+<p class="mas"><a class="centro boton-negro-verde" href="https://projects.raspberrypi.org/es-ES/projects">Más recursos</a></p>
