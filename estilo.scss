@@ -223,8 +223,14 @@ img {
     background-color: #000000;
     color: $letra;
   }
+  
 }
 
+.recursos a{
+  @include mobile{
+    padding: 0 2px;
+  }
+}
 
 // Icono de hamburguesa en versión móvil--------------------------------------
 
