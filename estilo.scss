@@ -123,6 +123,27 @@ img {
     justify-content: center;
 }
 
+.redondear{
+  border-radius: 15px;
+}
+
+.center{//centrar el texto
+  text-align: center;
+}
+
+
+.boton-negro-verde{
+ background-color: $letra;
+ color: #000000;
+ padding: 5px;
+ border-radius: 10px;
+ &:hover{
+   background-color: #000000;
+   color: $letra;
+ }
+ 
+}
+
 // Fixes images in popup boxes from Google Translate
 .gmnoprint img {
   max-width: none;
@@ -209,28 +230,6 @@ img {
 }
 
 
-.center{//centrar el texto
-   text-align: center;
-}
-
-
-.boton-negro-verde{
-  background-color: $letra;
-  color: #000000;
-  padding: 5px;
-  border-radius: 10px;
-  &:hover{
-    background-color: #000000;
-    color: $letra;
-  }
-  
-}
-
-.recursos a{
-  @include mobile{
-    padding: 0 2px;
-  }
-}
 
 // Icono de hamburguesa en versión móvil--------------------------------------
 
@@ -483,6 +482,12 @@ nav {
 
   h2{
     width: 100%;
+  }
+}
+
+.recursos a{
+  @include mobile{
+    padding: 0 2px;
   }
 }
 

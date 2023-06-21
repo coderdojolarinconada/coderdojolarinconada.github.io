@@ -1,10 +1,12 @@
+I"~<h1 class="center">Recursos para aprender</h1>
+
 <div class="container-menu-recursos">
     <div class="grid">
         <div class="scratch">
-            <a href="{{site.baseurl}}/recursos/scratch">
+            <a href="/recursos/scratch">
                 <div class="card">
                     <div class="imagen-card">
-                        <img src="{{site.baseurl}}/images/scratch.svg" alt="Logo de Scratch">
+                        <img src="/images/scratch.svg" alt="Logo de Scratch" />
                     </div>
                     <div class="titulo-card">
                         <h3>Scratch</h3>
@@ -12,11 +14,11 @@
                 </div>
             </a>
         </div>
-        <div class="android">
-            <a href="{{site.baseurl}}/recursos/android">
+        <!-- <div class="android">
+            <a href="http://">
                 <div class="card">
                     <div class="imagen-card">
-                        <img class="redondear" src="{{site.baseurl}}/images/android.png" alt="Logo de android">
+                        <img src="/images/android.png" alt="Logo de android">
                     </div>
                     <div class="titulo-card">
                         <h3>Android</h3>
@@ -24,23 +26,23 @@
                 </div>
             </a>
         </div>
-        <!-- <div class="makecode">
+        <div class="makecode">
             <a href="http://">
                 <div class="card">
                     <div class="imagen-card">
-                        <img src="{{site.baseurl}}/images/makecode_arcade.png" alt="logo makecode arcade">
+                        <img src="/images/makecode_arcade.png" alt="logo makecode arcade">
                     </div>
                     <div class="titulo-card">
                         <h3>Makecode Arcade</h3>
                     </div>
                 </div>
             </a>
-        </div> -->
-        <!-- <div class="web">
+        </div>
+        <div class="web">
             <a href="http://">
                 <div class="card">
                     <div class="imagen-card">
-                        <img width="95px" height="100px" src="{{site.baseurl}}/images/desarrollo_web.jpg"
+                        <img width="95px" height="100px" src="/images/desarrollo_web.jpg"
                             alt="logo desarrollo web">
                     </div>
                     <div class="titulo-card">
@@ -53,3 +55,9 @@
 
 
 </div>
+
+<p> </p>
+
+<p class="mas"><a class="centro boton-negro-verde" href="https://projects.raspberrypi.org/es-ES/projects">Más recursos</a></p>
+<p class="mas"><a class="centro boton-negro-verde" href="https://projects.raspberrypi.org/es-ES/projects">Más recursos</a></p>
+:ET
