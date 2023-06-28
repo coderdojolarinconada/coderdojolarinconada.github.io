@@ -1,4 +1,4 @@
-I"5W<h1 class="center">Para estar al día</h1>
+I"?Y<h1 class="center">Para estar al día</h1>
 
 <div class="posicion-calendar">
     <div class="anyos">
@@ -7,6 +7,18 @@
 </div>
 
 <div class="posts container">
+ <!--site.posts-->
+<article class="post">
+
+<h2><a href="/Ultima-sesion/">Ultima sesión de la temporada 22/23</a></h2>
+
+<div class="entry">
+<p>Hola a todos, el viernes 16 de junio fue la ultima sesión de la temporada 2022/2023. Hicimos un poco de programación en Android, y a continuación montamos un pequeño tentempié con bebidas y algo de picar, para celebrar el final de la temporada, que vino muy bien por el calor que hacía.</p>
+
+</div>
+
+<a href="/Ultima-sesion/" class="read-more">Sigue leyendo</a>
+</article>
  <!--site.posts-->
 <article class="post">
 

@@ -117,12 +117,14 @@ strong, b {
 img {
   max-width: 100%;
 }
+
 #foto_centro{
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
+// Redonear esquina de imágenes
 .redondear{
   border-radius: 15px;
 }
@@ -131,8 +133,8 @@ img {
   text-align: center;
 }
 
-
-.boton-negro-verde{
+// Botones tipo
+.boton-negro-verde{ 
  background-color: $letra;
  color: #000000;
  padding: 5px;
@@ -459,7 +461,13 @@ nav {
   margin: auto;
   &:hover{
     filter: drop-shadow(8px 8px 10px rgb(255, 255, 255));
+
+    @include mobile {
+      filter: none;
+    }
   }
+
+
 
 }
 
@@ -473,6 +481,10 @@ nav {
 
 .card:hover{
   filter: drop-shadow(8px 8px 10px rgb(255, 255, 255));
+
+  @include mobile{
+    filter:none;
+  }
 }
 
 // Recursos
@@ -506,18 +518,26 @@ nav {
 
 // Suscribirse final
 
+
+.logo-trasplante{
+  margin-bottom: 3rem;
+}
+
 .imagen-corazon{
   display: block;
   width: auto;
-  max-height: 200px;
+  max-height: 150px;
   margin: auto;
 
   &:hover{
     filter: drop-shadow(8px 8px 10px rgb(255, 255, 255));
+
+    @include mobile {
+      filter: none;
+    }
   }
   
 }
-
 
 
 /**************/
@@ -793,12 +813,42 @@ iframe {
   margin-left: 20px;
 }
 
+.apartados{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  @include mobile{
+    flex-direction: column;
+  }
+}
+
 
 .grande{
   color: $letra;
   padding-left: 15px;
-  text-align: left;
   padding-bottom: 20px;
+
+  @include mobile{
+    padding: 0;
+  }
+}
+
+.politica{
+  color: $letra;
+  padding-right: 15px;
+  padding-bottom: 20px;
+
+  @include mobile{
+    padding: 15px 0 3rem 0;
+  }
+
+  a{
+    background-color: $blue;
+    padding: 10px;
+    border-radius: 15px;
+  }
 }
 
 
