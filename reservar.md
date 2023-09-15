@@ -45,7 +45,6 @@ Requisitos:
 
   * Tener entre 7 y 17 años.
   * Trae tu portátil con la batería cargada.
-  * Si tienes menos de 12 años debes estar acompañado por un familiar durante la duración del evento.
   * Reserva tu plaza (aforo limitado). Siempre deberás reservar tu plaza, aún cuando hayas asisitido alguna vez.
   * Si no puedes asistir, avisa con el tiempo suficiente para que otro peticionario pueda obtener plaza.
   * La no asistencia sin previo aviso y sin justificación causará la perdida del derecho a la reserva de plaza en otros eventos.
