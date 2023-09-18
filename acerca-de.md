@@ -26,4 +26,14 @@ Creemos en la oportunidad del acceso a los conocimientos de programación, de ma
 {% include mapa.html %}
 
 
+Puedes seguirnos a través de
+{% if site.footer-links.twitter %}<a href="https://www.twitter.com/{{ site.footer-links.twitter }}"><i class="svg-icon twitter base"></i></a>{% endif %}, 
+{% if site.footer-links.facebook %}<a href="https://www.facebook.com/{{ site.footer-links.facebook }}"><i class="svg-icon facebook base"></i></a>{% endif %}, y nuestro canal en 
+{% if site.footer-links.youtube %}<a href="https://youtube.com/{{ site.footer-links.youtube }}"><i class="svg-icon youtube base"></i></a>{% endif %}.
+
+
+Lee los artículos que publicamos en nuestro <a class="boton-negro-verde" href="{{site.baseurl}}/noticias/">blog</a> relacionados con la temática.
+
+<br><br>
+
 

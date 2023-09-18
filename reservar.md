@@ -24,22 +24,6 @@ permalink: /reservar/
 <p class="problemas">¿Tienes problemas? Mándanos un correo electrónico.</p>
 <span class="imagen-sobre">[![imagen_de_sobre_azul]](mailto:coderdojolarinconada@gmail.com)</span>
 
-***
-
-<br>
-
-Puedes seguirnos a través de
-{% if site.footer-links.twitter %}<a href="https://www.twitter.com/{{ site.footer-links.twitter }}"><i class="svg-icon twitter base"></i></a>{% endif %}, 
-{% if site.footer-links.facebook %}<a href="https://www.facebook.com/{{ site.footer-links.facebook }}"><i class="svg-icon facebook base"></i></a>{% endif %}, y nuestro canal en 
-{% if site.footer-links.youtube %}<a href="https://youtube.com/{{ site.footer-links.youtube }}"><i class="svg-icon youtube base"></i></a>{% endif %}.
-
-
-Lee los artículos que publicamos en nuestro <a class="boton-negro-verde" href="{{site.baseurl}}/noticias/">blog</a> relacionados con la temática.
-
-  Es un club de programación donde aprenderás a pensar de manera lógica, desarrollarás tu creatividad y podrás hacer amigos con los que compartir tus creaciones.
-
-
-
 
 Requisitos: 
 
@@ -50,6 +34,8 @@ Requisitos:
   * Si no puedes asistir, avisa con el tiempo suficiente para que otro peticionario pueda obtener plaza.
   * La no asistencia sin previo aviso y sin justificación causará la perdida del derecho a la reserva de plaza en otros eventos.
   * Las plazas libres se ocuparán por orden de llegada de la petición.
+
+
 <br><br><br>
 
 
