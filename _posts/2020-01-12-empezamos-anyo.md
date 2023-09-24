@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Empezamos nuestras sesiones en 2020
-categories: general
+title: Empezamos nuestras sesiones de 2020
+categories: Eventos
 author: CoderDojo La Rinconada
 anyo : "2020"
 ---
 
 
-Hola a todos, empezamos las sesiones del nuevo año 2020 en [Coderdojo](https://coderdojo.com/es-ES) La Rinconada.
+Hola a todos, empezamos nuestras sesiones de 2020 en [Coderdojo](https://coderdojo.com/es-ES) La Rinconada.
 
 Tras las vacaciones de Navidades, empezamos con una sesión donde hemos dado a los ninjas una idea sobre el funcionamiento de internet, lo que es una I.P. y la M.A.C de cualquier dispositivo electrónico con conexión a la red.
 

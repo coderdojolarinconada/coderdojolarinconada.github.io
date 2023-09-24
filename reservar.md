@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Reserva tu plaza
+title: Reserva tu plaza en nuestro evento de programación
 permalink: /reservar/
 ---
 
@@ -20,7 +20,7 @@ permalink: /reservar/
 <div id="eventos">
 <h3>Próximo evento programado</h3>
 </div>
-<span style="display:block;text-align:center;margin-bottom:10px">Apúntate a través de la plataforma de <a class="boton-negro-verde" href="https://zen.coderdojo.com/dojos/es/san-jose-de-la-rinconada/la-rinconada-sevilla" target="blank">CoderDojo</a>.</span>
+<span style="display:block;text-align:center;margin-bottom:10px">Apúntate. Reserva tu plaza a través de la plataforma de <a class="boton-negro-verde" href="https://zen.coderdojo.com/dojos/es/san-jose-de-la-rinconada/la-rinconada-sevilla" target="blank">CoderDojo</a>.</span>
 <p class="problemas">¿Tienes problemas? Mándanos un correo electrónico.</p>
 <span class="imagen-sobre">[![imagen_de_sobre_azul]](mailto:coderdojolarinconada@gmail.com)</span>
 

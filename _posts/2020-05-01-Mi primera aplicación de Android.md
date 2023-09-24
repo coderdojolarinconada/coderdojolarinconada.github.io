@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Mi primera aplicación para Android
-categories: general
+title: Aplicación para Android
+categories: Android
 author: CoderDojo La Rinconada
 anyo : "2020"
 ---
 
 Hola a todos, empezamos el mes de mayo estrenando un video en el canal de YouTube de CoderDojo La Rinconada. Esta vez nos introducimos en las aplicaciones para móviles.
 
-Empezaremos por la interfaz de usuario donde tenemos muchos componentes que podremos utilizar en nuestras aplicaciones, pero en este caso solo utilizaremos la tres marcadas en rojo: botón, imagen y etiqueta.
+Aplicación para Android. Empezaremos por la interfaz de usuario donde tenemos muchos componentes que podremos utilizar en nuestras aplicaciones, pero en este caso solo utilizaremos la tres marcadas en rojo: botón, imagen y etiqueta.
 
 <br>
 {% include galeria.html %}

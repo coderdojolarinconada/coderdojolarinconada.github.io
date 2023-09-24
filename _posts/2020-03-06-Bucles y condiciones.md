@@ -9,7 +9,7 @@ anyo : "2020"
 
 Hola a todos, esta vez nuestra sesión realizada en [CoderDojo] La Rinconada el día 6 de marzo, los ninjas empezaron con un pequeño juego desconectado, en el que aprendieron como una computadora realiza la ordenación de datos. 
 
-Tras ello, estuvimos viendo más a fondo los bucles y las condiciones con [Scratch]. Hicimos un repaso por todos los diferentes bucles de los que disponemos en el programa y las condiciones.<strong> ¡¡¡¡Prueba!!!!</strong>
+Tras ello, estuvimos viendo más a fondo los bucles y condiciones con [Scratch]. Hicimos un repaso por todos los diferentes bucles de los que disponemos en el programa y las condiciones.<strong> ¡¡¡¡Prueba!!!!</strong>
 
 <br>
 <span style="display:block;text-align:center">![Imagen ordenar]</span>

@@ -6,7 +6,7 @@ author: CoderDojo La Rinconada
 anyo : "2021"
 ---
 
-Hola a todos, hoy vamos a explicar como funcionan las conexiones en Internet.
+Hola a todos, ¿qué es Internet y cómo funciona?. Hoy vamos a explicar como funcionan las conexiones en Internet.
 
 Internet se conoce como la red de redes. ¿Pero sabéis cómo funciona?
 

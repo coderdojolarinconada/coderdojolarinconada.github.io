@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Añadidos nuevos proyectos de Scratch
+title: Nuevos proyectos de Scratch
 categories: Scratch
 author: CoderDojo La Rinconada
 anyo : "2023"
 ---
 
-Hola a todos, hemos añadidos nuevos proyectos para su realización en nuestra sesiones o en tu casa, como prefieras. 
+Hola a todos, hemos añadidos nuevos proyectos de Scratch para su realización en nuestra sesiones, o en tu casa, como prefieras. 
 
 Estos proyectos se llaman: "estrellas submarinas" y "par o impar". 
 

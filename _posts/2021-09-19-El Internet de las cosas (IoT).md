@@ -1,7 +1,7 @@
 ---
 layout: post
 title: IoT. Internet of Things. Internet de las cosas.
-categories: Seguridad
+categories: IOT
 author: CoderDojo La Rinconada
 anyo : "2021"
 ---

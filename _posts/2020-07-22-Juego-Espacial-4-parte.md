@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Juego Espacial 4ª parte. Movimiento e intercambio de mensajes.
-categories: general
+categories: Scratch
 author: CoderDojo La Rinconada
 anyo : "2020"
 ---

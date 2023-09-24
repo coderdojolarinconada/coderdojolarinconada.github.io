@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Nuestro Dojo
+title: Nuestro Dojo. Sobre nosotros
 permalink: /about/
 ---
 

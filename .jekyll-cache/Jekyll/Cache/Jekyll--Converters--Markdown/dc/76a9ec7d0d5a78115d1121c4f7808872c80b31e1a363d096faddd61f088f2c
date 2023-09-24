@@ -1,0 +1,32 @@
+I""	<p>Hola a todos, empezamos el mes de mayo estrenando un video en el canal de YouTube de CoderDojo La Rinconada. Esta vez nos introducimos en las aplicaciones para móviles.</p>
+
+<p>Aplicación para Android. Empezaremos por la interfaz de usuario donde tenemos muchos componentes que podremos utilizar en nuestras aplicaciones, pero en este caso solo utilizaremos la tres marcadas en rojo: botón, imagen y etiqueta.</p>
+
+<p><br /></p>
+<div class="container">
+        <div class="galeria">
+            <img src="/images/interfaz.png" alt="Interfaz de usuario" title="Interfaz de usuario" />
+            <img src="/images/disposicion.png" alt="disposición" title="disposición" />
+	    <img src="/images/medios.png" alt="medios" title="medios" />
+	</div>
+</div>
+
+<p><br /></p>
+
+<p>Crearemos tres disposiciones horizontales, arrastrando a la primera una etiqueta llamada “título”, en la segunda la imagen de nuestro gato y en la última un botón al que daremos el nombre de “btnSalida” que cerrará nuestra aplicación. Además, en la sección de medios utilizaremos un componente no visible de sonido. Subiremos al almacén nuestro archivos de imagen y sonido para posteriormente asignarlos a cada componente. En la imagen vemos la estructura y como queda nuestra aplicación en la pantalla de nuestro móvil.</p>
+
+<p>Una vez tenemos realizado el diseño de nuestra aplicación, pulsamos sobre el botón bloques, situado en la esquina superior derecha, y aparecemos en otra pantalla donde introduciremos el código para manejar la aplicación.</p>
+
+<p><br />
+<span style="display:block;text-align:center"><img src="/images/movil.png" alt="movil" /> <img src="/images/arbol.png" alt="arbol" /> </span>
+<br /></p>
+
+<p>Una vez tenemos realizado el diseño de nuestra aplicación, pulsamos sobre el botón bloques, situado en la esquina superior derecha, y aparecemos en otra pantalla donde introduciremos el código para manejar la aplicación.</p>
+
+<p><br />
+<span style="display:block;text-align:center"><img src="/images/bloquea.png" alt="bloquea" /></span>
+<br /></p>
+
+<p>Generemos la aplicación y la descargamos e instalamos en nuestro móvil. Para seguir el procedimiento puedes ver el video en nuestro canal. Esperamos que os guste nuestro <a href="https://youtu.be/pvLgA83FpuE" target="_blank">video</a>. Hasta pronto</p>
+
+:ET

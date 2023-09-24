@@ -1,13 +1,13 @@
 ---
 layout: post
-title: ¿Cómo funciona?
+title: El teclado y sus atajos
 categories: general
 author: CoderDojo La Rinconada
 anyo : "2020"
 ---
 
 
-Hola a todos, esta vez en [Coderdojo](https://coderdojo.com/es-ES) La Rinconada, estuvimos viendo los sistemas operativos, el funcionamiento del teclado y algunas cosas interesantes. Nuestro mentor Manuel, les explicó a nuestros ninjas los diferentes sistemas operativos, algunas cosas interesantes sobre el funcionamiento del sistema y uno de los temas más desconocidos por los usuarios, el teclado y sus atajos.
+Hola a todos, esta vez en [Coderdojo](https://coderdojo.com/es-ES) La Rinconada, estuvimos viendo los sistemas operativos, el funcionamiento del teclado y algunas cosas interesantes. Nuestro mentor Manuel, les explicó a nuestros ninjas los diferentes sistemas operativos, algunas cosas interesantes sobre el funcionamiento del sistema y uno de los temas más desconocidos para los usuarios, el teclado y sus atajos.
 
 <br>
 <span style="display:block;text-align:center">![teclado]({{site.baseurl}}/images/teclado.jpg "teclado")</span>

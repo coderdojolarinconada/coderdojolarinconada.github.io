@@ -1,6 +1,7 @@
 ---
 layout: page
-title: Recursos para aprender
+title: Recursos para aprender a programar
+description: Recursos para aprender a programar. Diversos recursos para distintos lenguaje de programación. 
 ---
 
 <h1 class="center">Recursos para aprender</h1>

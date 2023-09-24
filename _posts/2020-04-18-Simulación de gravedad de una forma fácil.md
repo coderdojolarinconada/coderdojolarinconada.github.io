@@ -1,12 +1,12 @@
 ---
 layout: post
 title: Simulación de gravedad de una forma fácil
-categories: general
+categories: Scratch
 author: CoderDojo La Rinconada
 anyo : "2020"
 ---
 
-Hola a todos, esta semana toca hacer una simulación de la gravedad, para un juego de plataformas de una manera fácil. Ya sabéis que la velocidad no es constante, pues cuando un objeto cae atraído por la fuerza de gravedad, la aceleración es cada vez mayor en función de la distancia y el tiempo, pero como esto es un juego y estamos aprendiendo programación, no vamos a complicarlo y utilizaremos una velocidad constante.
+Hola a todos, esta semana toca hacer una simulación de la gravedad de una forma fácil para principiantes en este programa, para un juego de plataformas de una manera fácil. Ya sabéis que la velocidad no es constante, pues cuando un objeto cae atraído por la fuerza de gravedad, la aceleración es cada vez mayor en función de la distancia y el tiempo, pero como esto es un juego y estamos aprendiendo programación, no vamos a complicarlo y utilizaremos una velocidad constante.
 
 <br>
 <span style="display:block;text-align:center">![gravedad]</span>

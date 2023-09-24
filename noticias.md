@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Blog
+title: Blog | Noticias
 ---
 
 <h1 class="center">Para estar al día</h1>

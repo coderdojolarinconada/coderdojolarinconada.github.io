@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Las tablas de multiplicar
-categories: general
+categories: Scratch
 author: CoderDojo La Rinconada
 anyo : "2021"
 ---

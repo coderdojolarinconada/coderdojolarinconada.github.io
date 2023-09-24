@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Ultima sesión de la temporada 22/23
-categories: eventos
+categories: Eventos
 author: CoderDojo La Rinconada
 anyo : "2023"
 ---

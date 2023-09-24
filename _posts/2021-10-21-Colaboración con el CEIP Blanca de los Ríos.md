@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Colaboración con CEIP Blanca de los Ríos
-categories: Scratch
+categories: Colaboraciones
 author: CoderDojo La Rinconada
 anyo : "2021"
 ---

@@ -7,7 +7,7 @@ anyo : "2020"
 ---
 
 
-Hola a todos, en nuestra sesión del veintiuno de febrero, en [CoderDojo] La Rinconada, los ninjas empezaron con un pequeño juego para romper el hielo y posteriormente practicaron sobre diversas sentencias en [Scratch], y sobre todo, en las muchas posibilidades que nos brinda el programa con la creación de clones y su aplicación.
+Hola a todos, en nuestra sesión del veintiuno de febrero, seguimos avanzando en [CoderDojo] La Rinconada. Los ninjas empezaron con un pequeño juego para romper el hielo y posteriormente practicaron sobre diversas sentencias en [Scratch], y sobre todo, en las muchas posibilidades que nos brinda el programa con la creación de clones y su aplicación.
 
 <br>
 <span style="display:block;text-align:center"><a href="https://scratch.mit.edu/projects/370317277/" target="blank">![Imagen Lluvia][Imagen Lluvia]</a></span>

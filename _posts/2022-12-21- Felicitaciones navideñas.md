@@ -1,14 +1,14 @@
 ---
 layout: post
 title: Felicitaciones navideñas en Coderdojo La Rinconada
-categories: estadísticas
+categories: Scratch
 author: CoderDojo La Rinconada
 anyo : "2022"
 ---
 
 Hola a todos, el viernes 16 de diciembre fue la última sesión de CoderDojo La Rinconada del año 2022. Volvemos después de las vacaciones de Navidad con nuestras sesiones presenciales.
 
-En ella han realizado unas felicitaciones navideñas con circuitos eléctricos. 
+Se han realizado unas felicitaciones navideñas en Coderdojo La Rinconada con circuitos eléctricos. 
 
 Hemos utilizado los siguientes materiales:
 

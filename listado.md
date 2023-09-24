@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Listado anual de posts
+description: Listado de todos los post publicados en CoderDojo La Rinconada, filtrados por año.
 ---
 <h1 class="titulo">Listado de posts por año</h1>
 

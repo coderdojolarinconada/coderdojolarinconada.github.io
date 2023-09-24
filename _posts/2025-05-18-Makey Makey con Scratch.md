@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Makey Makey con Scratch
-categories: estadísticas
+categories: Makey Makey
 author: CoderDojo La Rinconada
 anyo : "2022"
 ---

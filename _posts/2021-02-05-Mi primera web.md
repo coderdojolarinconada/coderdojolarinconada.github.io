@@ -6,7 +6,7 @@ author: CoderDojo La Rinconada
 anyo : "2021"
 ---
 
-Hola a todos, el viernes 5 de febrero hemos realizado una nueva sesión online en CoderDojo La Rinconada, en la cual comenzamos aprendiendo los conceptos básicos de una página web, y después, nos pusimos manos a la obra para diseñar practicando nuestra primera página web. 
+Hola a todos, el viernes 5 de febrero hemos realizado "mi primera web", en una nueva sesión online en CoderDojo La Rinconada, en la que comenzamos aprendiendo los conceptos básicos de una página web, y después, nos pusimos manos a la obra para diseñar practicando nuestra primera página web. 
 
 Aprendimos la plantilla común en todas las páginas web, a utilizar los títulos, párrafos, introducir una imagen dentro de nuestra página web, las listas ordenadas y desordenadas y aplicar estilos a nuestra página.
 

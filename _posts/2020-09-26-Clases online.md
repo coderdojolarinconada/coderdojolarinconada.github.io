@@ -1,14 +1,13 @@
 ---
 layout: post
-title: Eventos online 2020
-categories: general
+title: Eventos online en 2020
+categories: Eventos
 author: CoderDojo La Rinconada
 anyo : "2020"
 ---
 
-Hola a todos, después de un tiempo sin sesiones por motivos del COVID-19, se ha decidido realizar las sesiones Online. 
-
-Nos hemos decidido a utilizar la aplicación Google Meet. Se recomienda preferentemente el uso de Google Chrome por la integración que tiene con esta aplicación.
+Hola a todos, después de un tiempo sin sesiones por motivos del COVID-19, se ha decidido realizar las sesiones Online. En nuestros eventos online en 2020 utilizarmos la aplicación Google Meet. 
+Se recomienda preferentemente el uso de Google Chrome por la integración que tiene con esta aplicación.
 
 A continuación ponemos una serie de instrucciones y recomendaciones a seguir para su uso y el seguimiento de las sesiones Online.
 

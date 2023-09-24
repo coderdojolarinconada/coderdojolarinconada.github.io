@@ -1,13 +1,13 @@
 ---
 layout: post
 title: Más proyectos para practicar
-categories: general
+categories: Scratch
 author: CoderDojo La Rinconada
 anyo : "2019"
 ---
 
 
-Hola a todos, seguimos preparando más proyectos en [Scratch] para nuestro club de programación [Coderdojo](https://coderdojo.com/es-ES) La Rinconada para que disfrutéis durante las vacaciones practicando y aprendiendo nuevos recursos.
+Hola a todos, seguimos preparando más proyectos para practicar en [Scratch] para nuestro club de programación [Coderdojo](https://coderdojo.com/es-ES) La Rinconada, para que disfrutéis durante las vacaciones practicando y aprendiendo a realizar nuevos programas.
 
 En primer lugar, os dejo la dirección del proyecto, donde encontraréis los recursos necesarios para desarrollar <span style="font-weight: bold">carrera de barcos</span>.
 

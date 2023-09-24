@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Temporada CoderDojo La Rinconada 21/22
-categories: estadísticas
+title: Temporada 21/22 en CoderDojo La Rinconada
+categories: Estadísticas
 author: CoderDojo La Rinconada
 anyo : "2022"
 ---
 
-Hola a todos, tras una nueva temporada de eventos, hemos analizado los datos para ver el resultado a efectos estadísticos.
+Hola a todos, tras una nueva temporada de eventos, temporada 21/22 en CoderDojo La Rinconada, la hemos analizado los datos para ver el resultado a efectos estadísticos.
 
 Durante la temporada de eventos gratuitos (septiembre 2021- junio 2022), se han realizado 16 eventos con una frecuencia de dos semanas, aproximadamente, si consideramos que los festivos y durante las vacaciones escolares los eventos no se realizan. 
 

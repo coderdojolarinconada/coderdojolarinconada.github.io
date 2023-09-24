@@ -6,7 +6,7 @@ author: CoderDojo La Rinconada
 anyo : "2021"
 ---
 
-Hola a todos, en esta sesión realizamos un juego de motos, donde debemos evitar chocar con las piedras de la carretera. Nuestro amigo Pepito Runnn Runnn, debe enfrentarse a los peligros de la carretera y llegar a su destino. 
+Hola a todos, "conduce tu moto" es un juego, donde debemos evitar chocar con las piedras de la carretera. Nuestro amigo Pepito Runnn Runnn, debe enfrentarse a los peligros de la carretera y llegar a su destino. 
 
 Utilizamos variables, sensores, dirección del objeto, bucles y condiciones.
 

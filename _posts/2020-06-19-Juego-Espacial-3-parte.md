@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Juego Espacial 3ª parte. Presentación del juego y mensajes entre componentes
-categories: general
+categories: Scratch
 author: CoderDojo La Rinconada
 anyo : "2020"
 ---

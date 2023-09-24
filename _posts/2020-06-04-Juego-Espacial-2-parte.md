@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Juego Espacial 2ª parte. Aceleración y cambios de escenario
-categories: general
+categories: Scratch
 author: CoderDojo La Rinconada
 anyo : "2020"
 ---

@@ -1,12 +1,12 @@
 ---
 layout: post
 title: Tocar música con Scratch
-categories: general
+categories: Scratch
 author: CoderDojo La Rinconada
 anyo : "2020"
 ---
 
-Hola a todos, esta semana vamos a tocar un poco de música con Scratch. Hemos buscado una paritura en Internet, no muy complicada, aunque si sabeís algo de música, podéis buscarla todo lo complicada que os apetezca.
+Hola a todos, esta semana vamos a tocar música con Scratch. Hemos buscado una paritura en Internet, no muy complicada, aunque si sabeís algo de música, podéis buscarla todo lo complicada que os apetezca.
 
 Para ello vamos a repasar algo sobre música. Hablaremos sobre las notas que aparecen en nuestra partitura del Himno a la alegría de Bethoven.
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Whac-a-mole
-categories: general
+categories: Scratch
 author: CoderDojo La Rinconada
 anyo : "2021"
 ---

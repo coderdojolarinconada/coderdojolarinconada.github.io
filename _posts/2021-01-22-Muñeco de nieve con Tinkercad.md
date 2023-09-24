@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Sesión en Tinkercad
-categories: general
+title: Sesión con Tinkercad
+categories: Tinkercad 3D
 author: CoderDojo La Rinconada
 anyo : "2021"
 ---

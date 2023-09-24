@@ -6,7 +6,7 @@ author: CoderDojo La Rinconada
 anyo : "2022"
 ---
 
-Hola a todos, hoy empezamos con la segunda parte del funcionamiento de las conexiones en Internet.
+Hola a todos, hoy empezamos con la segunda parte sobre ¿Qué es internet y cómo funciona?.
 
 Siguiendo el hilo de lo que hablamos anteriormente, mi dispositivo envía la petición de una página web hacía Internet. Podría ser una petición de una página web, pero también envío de datos a otro dispositivo, la petición de un video a una red social o una película de algún servicio de Streaming (Netflix, HBO, YouTube).
 
