@@ -1,4 +1,4 @@
-I" \<h1 class="center">Para estar al día</h1>
+I"�^<h1 class="center">Para estar al día</h1>
 
 <div class="posicion-calendar">
     <div class="anyos">
@@ -7,6 +7,18 @@
 </div>
 
 <div class="posts container">
+ <!--site.posts-->
+<article class="post">
+
+<h2><a href="/Comenzamos-nueva-temporada/">Comenzamos nueva temporada</a></h2>
+
+<div class="entry">
+<p>Hola a todos, el viernes 22 de septiembre comenzamos nueva temporada con la primera sesión del curso 2023/2024. En esta primera sesión configuramos y preparamos los pc,s de los nuevos componentes del club. Para la próxima sesión, ya podrán programar al 100%. Los ninjas que llevan más tiempo con nosotros siguieron con los proyectos que habían comenzado anteriormente.</p>
+
+</div>
+
+<a href="/Comenzamos-nueva-temporada/" class="read-more">Sigue leyendo</a>
+</article>
  <!--site.posts-->
 <article class="post">
 
