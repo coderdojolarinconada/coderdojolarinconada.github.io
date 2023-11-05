@@ -716,6 +716,10 @@ h2{
     justify-content: space-around;
     align-content: space-between;
 
+    @media screen {
+      
+    }
+
     @include mobile {
       grid-template-columns: 1fr;
       margin-top: 20px;
@@ -1185,4 +1189,3 @@ input[id="5"]:checked ~ .pagination .pagination-item[for="5"]{
     }
   }
 }
-
