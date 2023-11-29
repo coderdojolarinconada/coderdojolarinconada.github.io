@@ -1,0 +1,63 @@
+I"t<p>En el emocionante mundo de la programación y la creación de videojuegos, MakeCode Arcade ha aparecido como una plataforma accesible y potente para aquellos que desean sumergirse en el desarrollo de juegos de arcade de manera simple y divertida. Diseñado por Microsoft, MakeCode Arcade ofrece una interfaz gráfica fácil que permite tanto a programadores novatos como a experimentados construir sus propios juegos sin la necesidad de conocimientos de programación avanzados.</p>
+
+<p><span class="post-redondea" style="display:block;text-align:center"><img src="/images/makecode_arcade_interfaz.png" alt="makecode" /></span></p>
+
+<h3 id="qué-es-makecode-arcade">¿Qué es MakeCode Arcade?</h3>
+
+<p>MakeCode Arcade es una plataforma de desarrollo de juegos creada para facilitar la programación y diseño de videojuegos 2D. Utiliza un enfoque de bloques visuales que facilita el proceso de codificación, permitiendo a los usuarios arrastrar y soltar bloques de código para crear funciones y comportamientos en sus juegos.</p>
+
+<h3 id="características">Características</h3>
+
+<h4 id="1-interfaz-gráfica-intuitiva">1. <strong>Interfaz Gráfica Intuitiva:</strong></h4>
+<p>La interfaz de MakeCode Arcade es amigable y fácil de entender. Los usuarios pueden arrastrar bloques de código que representan diferentes funciones y eventos, lo que facilita la construcción de juegos sin la necesidad de escribir líneas de código manualmente.</p>
+
+<h4 id="2-biblioteca-de-bloques-y-recursos">2. <strong>Biblioteca de Bloques y Recursos:</strong></h4>
+<p>MakeCode Arcade viene con una amplia biblioteca de bloques que abarca desde control de personajes y eventos hasta física de juego. Además, ofrece una variedad de recursos visuales como sprites y fondos para personalizar el aspecto de los juegos.</p>
+
+<h4 id="3-simulación-en-tiempo-real">3. <strong>Simulación en Tiempo Real:</strong></h4>
+<p>Una característica destacada de MakeCode Arcade es la capacidad de probar y depurar los juegos en tiempo real a través de la simulación en el navegador. Esto permite a los desarrolladores ver cómo se comporta su juego mientras lo están construyendo.</p>
+
+<h4 id="4-compatibilidad-con-dispositivos-de-hardware">4. <strong>Compatibilidad con Dispositivos de Hardware:</strong></h4>
+<p>MakeCode Arcade no se limita a la simulación en línea; también es compatible con varios dispositivos de hardware. Los juegos pueden ser descargados y ejecutados en hardware como el microcontrolador de MakeCode Arcade, brindando una experiencia práctica y tangible.</p>
+
+<h4 id="5-comunidad">5. <strong>Comunidad:</strong></h4>
+<p>La plataforma cuenta con una comunidad activa de desarrolladores y entusiastas que comparten sus creaciones, trucos y consejos. Esto crea un entorno colaborativo que ayuda a los nuevos usuarios a aprender y mejorar sus habilidades de programación.</p>
+
+<h3 id="pasos-a-seguir-para-crear-un-juego-en-makecode-arcade">Pasos a seguir para crear un juego en MakeCode Arcade</h3>
+
+<ol>
+  <li>
+    <p><strong>Crea de un Nuevo Proyecto:</strong>
+Inicia un nuevo proyecto en MakeCode Arcade, nombralo y además puedes elegir el lenguaje entre Python y Javascript o utilizar bloques.</p>
+  </li>
+  <li>
+    <p><strong>Diseña el escenario del Juego:</strong>
+Utiliza la interfaz gráfica para diseñar el mundo del juego, agregando personajes, obstáculos y fondos.</p>
+  </li>
+  <li>
+    <p><strong>Programa tus eventos:</strong>
+Utiliza bloques de código o el lenguaje de programación elegido para programar eventos y comportamientos, como el movimiento de personajes, la detección de colisiones y la puntuación.</p>
+  </li>
+  <li>
+    <p><strong>Personaliza tu juego:</strong>
+Personaliza la apariencia del juego utilizando sprites y fondos de la biblioteca de recursos.</p>
+  </li>
+  <li>
+    <p><strong>Simulación y Pruebas:</strong>
+Prueba el juego en tiempo real mediante la simulación en el navegador para asegurarte de que todo funcione como se espera.</p>
+  </li>
+  <li>
+    <p><strong>Descarga y Ejecución en Hardware:</strong>
+Una vez satisfecho con el juego, descárgalo y ejecútalo en dispositivos de hardware compatibles para una experiencia de juego real.</p>
+  </li>
+</ol>
+
+<p><span class="post-redondea" style="display:block;text-align:center;"><img src="/images/game_makecode.png" alt="game" /></span></p>
+
+<h3 id="conclusión">Conclusión</h3>
+
+<p>MakeCode Arcade ofrece una introducción emocionante y educativa al mundo del desarrollo de videojuegos. Con su interfaz intuitiva, amplia biblioteca de recursos y capacidad de simulación en tiempo real, permite a los usuarios de todos los niveles de habilidad crear juegos personalizados de manera rápida y sencilla. Ya sea un principiante en la programación o un desarrollador experimentado, MakeCode Arcade ofrece una experiencia de desarrollo divertida y educativa. ¡Así que desarrolla tu creatividad y comienza a crear tus propios juegos arcade hoy mismo!
+<br />
+<br /></p>
+
+:ET

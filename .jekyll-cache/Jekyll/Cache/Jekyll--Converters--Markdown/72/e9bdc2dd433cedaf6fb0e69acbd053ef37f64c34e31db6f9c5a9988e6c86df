@@ -1,4 +1,4 @@
-I"S<h3>Categories</h3>
+I"�<h3>Categories</h3>
 <ul>
 
     <a href="/category/Eventos/" style="text-decoration: none;">Eventos</a><br />
@@ -38,6 +38,8 @@
     <a href="/category/Redes/" style="text-decoration: none;">Redes</a><br />
 
     <a href="/category/Estadísticas/" style="text-decoration: none;">Estadísticas</a><br />
+
+    <a href="/category/Programas/" style="text-decoration: none;">Programas</a><br />
 
 </ul>
 :ET

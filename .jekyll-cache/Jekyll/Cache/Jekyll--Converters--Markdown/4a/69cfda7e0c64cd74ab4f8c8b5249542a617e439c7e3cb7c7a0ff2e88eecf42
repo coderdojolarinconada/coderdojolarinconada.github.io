@@ -1,4 +1,4 @@
-I"∞`<h1 class="center">Para estar al d√≠a</h1>
+I"Ùa<h1 class="center">Para estar al d√≠a</h1>
 
 <div class="posicion-calendar">
     <div class="anyos">
@@ -7,6 +7,18 @@
 </div>
 
 <div class="posts container">
+ <!--site.posts-->
+<article class="post">
+
+<h2><a href="/Makecode-Arcade/">Makecode Arcade</a></h2>
+
+<div class="entry">
+<p><em>Introducci√≥n a MakeCode Arcade: Desarrolla tus Propios Juegos de Arcade de Forma Sencilla y Divertida</em></p>
+
+</div>
+
+<a href="/Makecode-Arcade/" class="read-more">Sigue leyendo</a>
+</article>
  <!--site.posts-->
 <article class="post">
 

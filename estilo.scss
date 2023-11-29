@@ -127,6 +127,11 @@ img {
 // Redonear esquina de imágenes
 .redondear{
   border-radius: 15px;
+  padding: 1rem 0;
+}
+
+.post-redondea img {
+  border-radius: 15px;
 }
 
 .center{//centrar el texto
