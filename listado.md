@@ -7,7 +7,7 @@ description: Listado de todos los post publicados en CoderDojo La Rinconada, fil
 
 <!-- <a class="boton-negro-verde" href="{{ site.baseurl }}/noticias/" alt="Enlace para volver al blog">Volver al blog</a> -->
 
-{% assign numeros = "2023,2022,2021,2020,2019"|split: ',' %}
+{% assign numeros = "2024,2023,2022,2021,2020,2019"|split: ',' %}
 
 <div class="listado container">
 
