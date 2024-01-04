@@ -2,7 +2,7 @@
 layout: post
 title: Presentación proyectos de Navidad
 author: CoderDojo La Rinconada
-anyo : "2023"
+anyo : "2024"
 ---
 
 Hola a todos, para terminar las sesiones del año 2023, se organizó un concurso para los ninjas, proyectos con temática navideña. Se ha  decidido premiar a estos dos proyectos.¡¡¡Enhorabuena por vuestro esfuerzo!!!
