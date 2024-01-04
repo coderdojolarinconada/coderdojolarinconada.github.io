@@ -1,0 +1,22 @@
+---
+layout: post
+title: Presentación proyectos de Navidad
+author: CoderDojo La Rinconada
+anyo : "2023"
+---
+
+Hola a todos, para terminar las sesiones del año 2023, se organizó un concurso para los ninjas, proyectos con temática navideña. Se ha  decidido premiar a estos dos proyectos.¡¡¡Enhorabuena por vuestro esfuerzo!!!
+
+<div style="text-align:center; margin: 2rem 0">Proyecto 1. Martín
+</div>
+<div style="margin: 1rem auto; text-align:center;"><iframe src="https://scratch.mit.edu/projects/940791026/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe></div>
+
+<div style="text-align:center; margin: 2rem 0">Proyecto 2. Carmen
+</div>
+<div style="margin: 1rem auto; text-align:center;"><iframe src="https://scratch.mit.edu/projects/940785380/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe></div>
+
+
+Seguimos en el siguiente post. Hasta pronto.
+
+
+[emoji]: /images/emoji-pensando.png

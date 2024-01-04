@@ -1,4 +1,4 @@
-I"�c<h1 class="center">Para estar al día</h1>
+I"Pe<h1 class="center">Para estar al día</h1>
 
 <div class="posicion-calendar">
     <div class="anyos">
@@ -7,6 +7,18 @@
 </div>
 
 <div class="posts container">
+ <!--site.posts-->
+<article class="post">
+
+<h2><a href="/Proyectos_de_Navidad/">Presentación proyectos de Navidad</a></h2>
+
+<div class="entry">
+<p>Hola a todos, para terminar las sesiones del año 2023, se organizó un concurso para los ninjas, proyectos con temática navideña. Se ha  decidido premiar a estos dos proyectos.¡¡¡Enhorabuena por vuestro esfuerzo!!!</p>
+
+</div>
+
+<a href="/Proyectos_de_Navidad/" class="read-more">Sigue leyendo</a>
+</article>
  <!--site.posts-->
 <article class="post">
 
