@@ -316,6 +316,7 @@ nav {
   background-image: linear-gradient(rgba(28, 27, 27, 0.5), rgba(28,27,27,0.35)) ,url($imagenInicio);
   background-repeat: no-repeat;
   object-fit: cover;
+  background-position: center;
   height: 550px;
 }
 
@@ -323,7 +324,12 @@ nav {
   position: absolute;
   color: $enlaces;
   font-size: 3rem;
-  left: 80px;
+  //left: 80px;
+  top: 10%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
 
   @include mobile {
     left: 0;
