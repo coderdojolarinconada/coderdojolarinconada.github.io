@@ -5,7 +5,7 @@ author: CoderDojo La Rinconada
 anyo : "2024"
 ---
 
-Hola a todos, para terminar las sesiones del año 2023, se organizó un concurso para los ninjas, proyectos con temática navideña. Se ha  decidido premiar a estos dos proyectos.¡¡¡Enhorabuena por vuestro esfuerzo!!!
+Hola a todos, para terminar las sesiones del año 2023, se organizó un concurso para los ninjas, proyectos con temática navideña. Se ha  decidido premiar a estos dos proyectos mostrados por orden de presentación.¡¡¡Enhorabuena por vuestro esfuerzo!!!
 
 <div style="text-align:center; margin: 2rem 0">Proyecto 1. Martín
 </div>
