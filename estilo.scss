@@ -155,6 +155,18 @@ img {
  
 }
 
+.boton-negro-verde-post{ 
+  background-color: $letra;
+  color: #000000;
+  padding: 2px 2px 0 2px;
+  border-radius: 5px;
+  &:hover{
+    background-color: #000000;
+    color: $letra;
+  }
+  
+ }
+
 // Fixes images in popup boxes from Google Translate
 .gmnoprint img {
   max-width: none;

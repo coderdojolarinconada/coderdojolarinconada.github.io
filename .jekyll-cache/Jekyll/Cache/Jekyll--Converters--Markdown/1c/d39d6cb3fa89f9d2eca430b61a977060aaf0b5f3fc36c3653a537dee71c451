@@ -1,0 +1,33 @@
+I"f<p>Hola a todos, hoy hablaremos sobre el <strong>Cifrado César</strong>, utlizado por los ejercitos imperiales de Roma. El cifrado César es una forma de escribir mensajes secretos que usaba el emperador romano Julio César hace más de 2000 años.</p>
+
+<p><span class="post-redondea" style="display:block;text-align:center;margin: 40px 0px;"><img src="/images/cesar.jpg" alt="cesar" /></span></p>
+
+<h3 id="qué-es-el-cifrado-césar">¿Qué es el cifrado César?</h3>
+
+<p>El cifrado César es una forma de cambiar las letras de un mensaje para que solo lo puedan leer las personas que sepan cómo descifrarlo.</p>
+
+<p>Por ejemplo, si quieres escribir la palabra <strong>“HOLA”</strong>, puedes cambiar cada letra por la siguiente en el abecedario, y así obtienes la palabra <strong>“IPMB”</strong>.</p>
+
+<p>Esta es una forma de cifrar el mensaje con una clave de <strong>1</strong>, porque has desplazado cada letra una posición. Si quieres descifrar el mensaje, tienes que hacer lo contrario: cambiar cada letra por la anterior en el abecedario, y así recuperas la palabra <strong>“HOLA”</strong>.</p>
+
+<p>Puedes usar cualquier número como clave para cifrar o descifrar un mensaje. Por ejemplo, si usas una clave de <strong>3</strong>, la palabra <strong>“HOLA”</strong> se convierte en <strong>“KROD”</strong>, y para descifrarla tienes que restar <strong>3</strong> posiciones a cada letra. Lo único que tienes que tener en cuenta es que cuando llegues a la última letra del abecedario, tienes que volver a empezar por la primera.</p>
+
+<p>Por ejemplo, si usas una clave de <strong>2</strong>, la letra <strong>“Z”</strong> se convierte en <strong>“B”</strong>, y la letra <strong>“Y”</strong> se convierte en <strong>“A”</strong>.</p>
+
+<h3 id="para-qué-sirve-el-cifrado-césar">¿Para qué sirve el cifrado César?</h3>
+
+<p>El cifrado César sirve para enviar mensajes secretos a otras personas sin que nadie más pueda entenderlos. Por ejemplo, si quieres decirle a tu amigo que <strong>te gusta mucho el chocolate</strong>, puedes escribirle <strong>“ÑG IWUVC ÑWEJQ GN EJQEQNCVG”</strong>, usando una clave de <strong>2</strong>.</p>
+
+<p>Así, solo tu amigo podrá saber lo que le quieres decir, si sabe que tiene que usar la misma clave para descifrar el mensaje.</p>
+
+<p>El cifrado César también sirve para aprender sobre la criptografía, que es la ciencia que estudia los métodos para proteger la información.</p>
+
+<p>La criptografía es muy importante en el mundo actual, porque se usa para enviar mensajes por internet, hacer compras online, acceder a cuentas bancarias, y muchas otras cosas.</p>
+
+<p>El cifrado César es uno de los métodos más antiguos y sencillos de criptografía y además debes tener en cuenta que en esa época de la historia no había mucha gente que supiera leer y escribir latín, pero hay muchos otros, más complejos y seguros que se usan hoy en día.</p>
+
+<p>Aquí te dejo un video del canal de YouTube Historiados: <a class="boton-negro-verde-post" target="_blank" href="https://youtu.be/ttqI7EFW3Mk">Cifrado César</a></p>
+
+<p>Seguimos en el siguiente post. Hasta pronto.</p>
+
+:ET
