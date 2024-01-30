@@ -137,8 +137,8 @@ img {
 .post-redondea img {
   border-radius: 15px;
 }
-
-.center{//centrar el texto
+//centrar el texto
+.center{
   text-align: center;
 }
 
@@ -545,6 +545,46 @@ nav {
 
 // Suscribirse final
 
+//Otros dojos
+
+.otros{
+  padding-bottom: 2rem;
+}
+
+.otros-dojos{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  padding-bottom: 2rem;
+}
+
+@media (max-width: 600px){
+  .otros-dojos{
+    grid-template-columns: repeat(2,1fr);
+  }
+}
+
+.otros-dojos li{
+  list-style: none;
+  text-align: center;
+}
+
+.otros-dojos img{
+  width: 60px;
+  height: 60px;
+}
+
+.enlace-dojo{
+  &:hover{
+    filter: drop-shadow(8px 8px 10px rgb(255, 255, 255));
+
+    @include mobile {
+      filter: none;
+    }
+  }
+}
+
+
+//Fin otros dojos
 
 .logo-trasplante{
   margin-bottom: 3rem;
