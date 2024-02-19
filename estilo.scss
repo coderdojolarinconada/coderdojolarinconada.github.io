@@ -128,7 +128,7 @@ img {
     justify-content: center;
 }
 
-// Redonear esquina de imágenes
+// Redondear esquina de imágenes
 .redondear{
   border-radius: 15px;
   padding: 1rem 0;
@@ -322,6 +322,57 @@ nav {
 }
 
 // Contenido de la página principal---------------------------------------
+
+//Contenido del anuncio del evento de CoderDojo España---------------------
+
+.evento{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+  margin: 3rem 0 0 0;
+
+  @include mobile {
+    grid-template-columns: 1fr;
+  }
+  
+}
+
+.anuncio{
+  border-radius: 15px;
+  display: block;
+  margin: auto;
+  max-height: 350px;
+}
+
+.texto-evento{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.texto-evento p {
+  text-align: justify;
+  padding-bottom: 5px;
+}
+
+.animo{
+  margin: 0 auto;
+  font-size: 1.5em;
+
+}
+
+.texto-evento a{
+  max-width: 50%;
+  margin: 0 auto;
+  border-radius: 10px;
+  text-align: center;
+  vertical-align: center;
+  padding: 5px;
+}
+
+
+//Fin de anuncio del evento-----------------------------------
+
 
 .imagen-inicio{
   position: relative;
@@ -566,7 +617,15 @@ nav {
 .otros-dojos li{
   list-style: none;
   text-align: center;
+  
 }
+
+@media (max-width: 600px){
+  .otros-dojos li{
+    padding-bottom: 1.5rem;
+  }
+}
+
 
 .otros-dojos img{
   width: 60px;

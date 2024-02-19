@@ -1,4 +1,4 @@
-I"!<h1 class="center">Nuestro Dojo</h1>
+I"<h1 class="center">Nuestro Dojo</h1>
 
 <div class="mentores">
         <div class="foto">
@@ -20,7 +20,7 @@
 <div class="mapago">
     <br />
     <p>¿Dónde realizamos nuestros eventos?</p>
-    <p><i class="fa-solid fa-book"></i><span class="texto-localizacion">Biblioteca CEIP Blanca de los Rios</span></p>
+    <p><i class="fa-solid fa-book"></i><span class="texto-localizacion">CEIP Blanca de los Rios</span></p>
     <br />
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1410.1434470222657!2d-5.940975622447609!3d37.492232992743155!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd12427e20eb8c15%3A0xc2a9446c260bb422!2sCoderDojo%20La%20Rinconada!5e0!3m2!1ses!2ses!4v1635583885893!5m2!1ses!2ses" width="540" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
 </div>
