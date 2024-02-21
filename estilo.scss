@@ -801,7 +801,7 @@ h2{
 
 .grid{
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 25px;
 
   @include mobile{
@@ -850,6 +850,23 @@ h2{
       grid-template-columns: 1fr;
       margin-top: 20px;
     }
+}
+
+.galeria-arduino{                    
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 60%;
+  justify-content: space-around;
+  align-content: space-between;
+
+  @media screen {
+    
+  }
+
+  @include mobile {
+    grid-template-columns: 1fr;
+    margin-top: 20px;
+  }
 }
 
 .galeria a{
@@ -1109,6 +1126,10 @@ iframe {
 
 img{
     max-width: 100%;
+}
+
+.imagen-mr {
+  max-height: 100px;
 }
 
 .container-all{

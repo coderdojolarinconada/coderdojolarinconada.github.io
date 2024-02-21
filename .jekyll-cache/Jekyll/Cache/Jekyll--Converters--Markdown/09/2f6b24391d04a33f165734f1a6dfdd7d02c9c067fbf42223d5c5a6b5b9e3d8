@@ -1,4 +1,4 @@
-I"%<h1 class="center">Recursos para aprender</h1>
+I"õ	<h1 class="center">Recursos para aprender</h1>
 
 <div class="container-menu-recursos">
     <div class="grid">
@@ -6,7 +6,7 @@
             <a href="/recursos/scratch">
                 <div class="card">
                     <div class="imagen-card">
-                        <img src="/images/scratch.svg" alt="Logo de Scratch" />
+                        <img class="imagen-mr" src="/images/scratch.svg" alt="Logo de Scratch" />
                     </div>
                     <div class="titulo-card">
                         <h3>Scratch</h3>
@@ -18,10 +18,22 @@
             <a href="/recursos/android">
                 <div class="card">
                     <div class="imagen-card">
-                        <img class="redondear" src="/images/android.png" alt="Logo de android" />
+                        <img class="imagen-mr" src="/images/android.png" alt="Logo de android" />
                     </div>
                     <div class="titulo-card">
                         <h3>Android</h3>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="arduino">
+            <a href="/recursos/arduino">
+                <div class="card">
+                    <div class="imagen-card">
+                        <img class="imagen-mr" src="/images/arduino.png" alt="Logo de Arduino" />
+                    </div>
+                    <div class="titulo-card">
+                        <h3>Arduino</h3>
                     </div>
                 </div>
             </a>
