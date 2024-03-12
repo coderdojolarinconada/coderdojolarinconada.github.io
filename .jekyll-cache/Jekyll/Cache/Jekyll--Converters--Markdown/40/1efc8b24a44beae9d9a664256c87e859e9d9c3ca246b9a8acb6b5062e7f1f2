@@ -1,4 +1,4 @@
-I"h<h1 class="center">Para estar al día</h1>
+I"�i<h1 class="center">Para estar al día</h1>
 
 <div class="posicion-calendar">
     <div class="anyos">
@@ -7,6 +7,18 @@
 </div>
 
 <div class="posts container">
+ <!--site.posts-->
+<article class="post">
+
+<h2><a href="/robot_otto_diy/">Robot Otto Diy</a></h2>
+
+<div class="entry">
+<p>Hola a todos, hoy hablaremos sobre el <strong>robot Otto Diy, robot modular open source</strong> que puedes <strong>imprimir, ensamblar, programar y diseñar</strong>.</p>
+
+</div>
+
+<a href="/robot_otto_diy/" class="read-more">Sigue leyendo</a>
+</article>
  <!--site.posts-->
 <article class="post">
 

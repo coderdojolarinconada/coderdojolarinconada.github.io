@@ -1,0 +1,32 @@
+I"�
+<p>Hola a todos, hoy hablaremos sobre el <strong>robot Otto Diy, robot modular open source</strong> que puedes <strong>imprimir, ensamblar, programar y diseñar</strong>.</p>
+
+<p>Otto DIY es un proyecto de código abierto nacido en el año 2016, iniciado por el ingeniero de diseño Camilo Parra que usa componentes electrónicos compatibles con Arduino. Tienes disponible el código fuente, piezas impresas en 3D que puedes imprimir tu mismo en una impresora 3D, planos y manuales de instrucciones,todo gratuito y disponible para cualquiera.</p>
+
+<p>Otto DIY tiene diferentes kits y modelos que le permiten hacer diferentes cosas, como caminar, bailar, evitar obstáculos, hacer sonidos, controlar a distancia y más.</p>
+
+<p>Para construir un Otto DIY, solo necesitas seguir las instrucciones y manuales que puedes encontrar en su página web. Para programar un Otto DIY, puedes usar un software de programación visual basado en bloques llamado Otto Blockly, que te permite crear código arrastrando y soltando piezas. También puedes usar el lenguaje de programación Arduino si quieres más opciones y flexibilidad.</p>
+
+<p>Otto DIY es una forma divertida y educativa de aprender sobre robótica, electrónica y programación. 🤖</p>
+
+<p><span class="post-redondea" style="display:block;text-align:center;margin: 40px 0px;"><img src="/images/otto.jpg" alt="otto" /></span></p>
+
+<h3 id="características">Características</h3>
+
+<ul>
+  <li><strong>Fácil de construir</strong>: Tiene instrucciones de montaje sencillas y guías para que puedas crear tu propio robot.</li>
+  <li><strong>Código fácil de programar</strong>: Te ofrece una programación rápida y sencilla.</li>
+  <li><strong>Diseño personalizado</strong>: Personaliza la apariencia y la funcionalidad según tus preferencias.</li>
+  <li><strong>Educación STEM</strong>: Aprende y domina las habilidades del futuro de manera divertida y educativa.</li>
+</ul>
+
+<p><br />
+Independientemente del lenguaje que elijas, la clave está en comprender cómo funcionan los componentes de Otto (como los motores servo, sensores y altavoces) y cómo interactúan con la placa controladora. ¡Diviértete experimentando con diferentes lenguajes y descubriendo nuevas formas de dar vida a Otto! 🤖✨</p>
+
+<p>Recuerda que también puedes usar la aplicación gratuita para smartphone para controlar sus movimientos, gestos y sonidos, ¡incluso crear coreografías de baile! La app está disponible tanto para los dos principales sistemas operativos móviles. ¡Diviértete explorando el mundo de la robótica con Otto!</p>
+
+<p><a class="boton-negro-verde-post" target="_blank" href="https://es.ottodiy.com/">Página web de Otto DIY</a></p>
+
+<p>Seguimos en el siguiente post. Hasta pronto.</p>
+
+:ET
