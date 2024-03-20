@@ -3,10 +3,10 @@ layout: post
 title: Makey Makey con Scratch
 categories: Makey Makey
 author: CoderDojo La Rinconada
-anyo : "2022"
+anyo : "2024"
 ---
 
-Hola a todos, siguiendo con nuestros eventos, hicimos un programa con Scratch e interactuamos con Makey Makey. Este consistía en comprobar el nivel del agua en una jarra de plástico. 
+Hola a todos, os dejamos un proyecto realizado con Makey Makey y Scratch. Este consiste en comprobar el nivel del agua en una jarra de plástico. 
 
 Se utilizaron los siguientes elementos:
 
