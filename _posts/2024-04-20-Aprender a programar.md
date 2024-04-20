@@ -1,0 +1,45 @@
+---
+layout: post
+title: Aprender a programar
+categories: programación
+author: CoderDojo La Rinconada
+anyo : "2024"
+---
+
+Existen teorías variadas sobre la bondad de la programación. Unas a favor de la enseñanza en la educación y otras en contra. Pero es cierto, que la programación, una habilidad que se presuponía reservada para expertos en tecnología, hoy se ha convertido en una capacidad esencial para nuestro futuro. Ya no es exclusiva de los ingenieros de software o programadores, ya que su aplicación abarca diversas áreas de la vida diaria. Aprender a programar no solo es útil para los que quieren estudiar una carrera tecnológica, sino que también ayuda a desarrollar habilidades como la resolución de problemas, la creatividad y la comprensión del mundo digital. 
+
+
+<span style="display:block;text-align:center;max-width:50%; margin: 10px auto">![aprender]</span>
+
+Aquí hay algunas razones para aprender a programar:
+
+### 1. **Resolución de Problemas:**
+La programación es la habilidad para resolver problemas de manera lógica y ordenada. Cuando aprendes a programar, obtienes la capacidad de descomponer problemas grandes y difíciles en partes más pequeñas y fáciles de realizar de manera individual. Esta capacidad es valiosa en cualquier campo o profesión, ya que la resolución de problemas es una habilidad muy esencial.
+
+### 2. **Creatividad:**
+La programación no solo son números y código, sino también es un medio creativo para expresar ideas y solucionar retos. Al escribir código, los programadores pueden crear aplicaciones, juegos, sitios web, etc. La programación es una forma de dar vida a la creatividad y convertir ideas en objetos reales.
+
+### 3. **Entender el Mundo Digital:**
+Vivimos en un mundo cada vez más digitalizado, donde la tecnología abarca todos los aspectos de nuestras vidas. Aprender a programar te permitirá una comprensión más completa de cómo funcionan las tecnologías que utilizamos a diario. Desde aplicaciones móviles hasta páginas web, comprender el código permite una mayor **alfabetización digital**.
+
+### 4. **Demanda y oportunidades laborales:**
+La demanda de habilidades en programación sigue creciendo en todo el mundo. Empresas de todos los sectores buscan profesionales con habilidades de programación para trabajos que van más allá del desarrollo de software. Desde la inteligencia artificial hasta el análisis de datos, la programación es una habilidad valiosa en una variedad amplia de campos profesionales.
+
+<span style="display:block;text-align:center;max-width:40%; margin: 10px auto">![profesiones]</span>
+
+### 5. **Innovación y Emprendimiento:**
+La programación permite a las personas convertir sus ideas en realidad. Aquellos que pueden programar tienen la capacidad de crear soluciones digitales para los retos actuales y futuros. Además, el conocimiento de la programación es básico para aquellos que desean dedicarse al mundo digital, y que proporciona las herramientas para desarrollar y mejorar productos y servicios.
+
+### Conclusión
+Como conclusión podemos decir que aprender a programar es más que adquirir una habilidad técnica; es una inversión en el desarrollo personal y profesional. La programación nos da la capacidad de abordar problemas de forma creativa, comprender el mundo digital que nos rodea y contribuir a innovar en diversos campos. Ya sea para avanzar en una carrera tecnológica, expresar nuestra creatividad o simplemente entender mejor la tecnología, aprender a programar es un viaje apasionante que vale la pena emprender. 
+
+<span class="programar">
+**¡No subestimes el poder transformador de la programación!**
+![darth]
+</span>
+
+
+
+[aprender]: /images/aprender.jpeg
+[profesiones]: /images/profesiones.jpeg
+[darth]: /images/darth.png

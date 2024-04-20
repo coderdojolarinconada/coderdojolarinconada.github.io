@@ -167,6 +167,16 @@ img {
   
  }
 
+ .programar{
+  display:flex; 
+  justify-content: center; 
+  align-items:center;
+  
+  @include mobile {
+    flex-direction: column;
+  }
+ }
+
 // Fixes images in popup boxes from Google Translate
 .gmnoprint img {
   max-width: none;
