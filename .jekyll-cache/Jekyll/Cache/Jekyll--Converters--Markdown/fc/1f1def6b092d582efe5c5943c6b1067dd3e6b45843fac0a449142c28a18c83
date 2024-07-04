@@ -1,4 +1,4 @@
-I"yn<h1 class="center">Para estar al día</h1>
+I"q<h1 class="center">Para estar al día</h1>
 
 <div class="posicion-calendar">
     <div class="anyos">
@@ -7,6 +7,18 @@
 </div>
 
 <div class="posts container">
+ <!--site.posts-->
+<article class="post">
+
+<h2><a href="/tech4ods/">Evento Tech4ODS</a></h2>
+
+<div class="entry">
+<p><a href="https://sites.google.com/bylinedu.es/tech4ods/inicio">Tech4ODS</a> es un evento educativo organizado por CoderDojo España. Su objetivo es fomentar la educación tecnológica entre niños y jóvenes, especialmente en el área de programación y robótica. Además, busca dar visibilidad al trabajo realizado por CoderDojo tanto en España como en el resto del mundo ¡Una iniciativa fantástica para inspirar a las mentes jóvenes! 🌟🤖️</p>
+
+</div>
+
+<a href="/tech4ods/" class="read-more">Sigue leyendo</a>
+</article>
  <!--site.posts-->
 <article class="post">
 
