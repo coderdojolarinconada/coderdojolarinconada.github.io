@@ -20,7 +20,7 @@ permalink: /reservar/
 <div id="eventos">
 <h3>Próximo evento programado</h3>
 </div>
-<span style="display:block;text-align:center;margin-bottom:10px">Apúntate. Reserva tu plaza a través de la plataforma de <a class="boton-negro-verde" href="https://zen.coderdojo.com/dojos/es/san-jose-de-la-rinconada/la-rinconada-sevilla" target="blank">CoderDojo</a>.</span>
+<span style="display:block;text-align:center;margin-bottom:10px">Apúntate. Reserva tu plaza a través de la plataforma de <a class="boton-negro-verde" href="https://codeclub.org/en/clubs/0400d873-d066-4f6a-ae81-7a44ae1090ae" target="blank">CodeClub</a>.</span>
 <p class="problemas">¿Tienes problemas? Mándanos un correo electrónico.</p>
 <span class="imagen-sobre">[![imagen_de_sobre_azul]](mailto:coderdojolarinconada@gmail.com)</span>
 
@@ -38,7 +38,7 @@ Requisitos:
 <br><br><br>
 
 
-<!--Reserva tu plaza [aquí](https://zen.coderdojo.com/dojos/es/san-jose-de-la-rinconada/la-rinconada-sevilla)-->
+<!--Reserva tu plaza [aquí](https://codeclub.org/en/clubs/0400d873-d066-4f6a-ae81-7a44ae1090ae)-->
 
 
 [Twitter]:https://twitter.com/dojolarinconada
