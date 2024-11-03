@@ -1,19 +1,19 @@
-I"|<h1 class="center">Nuestro Dojo</h1>
+I"<h1 class="center">Nuestro Dojo</h1>
 
 <div class="mentores">
         <div class="foto">
                 <img src="/images/andres.jpg" alt="Andrés Ramos" />
-                <div class="desc"><p>Andrés Ramos</p> Desarrollo de aplicaciones web</div>
+                <div class="desc"><p>Andrés Ramos</p> Desarrollo de Aplicaciones Web</div>
         </div>
         <div class="foto">
                 <img src="/images/manuel.jpg" alt="Manuel Aguirre" />
-                <div class="desc"><p>Manuel Aguirre</p> Ingeniería Informática</div>
+                <div class="desc"><p>Manuel Aguirre</p> Aplic. Multiplataformas y Redes</div>
         </div>
 </div>
 
 <p> </p>
 
-<p>CoderDojo La Rinconada empezó su andadura en abril de 2019, estando incluidos en la comunidad de clubes que forman parte de la Fundación <a href="https://coderdojo.com/es-ES">CoderDojo</a> y de la Asociación <a href="http://www.coderdojo.es/">CoderDojo España</a>.</p>
+<p>CoderDojo La Rinconada empezó su andadura en abril de 2019, estando incluidos en la comunidad de clubes que forman parte de la Fundación <a href="https://codeclub.org/en/">CodeClub</a> y de la Asociación <a href="http://www.coderdojo.es/">CoderDojo España</a>.</p>
 
 <p>Posteriormente se crea la Asociación Diverytec, donde está incluido CoderDojo La Rinconada.</p>
 

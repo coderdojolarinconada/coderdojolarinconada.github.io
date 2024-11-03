@@ -616,6 +616,7 @@ nav {
   display: grid;
   grid-template-columns: repeat(4,1fr);
   padding-bottom: 2rem;
+  gap: 2rem;
 }
 
 @media (max-width: 600px){
@@ -655,8 +656,20 @@ nav {
 
 //Fin otros dojos
 
-.logo-trasplante{
+.logo-colabora{
   margin-bottom: 3rem;
+}
+
+.entidades{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 3rem;
+
+  @include mobile{
+    grid-template-columns: 1fr;
+    gap: 0
+  }
 }
 
 .imagen-corazon{
@@ -664,6 +677,30 @@ nav {
   width: auto;
   max-height: 150px;
   margin: auto;
+
+  @include mobile{
+    margin: 2rem auto;
+  }
+
+  &:hover{
+    filter: drop-shadow(8px 8px 10px rgb(255, 255, 255));
+
+    @include mobile {
+      filter: none;
+    }
+  }
+  
+}
+
+.imagen-msinfo{
+  display: block;
+  width: auto;
+  max-height: 100px;
+  margin: auto ;
+
+  @include mobile{
+    margin: 2rem auto;
+  }
 
   &:hover{
     filter: drop-shadow(8px 8px 10px rgb(255, 255, 255));
