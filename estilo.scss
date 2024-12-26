@@ -16,14 +16,22 @@
   //$imagenInicio: "images/centralN.webp";
   // $imagenInicio: "images/centralN_navidad.webp";
   // $imagenInicio: "images/central_navidad_mesa.jpg";
-  $imagenInicio: "images/navidad_central.jpeg";
+  //$imagenInicio: "images/navidad_central.jpeg";
   // $imagenInicio: "images/centralR.webp";
+  $imagenInicio: "images/central25B.png";
+
 
 // Syntax highlighting @import is at the bottom of this file
 
 /**************/
 /* BASE RULES */
 /**************/
+
+
+code{
+  color: black;
+}
+
 
 html {
   font-size: 100%;
