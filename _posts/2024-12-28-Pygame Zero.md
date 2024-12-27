@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ¿Qué es Pygame Zero?
+title: Pygame Zero(I)
 categories: lenguajes de programación
 author: CoderDojo La Rinconada
 anyo : "2025"
