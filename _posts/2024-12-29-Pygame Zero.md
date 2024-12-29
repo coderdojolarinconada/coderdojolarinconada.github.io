@@ -3,7 +3,7 @@ layout: post
 title: Pygame Zero(I)
 categories: lenguajes de programación
 author: CoderDojo La Rinconada
-anyo : "2025"
+anyo : "2024"
 ---
 
 
