@@ -1,4 +1,4 @@
-I"�<h1 class="titulo">Listado de posts por año</h1>
+I"�<h1 class="titulo">Listado de posts por año</h1>
 
 <!-- <a class="boton-negro-verde" href="/noticias/" alt="Enlace para volver al blog">Volver al blog</a> -->
 <!-- Año actual -->
@@ -6,9 +6,124 @@
 <!-- diferentes post por años -->
 <div class="listado container">
  
+  <h3>Año 2025:</h3>
+  <ul>
+  
+   
+  
+   
+  
+   
+  
+   
+  
+   
+  
+   
+  
+   
+  
+   
+  
+   
+  
+   
+  
+   
+  
+   
+  
+   
+  
+   
+  
+   
+  
+   
+  
+   
+  
+   
+  
+   
+  
+   
+  
+   
+  
+   
+  
+   
+  
+   
+  
+   
+  
+   
+  
+   
+  
+   
+  
+   
+  
+   
+  
+   
+  
+   
+  
+   
+  
+   
+  
+   
+  
+   
+  
+   
+  
+   
+  
+   
+  
+   
+  
+   
+  
+   
+  
+   
+  
+   
+  
+   
+  
+   
+  
+   
+  
+   
+  
+   
+  
+   
+  
+   
+  
+   
+  
+   
+  
+   
+  
+ </ul>
+ 
   <h3>Año 2024:</h3>
   <ul>
   
+   
+    <li><a href="/Pygame-Zero/">Pygame Zero(I)</a></li>
    
   
    
