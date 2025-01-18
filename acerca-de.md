@@ -11,9 +11,7 @@ permalink: /about/
 
 &nbsp;
 
-CoderDojo La Rinconada empezó su andadura en abril de 2019, estando incluidos en la comunidad de clubes que forman parte de la Fundación [CodeClub](https://codeclub.org/en/) y de la Asociación [CoderDojo España](http://www.coderdojo.es/).
-
-Posteriormente se crea la Asociación Diverytec, donde está incluido CoderDojo La Rinconada.
+CoderDojo La Rinconada, perteneciente a la [ASOCIACIÓN DIVERYTEC](https://diverytec.github.io/), empezó su andadura en abril de 2019, estando además incluidos en la comunidad de clubes que forman parte de la [Fundación CodeClub](https://codeclub.org/en/) y de la Asociación [CoderDojo España](http://www.coderdojo.es/).
 
 
 Creemos en la oportunidad del acceso a los conocimientos de programación, de manera inclusiva y gratuita en un ambiente distendido, seguro y social para todos los niños, niñas y jóvenes .
