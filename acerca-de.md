@@ -1,17 +1,17 @@
 ---
 layout: page
-title: Nuestro Dojo. Sobre nosotros
+title: Nuestra Asociación. Sobre nosotros
 permalink: /about/
 ---
 
 
-<h1 class="center">Nuestro Dojo</h1>
+<h1 class="center">Somos <a href="https://diverytec.github.io/" target="__blank">Diverytec</a></h1>
 
 {% include fotos.html %}
 
 &nbsp;
 
-CoderDojo La Rinconada, perteneciente a la [ASOCIACIÓN DIVERYTEC](https://diverytec.github.io/), empezó su andadura en abril de 2019, estando además incluidos en la comunidad de clubes que forman parte de la [Fundación CodeClub](https://codeclub.org/en/) y de la Asociación [CoderDojo España](http://www.coderdojo.es/).
+CoderDojo La Rinconada, uno de los pilares de la [ASOCIACIÓN DIVERYTEC](https://diverytec.github.io/), empezó su andadura en abril de 2019, el cuál pertenece a la comunidad de clubes que forman parte de la [Fundación CodeClub](https://codeclub.org/en/) repartidos por todo el mundo y a la Asociación [CoderDojo España](http://www.coderdojo.es/).
 
 
 Creemos en la oportunidad del acceso a los conocimientos de programación, de manera inclusiva y gratuita en un ambiente distendido, seguro y social para todos los niños, niñas y jóvenes .
