@@ -23,7 +23,6 @@ Crear la ventana del juego. Define el tamaño de la ventana y el título. Por ej
 ~~~
 
 WIDTH = 800
-
 HEIGHT = 600
 
 TITLE = "Mi Primer Juego"
@@ -81,23 +80,23 @@ Aquí tienes un ejemplo de cómo podríamos hacer que un personaje se mueva con 
 ~~~
 import pgzrun
 
-WIDTH = 800\
+WIDTH = 800
 HEIGHT = 600
 
-#Creamos un actor (nuestro personaje). Así comienzan las líneas de comentarios “#”
-#Imagen jugador.png, guardada en “images”, carpeta creada dentro de la carpeta 
+#Creamos un actor (nuestro personaje). Así comienzan las líneas de comentarios #
+#Imagen jugador.png, guardada en images, carpeta creada dentro de la carpeta 
 #del juego
 player = Actor("jugador")
 
 
-player.pos = 100, 100 # oposición inicial del jugador
+player.pos = 100, 100  # oposición inicial del jugador
 
-def update(): # función que actualiza nuestro tablero de juego 60 veces por segundo.
+def update():  # función que actualiza nuestro tablero de juego 60 veces por segundo.
     if keyboard.left:
-        player.x -= 4 # es lo mismo que player.x = player.x - 4
+        player.x -= 4  # es lo mismo que player.x = player.x - 4
     if keyboard.right:
-       player.x += 4
-   if keyboard.up:
+        player.x += 4
+    if keyboard.up:
         player.y -= 4
     if keyboard.down:
         player.y += 4
