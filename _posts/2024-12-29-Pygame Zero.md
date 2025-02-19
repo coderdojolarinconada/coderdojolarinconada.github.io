@@ -86,9 +86,8 @@ HEIGHT = 600
 #Creamos un actor (nuestro personaje). Así comienzan las líneas de comentarios #
 #Imagen jugador.png, guardada en images, carpeta creada dentro de la carpeta 
 #del juego
+
 player = Actor("jugador")
-
-
 player.pos = 100, 100  # oposición inicial del jugador
 
 def update():  # función que actualiza nuestro tablero de juego 60 veces por segundo.
