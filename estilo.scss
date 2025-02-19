@@ -8,7 +8,7 @@
 @forward "reset";
 @forward "svg-icons";
 @forward "highlights";
-@use'../_sass/variables' as v;
+@use '../_sass/variables' as v;
 
 
 // Imagen de inicio
@@ -38,7 +38,7 @@ html {
 }
 
 body {
-  background: v.$fondo;
+  background: #273E77;
   font: 18px/1.4 v.$helvetica;
   color: v.$letra;
 }
