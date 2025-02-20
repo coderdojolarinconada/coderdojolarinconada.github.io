@@ -6,11 +6,11 @@
 //
 
 
-@forward "reset";
+@import "reset";
 
-@forward "highlights";
+@import "highlights";
 
-@forward "svg-icons";
+@import "svg-icons";
 
 @import "variables";
 
