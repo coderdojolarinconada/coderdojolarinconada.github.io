@@ -7,7 +7,6 @@
 
 
 @import "reset";
-@import "variables";
 
 
 
@@ -38,9 +37,9 @@ html {
 }
 
 body {
-  background: $fondo;
-  font: 18px/1.4 $helvetica;
-  color: $letra;
+  background: #273E77;
+  font: 18px/1.4 Helvetica, Arial, sans-serif;
+  color: #BFE685;
 }
 
 .container {
@@ -51,8 +50,8 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $helveticaNeue;
-  color: $letra;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #BFE685;
   font-weight: bold;
 
   line-height: 1.7;
@@ -67,7 +66,7 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   font-size: 30px;
   a {
-    color: $enlaces;
+    color: #D4FF94;
   }
 }
 
@@ -81,7 +80,7 @@ h3 {
 
 h4 {
   font-size: 18px;
-  color: $letra;
+  color: #BFE685;
 }
 
 p {
@@ -89,11 +88,11 @@ p {
 }
 
 a {
-  color: $enlaces;
+  color: #D4FF94;
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
-    color: $hover;
+    color: #C0EEF2;
   }
 }
 
@@ -152,25 +151,25 @@ img {
 
 // Botones tipo
 .boton-negro-verde{ 
- background-color: $letra;
+ background-color: #BFE685;
  color: #000000;
  padding: 5px;
  border-radius: 10px;
  &:hover{
    background-color: #000000;
-   color: $letra;
+   color: #BFE685;
  }
  
 }
 
 .boton-negro-verde-post{ 
-  background-color: $letra;
+  background-color: #BFE685;
   color: #000000;
   padding: 2px 2px 0 2px;
   border-radius: 5px;
   &:hover{
     background-color: #000000;
-    color: $letra;
+    color: #BFE685;
   }
   
  }
@@ -192,17 +191,17 @@ img {
 
 .date {
   font-style: italic;
-  color: $letra;
+  color: #BFE685;
 }
 
 // Specify the color of the selection
 ::-moz-selection {
-  color: $black;
-  background: $lightGray;
+  color: #000000;
+  background: #eee;
 }
 ::selection {
-  color: $black;
-  background: $lightGray;
+  color: #000000;
+  background: #eee;
 }
 
 // Nicolas Gallagher's micro clearfix hack
@@ -226,7 +225,7 @@ img {
 //
 
 .cabecera {
-  background-color: $fondoHeadFooter;
+  background-color: #181823;
   padding: 2rem;
   height: auto;
   display: flex;
@@ -309,11 +308,11 @@ nav {
   display: none;
   justify-content:center;
   align-items: center;
-  font-family: $helveticaNeue;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 18px;
   
   a {
-    color: $enlaces;
+    color: #D4FF94;
     font-weight: 900;
     text-align: right;
     letter-spacing: 1px;
@@ -321,11 +320,11 @@ nav {
   }
 
   a.active{
-    border-bottom: 2px solid $enlaces;
+    border-bottom: 2px solid #D4FF94;
   }
 
   a:hover{
-    color: $hover;
+    color: #C0EEF2;
   } 
 
   
@@ -403,7 +402,7 @@ nav {
 
 .frase{
   position: absolute;
-  color: $enlaces;
+  color: #D4FF94;
   font-size: 3rem;
   //left: 80px;
   top: 10%;
@@ -803,7 +802,7 @@ nav {
 // Página reservar -------------------------------------------------------
 
 .problemas{
-  text-align: $centrado;
+  text-align: center;
   margin-bottom: 2rem;
 }
 
@@ -959,7 +958,7 @@ iframe {
 
 .posts > .post {
   padding-bottom: 2em;
-  border-bottom: 1px solid $lightGray;
+  border-bottom: 1px solid #eee;
 }
 
 .posts > .post:last-child {
@@ -970,9 +969,9 @@ iframe {
 .post {
   blockquote {
     margin: 1.8em .8em;
-    border-left: 2px solid $gray;
+    border-left: 2px solid #666;
     padding: 0.1em 1em;
-    color: $gray;
+    color: #666;
     font-size: 22px;
     font-style: italic;
   }
@@ -1004,8 +1003,8 @@ iframe {
   
   width: 100%;
   height: auto;
-  background-color: $fondoHeadFooter;
-  color: $white;
+  background-color: #181823;
+  color: #fff;
 }
 
 .icon {
@@ -1032,7 +1031,7 @@ iframe {
 
 
 .grande{
-  color: $letra;
+  color: #BFE685;
   padding-left: 15px;
   padding-bottom: 20px;
 
@@ -1042,7 +1041,7 @@ iframe {
 }
 
 .politica{
-  color: $letra;
+  color: #BFE685;
   padding-right: 15px;
   padding-bottom: 20px;
 
@@ -1051,7 +1050,7 @@ iframe {
   }
 
   a{
-    background-color: $blue;
+    background-color: #4183C4;
     padding: 10px;
     border-radius: 15px;
   }
@@ -1149,7 +1148,7 @@ iframe {
 }
 
 #canal {
-    color: $enlaces;
+    color: #D4FF94;
 }
 
 
@@ -1361,13 +1360,13 @@ input[id="5"]:checked ~ .pagination .pagination-item[for="5"]{
 }
 
 .contenido-cookie a {
-  color: $fondo;
+  color: #273E77;
 
 }
 
 #cajacookies button {
-  color: $letra;
-  background-color: $fondo;
+  color: #BFE685;
+  background-color: #273E77;
   border-radius: 10px;
 }
 
@@ -1389,5 +1388,13 @@ input[id="5"]:checked ~ .pagination .pagination-item[for="5"]{
     &:hover{
       filter: drop-shadow(8px 8px 10px rgb(255, 255, 255));
     }
+  }
+}
+
+
+// Mobile breakpoints
+@mixin mobile {
+  @media screen and (max-width: 640px) {
+    @content;
   }
 }
