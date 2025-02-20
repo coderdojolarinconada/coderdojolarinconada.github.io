@@ -6,8 +6,13 @@
 //
 
 
-@import "reset";
-@import "variables";
+@forward "reset";
+
+@forward "highlights";
+
+@forward "svg-icons";
+
+@use "_sass/variables";
 
 
 // Imagen de inicio
@@ -58,7 +63,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 1em 0 15px;
   padding: 0;
 
-  @include mobile {
+  @include variables.mobile {
     line-height: 1.4;
   }
 }
@@ -179,7 +184,7 @@ img {
   justify-content: center; 
   align-items:center;
   
-  @include mobile {
+  @include variables.mobile {
     flex-direction: column;
   }
  }
@@ -348,7 +353,7 @@ nav {
   gap: 25px;
   margin: 3rem 0 0 0;
 
-  @include mobile {
+  @include variables.mobile {
     grid-template-columns: 1fr;
   }
   
@@ -411,7 +416,7 @@ nav {
   bottom: 0;
   margin: auto;
 
-  @include mobile {
+  @include variables.mobile {
     left: 0;
   }
 }
@@ -423,7 +428,7 @@ nav {
   grid-template-columns: 1fr 1fr;
   gap: 15px;
 
-  @include mobile {
+  @include variables.mobile {
     grid-template-columns: 1fr;
   }
 }
@@ -507,7 +512,7 @@ nav {
   grid-template-columns: 1fr 1fr;
   gap: 15px;
 
-  @include mobile{
+  @include variables.mobile{
     grid-template-columns: 1fr;
   }
 }
@@ -557,7 +562,7 @@ nav {
   &:hover{
     filter: drop-shadow(8px 8px 10px rgb(255, 255, 255));
 
-    @include mobile {
+    @include variables.mobile {
       filter: none;
     }
   }
@@ -577,7 +582,7 @@ nav {
 .card:hover{
   filter: drop-shadow(8px 8px 10px rgb(255, 255, 255));
 
-  @include mobile{
+  @include variables.mobile{
     filter:none;
   }
 }
@@ -593,7 +598,7 @@ nav {
 }
 
 .recursos a{
-  @include mobile{
+  @include variables.mobile{
     padding: 0 2px;
   }
 }
@@ -654,7 +659,7 @@ nav {
   &:hover{
     filter: drop-shadow(8px 8px 10px rgb(255, 255, 255));
 
-    @include mobile {
+    @include variables.mobile {
       filter: none;
     }
   }
@@ -673,7 +678,7 @@ nav {
   align-items: center;
   gap: 3rem;
 
-  @include mobile{
+  @include variables.mobile{
     grid-template-columns: 1fr;
     gap: 0
   }
@@ -685,14 +690,14 @@ nav {
   max-height: 150px;
   margin: auto;
 
-  @include mobile{
+  @include variables.mobile{
     margin: 2rem auto;
   }
 
   &:hover{
     filter: drop-shadow(8px 8px 10px rgb(255, 255, 255));
 
-    @include mobile {
+    @include variables.mobile {
       filter: none;
     }
   }
@@ -705,14 +710,14 @@ nav {
   max-height: 100px;
   margin: auto ;
 
-  @include mobile{
+  @include variables.mobile{
     margin: 2rem auto;
   }
 
   &:hover{
     filter: drop-shadow(8px 8px 10px rgb(255, 255, 255));
 
-    @include mobile {
+    @include variables.mobile {
       filter: none;
     }
   }
@@ -731,7 +736,7 @@ nav {
   grid-template-columns: repeat(3,1fr);
   gap: 20px;
 
-  @include mobile{
+  @include variables.mobile{
     grid-template-columns: 1fr;
   }
 }
@@ -745,7 +750,7 @@ nav {
   border-radius: 10px;
   overflow: hidden;
 
-  @include mobile{
+  @include variables.mobile{
     height: auto;
   }
 }
@@ -762,7 +767,7 @@ nav {
   
 
 
-  @include mobile{
+  @include variables.mobile{
     padding: 25px 5px 0 5px;
   }
 }
@@ -778,7 +783,7 @@ nav {
   grid-template-columns: 1fr 1fr;
   gap: 20px;
 
-  @include mobile{
+  @include variables.mobile{
     grid-template-columns: 1fr;
   }
 
@@ -858,7 +863,7 @@ h2{
   grid-template-columns: 1fr 1fr 1fr;
   gap: 25px;
 
-  @include mobile{
+  @include variables.mobile{
     grid-template-columns: 1fr;
   }
 }
@@ -900,7 +905,7 @@ h2{
       
     }
 
-    @include mobile {
+    @include variables.mobile {
       grid-template-columns: 1fr;
       margin-top: 20px;
     }
@@ -917,7 +922,7 @@ h2{
     
   }
 
-  @include mobile {
+  @include variables.mobile {
     grid-template-columns: 1fr;
     margin-top: 20px;
   }
@@ -942,7 +947,7 @@ h2{
 }
 
 iframe {
-	@include mobile {
+	@include variables.mobile {
         width: 250px;
 	height: auto;
     }
@@ -1024,7 +1029,7 @@ iframe {
   justify-content: space-between;
   align-items: center;
 
-  @include mobile{
+  @include variables.mobile{
     flex-direction: column;
   }
 }
@@ -1035,7 +1040,7 @@ iframe {
   padding-left: 15px;
   padding-bottom: 20px;
 
-  @include mobile{
+  @include variables.mobile{
     padding: 0;
   }
 }
@@ -1045,7 +1050,7 @@ iframe {
   padding-right: 15px;
   padding-bottom: 20px;
 
-  @include mobile{
+  @include variables.mobile{
     padding: 15px 0 3rem 0;
   }
 
@@ -1089,7 +1094,7 @@ iframe {
   text-align: center;
   vertical-align: baseline;
 
-  @include mobile {
+  @include variables.mobile {
     grid-template-columns: 1fr;
   }
 }
@@ -1128,7 +1133,7 @@ iframe {
     grid-gap: 15px;    
     padding-bottom: 50px;
 
-    @include mobile{
+    @include variables.mobile{
       grid-template-columns: 1fr;
     }
 }
@@ -1173,7 +1178,7 @@ iframe {
     font-size: 20px;
     font-weight: 800;
     
-    @include mobile {
+    @include variables.mobile {
       font-size: 10px;
     }
 }
@@ -1331,8 +1336,7 @@ input[id="5"]:checked ~ .pagination .pagination-item[for="5"]{
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
-@import "highlights";
-@import "svg-icons";
+
 
 
 // Cookies
