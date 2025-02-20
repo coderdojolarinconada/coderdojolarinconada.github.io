@@ -12,7 +12,7 @@
 
 @forward "svg-icons";
 
-@use "variables";
+@import "variables";
 
 
 // Imagen de inicio
@@ -63,7 +63,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 1em 0 15px;
   padding: 0;
 
-  @include variables.mobile {
+  @include mobile {
     line-height: 1.4;
   }
 }
@@ -184,7 +184,7 @@ img {
   justify-content: center; 
   align-items:center;
   
-  @include variables.mobile {
+  @include mobile {
     flex-direction: column;
   }
  }
@@ -353,7 +353,7 @@ nav {
   gap: 25px;
   margin: 3rem 0 0 0;
 
-  @include variables.mobile {
+  @include mobile {
     grid-template-columns: 1fr;
   }
   
@@ -416,7 +416,7 @@ nav {
   bottom: 0;
   margin: auto;
 
-  @include variables.mobile {
+  @include mobile {
     left: 0;
   }
 }
@@ -428,7 +428,7 @@ nav {
   grid-template-columns: 1fr 1fr;
   gap: 15px;
 
-  @include variables.mobile {
+  @include mobile {
     grid-template-columns: 1fr;
   }
 }
@@ -512,7 +512,7 @@ nav {
   grid-template-columns: 1fr 1fr;
   gap: 15px;
 
-  @include variables.mobile{
+  @include mobile{
     grid-template-columns: 1fr;
   }
 }
@@ -562,7 +562,7 @@ nav {
   &:hover{
     filter: drop-shadow(8px 8px 10px rgb(255, 255, 255));
 
-    @include variables.mobile {
+    @include mobile {
       filter: none;
     }
   }
@@ -582,7 +582,7 @@ nav {
 .card:hover{
   filter: drop-shadow(8px 8px 10px rgb(255, 255, 255));
 
-  @include variables.mobile{
+  @include mobile{
     filter:none;
   }
 }
@@ -598,7 +598,7 @@ nav {
 }
 
 .recursos a{
-  @include variables.mobile{
+  @include mobile{
     padding: 0 2px;
   }
 }
@@ -659,7 +659,7 @@ nav {
   &:hover{
     filter: drop-shadow(8px 8px 10px rgb(255, 255, 255));
 
-    @include variables.mobile {
+    @include mobile {
       filter: none;
     }
   }
@@ -678,7 +678,7 @@ nav {
   align-items: center;
   gap: 3rem;
 
-  @include variables.mobile{
+  @include mobile{
     grid-template-columns: 1fr;
     gap: 0
   }
@@ -690,14 +690,14 @@ nav {
   max-height: 150px;
   margin: auto;
 
-  @include variables.mobile{
+  @include mobile{
     margin: 2rem auto;
   }
 
   &:hover{
     filter: drop-shadow(8px 8px 10px rgb(255, 255, 255));
 
-    @include variables.mobile {
+    @include mobile {
       filter: none;
     }
   }
@@ -710,14 +710,14 @@ nav {
   max-height: 100px;
   margin: auto ;
 
-  @include variables.mobile{
+  @include mobile{
     margin: 2rem auto;
   }
 
   &:hover{
     filter: drop-shadow(8px 8px 10px rgb(255, 255, 255));
 
-    @include variables.mobile {
+    @include mobile {
       filter: none;
     }
   }
@@ -736,7 +736,7 @@ nav {
   grid-template-columns: repeat(3,1fr);
   gap: 20px;
 
-  @include variables.mobile{
+  @include mobile{
     grid-template-columns: 1fr;
   }
 }
@@ -750,7 +750,7 @@ nav {
   border-radius: 10px;
   overflow: hidden;
 
-  @include variables.mobile{
+  @include mobile{
     height: auto;
   }
 }
@@ -767,7 +767,7 @@ nav {
   
 
 
-  @include variables.mobile{
+  @include mobile{
     padding: 25px 5px 0 5px;
   }
 }
@@ -783,7 +783,7 @@ nav {
   grid-template-columns: 1fr 1fr;
   gap: 20px;
 
-  @include variables.mobile{
+  @include mobile{
     grid-template-columns: 1fr;
   }
 
@@ -863,7 +863,7 @@ h2{
   grid-template-columns: 1fr 1fr 1fr;
   gap: 25px;
 
-  @include variables.mobile{
+  @include mobile{
     grid-template-columns: 1fr;
   }
 }
@@ -905,7 +905,7 @@ h2{
       
     }
 
-    @include variables.mobile {
+    @include mobile {
       grid-template-columns: 1fr;
       margin-top: 20px;
     }
@@ -922,7 +922,7 @@ h2{
     
   }
 
-  @include variables.mobile {
+  @include mobile {
     grid-template-columns: 1fr;
     margin-top: 20px;
   }
@@ -947,7 +947,7 @@ h2{
 }
 
 iframe {
-	@include variables.mobile {
+	@include mobile {
         width: 250px;
 	height: auto;
     }
@@ -1029,7 +1029,7 @@ iframe {
   justify-content: space-between;
   align-items: center;
 
-  @include variables.mobile{
+  @include mobile{
     flex-direction: column;
   }
 }
@@ -1040,7 +1040,7 @@ iframe {
   padding-left: 15px;
   padding-bottom: 20px;
 
-  @include variables.mobile{
+  @include mobile{
     padding: 0;
   }
 }
@@ -1050,7 +1050,7 @@ iframe {
   padding-right: 15px;
   padding-bottom: 20px;
 
-  @include variables.mobile{
+  @include mobile{
     padding: 15px 0 3rem 0;
   }
 
@@ -1094,7 +1094,7 @@ iframe {
   text-align: center;
   vertical-align: baseline;
 
-  @include variables.mobile {
+  @include mobile {
     grid-template-columns: 1fr;
   }
 }
@@ -1133,7 +1133,7 @@ iframe {
     grid-gap: 15px;    
     padding-bottom: 50px;
 
-    @include variables.mobile{
+    @include mobile{
       grid-template-columns: 1fr;
     }
 }
@@ -1178,7 +1178,7 @@ iframe {
     font-size: 20px;
     font-weight: 800;
     
-    @include variables.mobile {
+    @include mobile {
       font-size: 10px;
     }
 }
