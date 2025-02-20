@@ -2,13 +2,13 @@
 ---
 
 //
-// forward
+// IMPORTS
 //
 
-@forward "reset";
-@forward "svg-icons";
-@forward "highlights";
-@use '../_sass/variables' as v;
+
+@import "reset";
+@import "variables";
+
 
 
 // Imagen de inicio
@@ -38,9 +38,9 @@ html {
 }
 
 body {
-  background: #273E77;
-  font: 18px/1.4 v.$helvetica;
-  color: v.$letra;
+  background: $fondo;
+  font: 18px/1.4 $helvetica;
+  color: $letra;
 }
 
 .container {
@@ -51,15 +51,15 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: v.$helveticaNeue;
-  color: v.$letra;
+  font-family: $helveticaNeue;
+  color: $letra;
   font-weight: bold;
 
   line-height: 1.7;
   margin: 1em 0 15px;
   padding: 0;
 
-  @include v.mobile {
+  @include mobile {
     line-height: 1.4;
   }
 }
@@ -67,7 +67,7 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   font-size: 30px;
   a {
-    color: v.$enlaces;
+    color: $enlaces;
   }
 }
 
@@ -81,7 +81,7 @@ h3 {
 
 h4 {
   font-size: 18px;
-  color: v.$letra;
+  color: $letra;
 }
 
 p {
@@ -89,11 +89,11 @@ p {
 }
 
 a {
-  color: v.$enlaces;
+  color: $enlaces;
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
-    color: v.$hover;
+    color: $hover;
   }
 }
 
@@ -152,25 +152,25 @@ img {
 
 // Botones tipo
 .boton-negro-verde{ 
- background-color: v.$letra;
+ background-color: $letra;
  color: #000000;
  padding: 5px;
  border-radius: 10px;
  &:hover{
    background-color: #000000;
-   color: v.$letra;
+   color: $letra;
  }
  
 }
 
 .boton-negro-verde-post{ 
-  background-color: v.$letra;
+  background-color: $letra;
   color: #000000;
   padding: 2px 2px 0 2px;
   border-radius: 5px;
   &:hover{
     background-color: #000000;
-    color: v.$letra;
+    color: $letra;
   }
   
  }
@@ -180,7 +180,7 @@ img {
   justify-content: center; 
   align-items:center;
   
-  @include v.mobile {
+  @include mobile {
     flex-direction: column;
   }
  }
@@ -192,17 +192,17 @@ img {
 
 .date {
   font-style: italic;
-  color: v.$letra;
+  color: $letra;
 }
 
 // Specify the color of the selection
 ::-moz-selection {
-  color: v.$black;
-  background: v.$lightGray;
+  color: $black;
+  background: $lightGray;
 }
 ::selection {
-  color: v.$black;
-  background: v.$lightGray;
+  color: $black;
+  background: $lightGray;
 }
 
 // Nicolas Gallagher's micro clearfix hack
@@ -226,7 +226,7 @@ img {
 //
 
 .cabecera {
-  background-color: v.$fondoHeadFooter;
+  background-color: $fondoHeadFooter;
   padding: 2rem;
   height: auto;
   display: flex;
@@ -309,11 +309,11 @@ nav {
   display: none;
   justify-content:center;
   align-items: center;
-  font-family: v.$helveticaNeue;
+  font-family: $helveticaNeue;
   font-size: 18px;
   
   a {
-    color: v.$enlaces;
+    color: $enlaces;
     font-weight: 900;
     text-align: right;
     letter-spacing: 1px;
@@ -321,11 +321,11 @@ nav {
   }
 
   a.active{
-    border-bottom: 2px solid v.$enlaces;
+    border-bottom: 2px solid $enlaces;
   }
 
   a:hover{
-    color: v.$hover;
+    color: $hover;
   } 
 
   
@@ -349,7 +349,7 @@ nav {
   gap: 25px;
   margin: 3rem 0 0 0;
 
-  @include v.mobile {
+  @include mobile {
     grid-template-columns: 1fr;
   }
   
@@ -403,7 +403,7 @@ nav {
 
 .frase{
   position: absolute;
-  color: v.$enlaces;
+  color: $enlaces;
   font-size: 3rem;
   //left: 80px;
   top: 10%;
@@ -412,7 +412,7 @@ nav {
   bottom: 0;
   margin: auto;
 
-  @include v.mobile {
+  @include mobile {
     left: 0;
   }
 }
@@ -424,7 +424,7 @@ nav {
   grid-template-columns: 1fr 1fr;
   gap: 15px;
 
-  @include v.mobile {
+  @include mobile {
     grid-template-columns: 1fr;
   }
 }
@@ -508,7 +508,7 @@ nav {
   grid-template-columns: 1fr 1fr;
   gap: 15px;
 
-  @include v.mobile{
+  @include mobile{
     grid-template-columns: 1fr;
   }
 }
@@ -558,7 +558,7 @@ nav {
   &:hover{
     filter: drop-shadow(8px 8px 10px rgb(255, 255, 255));
 
-    @include v.mobile {
+    @include mobile {
       filter: none;
     }
   }
@@ -578,7 +578,7 @@ nav {
 .card:hover{
   filter: drop-shadow(8px 8px 10px rgb(255, 255, 255));
 
-  @include v.mobile{
+  @include mobile{
     filter:none;
   }
 }
@@ -594,7 +594,7 @@ nav {
 }
 
 .recursos a{
-  @include v.mobile{
+  @include mobile{
     padding: 0 2px;
   }
 }
@@ -655,7 +655,7 @@ nav {
   &:hover{
     filter: drop-shadow(8px 8px 10px rgb(255, 255, 255));
 
-    @include v.mobile {
+    @include mobile {
       filter: none;
     }
   }
@@ -674,7 +674,7 @@ nav {
   align-items: center;
   gap: 3rem;
 
-  @include v.mobile{
+  @include mobile{
     grid-template-columns: 1fr;
     gap: 0
   }
@@ -686,14 +686,14 @@ nav {
   max-height: 150px;
   margin: auto;
 
-  @include v.mobile{
+  @include mobile{
     margin: 2rem auto;
   }
 
   &:hover{
     filter: drop-shadow(8px 8px 10px rgb(255, 255, 255));
 
-    @include v.mobile {
+    @include mobile {
       filter: none;
     }
   }
@@ -706,14 +706,14 @@ nav {
   max-height: 100px;
   margin: auto ;
 
-  @include v.mobile{
+  @include mobile{
     margin: 2rem auto;
   }
 
   &:hover{
     filter: drop-shadow(8px 8px 10px rgb(255, 255, 255));
 
-    @include v.mobile {
+    @include mobile {
       filter: none;
     }
   }
@@ -732,7 +732,7 @@ nav {
   grid-template-columns: repeat(3,1fr);
   gap: 20px;
 
-  @include v.mobile{
+  @include mobile{
     grid-template-columns: 1fr;
   }
 }
@@ -746,7 +746,7 @@ nav {
   border-radius: 10px;
   overflow: hidden;
 
-  @include v.mobile{
+  @include mobile{
     height: auto;
   }
 }
@@ -763,7 +763,7 @@ nav {
   
 
 
-  @include v.mobile{
+  @include mobile{
     padding: 25px 5px 0 5px;
   }
 }
@@ -779,7 +779,7 @@ nav {
   grid-template-columns: 1fr 1fr;
   gap: 20px;
 
-  @include v.mobile{
+  @include mobile{
     grid-template-columns: 1fr;
   }
 
@@ -803,7 +803,7 @@ nav {
 // Página reservar -------------------------------------------------------
 
 .problemas{
-  text-align: v.$centrado;
+  text-align: $centrado;
   margin-bottom: 2rem;
 }
 
@@ -859,7 +859,7 @@ h2{
   grid-template-columns: 1fr 1fr 1fr;
   gap: 25px;
 
-  @include v.mobile{
+  @include mobile{
     grid-template-columns: 1fr;
   }
 }
@@ -901,7 +901,7 @@ h2{
       
     }
 
-    @include v.mobile {
+    @include mobile {
       grid-template-columns: 1fr;
       margin-top: 20px;
     }
@@ -918,7 +918,7 @@ h2{
     
   }
 
-  @include v.mobile {
+  @include mobile {
     grid-template-columns: 1fr;
     margin-top: 20px;
   }
@@ -943,7 +943,7 @@ h2{
 }
 
 iframe {
-	@include v.mobile {
+	@include mobile {
         width: 250px;
 	height: auto;
     }
@@ -959,7 +959,7 @@ iframe {
 
 .posts > .post {
   padding-bottom: 2em;
-  border-bottom: 1px solid v.$lightGray;
+  border-bottom: 1px solid $lightGray;
 }
 
 .posts > .post:last-child {
@@ -970,9 +970,9 @@ iframe {
 .post {
   blockquote {
     margin: 1.8em .8em;
-    border-left: 2px solid v.$gray;
+    border-left: 2px solid $gray;
     padding: 0.1em 1em;
-    color: v.$gray;
+    color: $gray;
     font-size: 22px;
     font-style: italic;
   }
@@ -1004,8 +1004,8 @@ iframe {
   
   width: 100%;
   height: auto;
-  background-color: v.$fondoHeadFooter;
-  color: v.$white;
+  background-color: $fondoHeadFooter;
+  color: $white;
 }
 
 .icon {
@@ -1025,33 +1025,33 @@ iframe {
   justify-content: space-between;
   align-items: center;
 
-  @include v.mobile{
+  @include mobile{
     flex-direction: column;
   }
 }
 
 
 .grande{
-  color: v.$letra;
+  color: $letra;
   padding-left: 15px;
   padding-bottom: 20px;
 
-  @include v.mobile{
+  @include mobile{
     padding: 0;
   }
 }
 
 .politica{
-  color: v.$letra;
+  color: $letra;
   padding-right: 15px;
   padding-bottom: 20px;
 
-  @include v.mobile{
+  @include mobile{
     padding: 15px 0 3rem 0;
   }
 
   a{
-    background-color: v.$blue;
+    background-color: $blue;
     padding: 10px;
     border-radius: 15px;
   }
@@ -1090,7 +1090,7 @@ iframe {
   text-align: center;
   vertical-align: baseline;
 
-  @include v.mobile {
+  @include mobile {
     grid-template-columns: 1fr;
   }
 }
@@ -1129,7 +1129,7 @@ iframe {
     grid-gap: 15px;    
     padding-bottom: 50px;
 
-    @include v.mobile{
+    @include mobile{
       grid-template-columns: 1fr;
     }
 }
@@ -1149,7 +1149,7 @@ iframe {
 }
 
 #canal {
-    color: v.$enlaces;
+    color: $enlaces;
 }
 
 
@@ -1174,7 +1174,7 @@ iframe {
     font-size: 20px;
     font-weight: 800;
     
-    @include v.mobile {
+    @include mobile {
       font-size: 10px;
     }
 }
@@ -1329,6 +1329,13 @@ input[id="5"]:checked ~ .pagination .pagination-item[for="5"]{
     }
 }
 
+
+// Settled on moving the import of syntax highlighting to the bottom of the CSS
+// ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
+@import "highlights";
+@import "svg-icons";
+
+
 // Cookies
 
 #cajacookies{
@@ -1354,13 +1361,13 @@ input[id="5"]:checked ~ .pagination .pagination-item[for="5"]{
 }
 
 .contenido-cookie a {
-  color: v.$fondo;
+  color: $fondo;
 
 }
 
 #cajacookies button {
-  color: v.$letra;
-  background-color: v.$fondo;
+  color: $letra;
+  background-color: $fondo;
   border-radius: 10px;
 }
 
