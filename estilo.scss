@@ -7,7 +7,7 @@
 
 
 @import "reset";
-
+@import "variables";
 
 
 // Imagen de inicio
@@ -1388,13 +1388,5 @@ input[id="5"]:checked ~ .pagination .pagination-item[for="5"]{
     &:hover{
       filter: drop-shadow(8px 8px 10px rgb(255, 255, 255));
     }
-  }
-}
-
-
-// Mobile breakpoints
-@mixin mobile {
-  @media screen and (max-width: 640px) {
-    @content;
   }
 }
