@@ -1,0 +1,133 @@
+I"�<p>Estamos de vuelta y continúa la tercera parte de nuestro programa realizado con Pygame Zero. Introducirás nuevo código que evitará algunos errores de posición y nuevos objetos para la ejecución del juego.</p>
+
+<p>Para resumir :</p>
+<ul>
+  <li>Has creado una <strong>ventana</strong></li>
+  <li>También <strong>un jugador</strong></li>
+  <li>Posición y movimiento en la pantalla</li>
+  <li>Objeto que debes recolectar(<strong>moneda</strong>)</li>
+  <li>Una <strong>roca</strong> como enemigo de nuestro jugador</li>
+  <li>Colisión de la <strong>moneda</strong> con el <strong>jugador</strong> para su recolección</li>
+</ul>
+
+<p>Así queda nuestro código hasta ahora.</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>import pgzrun
+import random
+
+WIDTH = 800
+HEIGHT = 600
+
+#Creamos un actor (nuestro personaje). Así comienzan las líneas de comentarios #
+#Imagen jugador.png, guardada en images, carpeta creada dentro de la carpeta 
+#del juego
+
+player = Actor("jugador")
+player.pos = 100, 100  # posición inicial del jugador
+
+moneda = Actor("moneda")
+moneda.x = random.randint(0,800)
+moneda.y = random.randint(0,600)
+
+#variables
+puntos = 0
+
+def update():  # función que actualiza nuestro tablero de juego 60 veces por segundo.
+
+    global puntos
+    
+    # movimiento del jugador
+    if keyboard.left:
+        player.x -= 4  # es lo mismo que player.x = player.x - 4
+    if keyboard.right:
+        player.x += 4
+    if keyboard.up:
+        player.y -= 4
+    if keyboard.down:
+        player.y += 4
+        
+    # colisión del jugador con la moneda 
+    if player.colliderect(moneda):
+    moneda.x = random.randint(0,800)
+    moneda.y = random.randint(0,600)
+    puntos = puntos + 1 #  o lo que lo mismo "puntos +=1"
+
+def draw():
+    screen.fill("white")
+    screen.draw.text('Puntos: ' + str(puntos), (15,10), color=(0,0,0), fontsize=30)
+    player.draw()
+    moneda.draw()
+
+pgzrun.go()
+</code></pre></div></div>
+
+<p>Ahora seguiremos introduciendo cambios en nuestro código y objetos nuevos.</p>
+
+<p>El siguiente paso será evitar que nuestro personaje se salga del escenario de juego. Se va a añadir nuevas condiciones dobles dentro de la función update. Debes recordar que se ha creado una pantalla de juego de 800 de ancho por 600 de alto y que el punto con coordenada x=0 e y=0 está en la parte izquierda superior, por lo cuál, dentro del condicional que ejecuta el movimiento a la izquierda, deberás añadir una condición doble que será “<strong>True</strong>” cuando pulsemos la flecha izquierda y la posición del personaje sea mayor que 0 más al mitad del ancho del personaje. Vamos a ver el código.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>if keyboard.left:
+        player.x -= 4  # es lo mismo que player.x = player.x - 4
+</code></pre></div></div>
+
+<p>será modificado por lo siguiente:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>if keyboard.left and player.x &gt; 0 + player.width / 2:
+    player.x -= 4  # es lo mismo que player.x = player.x - 4
+</code></pre></div></div>
+
+<p>Observamos lo que estos cambios implican. Se incorpora el operador lógico “<strong>and</strong>” para que se cumplan ambas condiciones al mismo tiempo y no únicamente una. En otras palabras, debemos pulsar la flecha izquierda del teclado y además la posición en el <strong>eje x</strong> del jugador debe ser mayor que <strong>0</strong>, a la que hay que sumar la <strong>anchura</strong> del jugador <strong>dividida entre 2</strong>. Puedes quitar la segunda parte de la suma y verás qué pasa.¡¡Pruébalo!!</p>
+
+<p>Ahora será necesario realizarlo con el resto de condicionales, quedando como sigue:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>if keyboard.left and player.x &gt; 0 + player.width / 2:
+    player.x -= 4  # es lo mismo que player.x = player.x - 4
+if keyboard.right and player.x &lt; WIDTH - player.width / 2:
+    player.x += 4
+if keyboard.up and player.y &gt; 0 + player.height / 2:
+    player.y -= 4
+if keyboard.down and player.y &lt; HEIGHT - player.height / 2:
+    player.y += 4
+</code></pre></div></div>
+
+<p>Podrás ver que cuando mueves a tu jugador horizontalmente se tiene en cuenta la posición en “<strong>x</strong>” y la mitad de la anchura del jugador y al moverlo verticalmente se tiene en cuenta la posición en “<strong>y</strong>” del jugador sumando o restando su altura dividida entre 2. No hay que confundir <strong>player.width</strong> o <strong>player.height</strong> (anchura y altura del personaje) con <strong>WIDTH</strong> o <strong>HEIGHT</strong> (ancho y alto de la pantalla- 800 x 600). Puedes hacer pruebas eliminando la suma o resta a la posición del jugador.</p>
+
+<p>A continuación introducirás otro objeto en el juego. Este será el enemigo del jugador. La roca saldrá por la parte derecha de nuestra pantalla hasta la izquierda y volverá a salir de nuevo por la derecha en posiciones aleatoria en el eje y, es decir, verticalmente. Si colisiona con nuestro personaje perderemos puntos en la partida.</p>
+
+<p><span style="display:block;text-align:center;width:70%;margin:auto"> <img src="/images/pantallapygz.jpg" alt="pantallapygz" /></span></p>
+
+<p>Introducimos el código del objeto enemigo. En la parte superior, a conitnuación del apartado de variables.</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># enemigo
+roca = Actor("roca")
+roca.x = 790
+roca.y = random.randint(0 + roca.height / 2, 600 - roca.height / 2)
+</code></pre></div></div>
+
+<p>Para que aparezca en nuestra pantalla debemos dibujar el objeto dentro de la función “<strong>draw</strong>”, debajo del objeto moneda.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>def draw():
+    .......
+    moneda.draw()
+    roca.draw()
+</code></pre></div></div>
+
+<p>Y continuación le daremos movimiento. Introducimos un condicional al final de la función <strong>update</strong>.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>def update():
+    ......
+    if roca.x &gt; 0:
+        roca.x = roca.x-4
+    else:
+        roca.x = 790
+        roca.y = random.randint(0 + roca.height / 2, 600 - roca.height / 2)
+</code></pre></div></div>
+
+<p>Si la posición de roca.x es mayor que cero, debe seguir restando 4 pixeles a la posición en “<strong>x</strong>”, desplazándose hacia la izquierda de la pantalla. Si no es así, cambia la roca a la posición  <strong>x= 790</strong>(derecha de la pantalla) y la posición de “<strong>y</strong>” elige un número aleatorio entre <strong>0 más la mitad del alto</strong> de la roca y <strong>600 menos la mitad del alto</strong> de la roca. De esta forma, nunca tendremos parte de la roca fuera de la pantalla.</p>
+
+<p>Y por último,para terminar con el enemigo, inserta este código para la colisión de la roca con nuestro jugador, debajo del anterior.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>if player.colliderect(roca) and puntos &gt; 5:
+    puntos = puntos-5
+else:
+    puntos = 0
+</code></pre></div></div>
+
+:ET

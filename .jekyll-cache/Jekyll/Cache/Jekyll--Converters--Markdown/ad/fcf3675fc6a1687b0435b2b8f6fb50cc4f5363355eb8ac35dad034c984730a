@@ -1,0 +1,75 @@
+I"�
+<p>Estamos de vuelta y continúa la tercera parte de nuestro programa realizado con Pygame Zero. Introducirás nuevo código que evitará algunos errores de posición y introducirás sonidos y nuevos objetos para la ejecución del juego.</p>
+
+<p>Para resumir :</p>
+<ul>
+  <li>Has creado una <strong>ventana</strong></li>
+  <li>También <strong>un jugador</strong></li>
+  <li>Posición y movimiento en la pantalla</li>
+  <li>Objeto que debes recolectar(<strong>moneda</strong>)</li>
+  <li>Una <strong>roca</strong> como enemigo de nuestro jugador</li>
+  <li>Colisión de la <strong>moneda</strong> con el <strong>jugador</strong> para su recolección</li>
+</ul>
+
+<p>Así queda nuestro código hasta ahora.</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>import pgzrun
+import random
+
+WIDTH = 800
+HEIGHT = 600
+
+#Creamos un actor (nuestro personaje). Así comienzan las líneas de comentarios #
+#Imagen jugador.png, guardada en images, carpeta creada dentro de la carpeta 
+#del juego
+
+player = Actor("jugador")
+player.pos = 100, 100  # posición inicial del jugador
+
+moneda = Actor("moneda")
+moneda.x = random.randint(0,800)
+moneda.y = random.randint(0,600)
+#variable
+puntos = 0
+
+def update():  # función que actualiza nuestro tablero de juego 60 veces por segundo.
+
+    global puntos
+    
+    # movimiento del jugador
+    if keyboard.left:
+        player.x -= 4  # es lo mismo que player.x = player.x - 4
+    if keyboard.right:
+        player.x += 4
+    if keyboard.up:
+        player.y -= 4
+    if keyboard.down:
+        player.y += 4
+        
+    # colisión del jugador con la moneda 
+    if player.colliderect(moneda):
+    moneda.x = random.randint(0,800)
+    moneda.y = random.randint(0,600)
+    puntos = puntos + 1 #  o lo que lo mismo "puntos +=1"
+
+def draw():
+    screen.fill("white")
+    screen.draw.text('Puntos: ' + str(puntos), (15,10), color=(0,0,0), fontsize=30)
+    player.draw()
+    moneda.draw()
+
+pgzrun.go()
+</code></pre></div></div>
+
+<p>Ahora seguiremos introduciendo cambios en nuestro código y objetos nuevos.</p>
+
+<p>El siguiente paso será evitar que nuestro personaje se salga del escenario de juego. Se va a añadir nuevas condiciones dobles dentro de la función update. Debes recordar que se ha creado una pantalla de juego de 800 de ancho por 600 de alto y que el punto con coordenada x=0 e y=0 está en la parte izquierda superior, por lo cuál, dentro del condicional que ejecuta el movimiento a la izquierda, deberás añadir una condición doble que será “<strong>True</strong>” cuando pulsemos la flecha izquierda y la posición del personaje sea mayor que 0 más al mitad del ancho del personaje. Vamos a ver el código.</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>@#~½~~~</td>
+    </tr>
+  </tbody>
+</table>
+
+:ET

@@ -9,8 +9,10 @@
   overflow: scroll;
 }
 
-code {
+code{
   font-family:'Bitstream Vera Sans Mono','Courier', monospace;
+  font-size: medium;
+  width: 100vw;
 }
 
 .highlight .c { color: #586E75 } /* Comment */
