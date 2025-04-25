@@ -1,4 +1,4 @@
-I"�y<h1 class="center">Para estar al día</h1>
+I"Z}<h1 class="center">Para estar al día</h1>
 
 <div class="posicion-calendar">
     <div class="anyos">
@@ -10,14 +10,39 @@
  <!--site.posts-->
 <article class="post">
 
-<h2><a href="/Pygame-Zero-IV/">Pygame Zero(IV)</a></h2>
+<h2><a href="/El-algoritmo/">Los algoritmos</a></h2>
+
+<div class="entry">
+<p>Hola a todos, en esta publicación vamos a hablar sobre los algoritmos, que están presentes en muchas cosas que utilizamos todos los días.</p>
+
+</div>
+
+<a href="/El-algoritmo/" class="read-more">Sigue leyendo</a>
+</article>
+ <!--site.posts-->
+<article class="post">
+
+<h2><a href="/Bloques-personalizados/">Los bloques personalizados</a></h2>
+
+<div class="entry">
+<p>Hola a todos, en este post vamos a tratar los “<strong>bloques personalizados</strong>” o “<strong>mis bloques</strong>” en Scratch.
+Como introducción, mencionar que en programación existen los términos función, procedimiento y método. Estos tres términos son muy parecidos, e incluso se llegan a confundir a veces, pero tienen pequeñas diferencias.</p>
+
+</div>
+
+<a href="/Bloques-personalizados/" class="read-more">Sigue leyendo</a>
+</article>
+ <!--site.posts-->
+<article class="post">
+
+<h2><a href="/Pygame-Zero-IV-copy/">Pygame Zero(IV)</a></h2>
 
 <div class="entry">
 <p>Finalmente, hemos llegado a la última fase de nuestro proyecto desarrollado con Pygame Zero. En esta etapa, incorporarás un nuevo código que permitirá añadir un temporizador al juego, lo que significará que al finalizar el tiempo, el juego concluirá.</p>
 
 </div>
 
-<a href="/Pygame-Zero-IV/" class="read-more">Sigue leyendo</a>
+<a href="/Pygame-Zero-IV-copy/" class="read-more">Sigue leyendo</a>
 </article>
  <!--site.posts-->
 <article class="post">
