@@ -1,0 +1,172 @@
+I"4'<p>Finalmente, hemos llegado a la última fase de nuestro proyecto desarrollado con Pygame Zero. En esta etapa, incorporarás un nuevo código que permitirá añadir un temporizador al juego, lo que significará que al finalizar el tiempo, el juego concluirá.</p>
+
+<p>Establecerás una nueva variable para controlar el tiempo restante, y al colisionar con la roca, en lugar de perder puntos, el juego se detendrá. Además, se implementará un fondo para el escenario.</p>
+
+<p>Será necesario realizar algunas modificaciones en el código, pero no te preocupes, iremos abordándolo de manera gradual.</p>
+
+<p>A continuación, un breve resumen de lo que hicimos en el post anterior :</p>
+
+<ul>
+  <li>Se limitó el movimiento del jugador para evitar salir por los bordes del área de juego.</li>
+  <li>Dibujamos la roca y codificamos su movimiento.</li>
+  <li>Desarrolamos el patrón de movimiento de la roca.</li>
+  <li>Programamos la colisión de la roca con el jugador.</li>
+</ul>
+
+<p>Aunque el juego era funcional, presentaba un inconveniente: cuando la roca tocaba al jugador, seguía avanzando y restaba todos los pu ntos, sin importar lo conseguido hasta el momento. Para corregirlo, debemos modificar la posición al inicio, integrando el siguiente código dentro del bloque de colisión, tanto si se cumple la condición como si no.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>if player.colliderect(roca):
+    if puntos &gt; 5:
+        roca.x = 790
+        roca.y = random.randint(0 + roca.height / 2, 600 - roca.height / 2)
+        puntos -= 5
+
+    else:
+        roca.x = 790
+        roca.y = random.randint(0 + roca.height / 2, 600 - roca.height / 2)
+        puntos = 0
+</code></pre></div></div>
+
+<p>Con el fin de evitar escribir todo el código, el cual resulta extenso y ocupa bastante espacio en el artículo, puedes descargarlo desde <a href="https://drive.google.com/file/d/1sflss3de3PqV93lN61_JL81NtgXSmg7E/view?usp=drive_link">AQUÍ</a>. La corrección ya ha sido incorporada.</p>
+
+<p>El primer paso será establecer dos variables: una denominada tiempo y otra estado. En la sección superior del código, se encuentra el apartado de variables, donde añadiremos estas. La variable tiempo tendrá el valor de 20 segundos, mientras que la varible estado tendrá el valor booleano True, que indicará si hemos perdido o no.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># variables
+puntos = 0
+tiempo = 20
+estado = True # La primera en mayúscula
+</code></pre></div></div>
+
+<p>A continuación del apartado del enemigo, escribirás el código para el fondo del escenario. Puedes descargar la imagen <a href="https://drive.google.com/file/d/1KoogUp34bejDnbuw9QwpGynOpuCZ5a8A/view?usp=drive_link">AQUÍ<a>. Deberá ubicarse en la carpeta “images” del proyecto.</a></a></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#fondo
+fondo = Actor("fondo")
+</code></pre></div></div>
+
+<p>Para crear nuestro fondo, deberás eliminar la linea <strong>screen.fill(‘white’)</strong> y sustituirla por las siguientes al comenzar la función <strong>draw</strong>.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>def draw():
+    screen.clear()
+    fondo.draw()
+    .......
+</code></pre></div></div>
+
+<p>La primera línea borra todo el entorno para volver a crearlo cada vez que se invoque la función <strong>update</strong>, mientras que la segunda se encarga de dibujar el fondo.</p>
+
+<p>A continuación, procederemos a modificar el código para utilizar las nuevas variables. Para que la función <strong>update</strong> pueda acceder a esas variables que están definidas fuera de ella, será necesario declararlas como globales.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>def update():
+    global puntos, tiempo, estado
+</code></pre></div></div>
+
+<p>Ahora, todo el código, a excepción del que has modificado en el párrafo anterior, deberá estar incluido en un bloque condicional que comprobará el <strong>estado</strong> de nuestro juego. Además, añadirás otra condición dentro de esta para controlar si aún tenemos tiempo disponible.</p>
+
+<p>En el evento donde la roca colisiona con el jugador, también modificaremos el código para que el juego se acabe cuando la roca impacte contra nuestro personaje.</p>
+
+<p>El código quedará de la siguiente manera.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>def update():  # función que actualiza nuestro tablero de juego 60 veces por segundo.
+
+    global puntos, tiempo, estado
+
+    if estado: # es igual a True
+        tiempo -= 1 / 60 # recuerda que se actualiza 60 veces por segundo
+        if tiempo &lt;= 0: # no nos queda tiempo
+            estado = False # acaba el juego
+
+        # movimiento del jugador
+        if keyboard.left and player.x &gt; 0 + player.width / 2:
+            player.x -= 4  # es lo mismo que player.x = player.x - 4
+        if keyboard.right and player.x &lt; WIDTH - player.width / 2:
+            player.x += 4
+        if keyboard.up and player.y &gt; 0 + player.height / 2:
+            player.y -= 4
+        if keyboard.down and player.y &lt; HEIGHT - player.height / 2:
+            player.y += 4
+
+        # colisión del jugador con la moneda
+        if player.colliderect(moneda):
+            moneda.x = random.randint(0, 800)
+            moneda.y = random.randint(0, 600)
+            puntos += 1  # o lo que lo mismo "puntos = puntos + 1"
+
+        #movimiento de la roca
+        if roca.x &gt; 0:
+            roca.x -= 4
+        else:
+            roca.x = 790
+            roca.y = random.randint(0 + roca.height / 2, 600 - roca.height / 2)
+
+        # colisión de la roca con el jugador
+        if player.colliderect(roca):
+            estado = False # acaba el juego
+</code></pre></div></div>
+
+<p>Deberás realizar cambios en la función <strong>draw</strong> nuevamente. Será necesario controlar si el juego sigue activo o no para seguir realizando el dibujo del escenario y los objetos.
+Si está activo, seguirá el juego ejecutándose, de lo contrario, aparecerá un texto indicando que el juego ha terminado.</p>
+
+<p>Es necesario cambiar el color del texto a blanco para asegurar el contraste con el fondo, cambiando “color=(0,0,0)”-Negro- por “color=(255,255,255)” -Blanco-.</p>
+
+<p>Así queda la función <strong>draw</strong>.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>def draw():
+    screen.clear()
+    fondo.draw()
+    # str(puntos) debemos cambiar un número por un string(cadena de texto)
+    screen.draw.text(
+        "Puntos: " + str(puntos), (15, 10), color=(255, 255, 255), fontsize=30
+    )
+    # igual que la linea superior.
+    # pero en este caso transforma decimales en enteros
+    screen.draw.text(
+        "Tiempo: " + str(int(tiempo)), (680, 10), color=(255, 255, 255), fontsize=30
+    )
+    if estado:  # es igual a True
+        player.draw()
+        moneda.draw()
+        roca.draw()
+    else:  # es igual a False.\n son saltos de linea. + une varias cadenas
+        screen.draw.text(
+            "Juego terminado\n Has obtenido\n" + str(puntos) + " puntos",
+            center=(400, 300),
+            color=(255, 255, 255),
+            fontsize=50,
+        )
+</code></pre></div></div>
+
+<p>¿Complicado? Revisa el código y presta atención a las modificaciones que hemos estado realizando.</p>
+
+<p>Finalmente, incluiremos sonido que se activará cuando el jugador colisione con la moneda o con la roca. Para esto, debemos crear la carpeta “<strong>sounds</strong>” dentro del proyecto. Si estás utilizando el editor Mu, simplemente haz clic sobre el botón de la parte superior “<strong>sonidos</strong>” y se creará la carpeta automáticamente. En caso contrario, puedes crearla manualmente dentro de la carpeta del proyecto.</p>
+
+<p>Los archivos de sonido necesitan estar en formato wav. Si deseas utilizar otros tipos de sonidos, puedes convertirlos en algún sitio web dedicado a la conversión de audio en línea. En esa carpeta deberás insertar los sonidos que utilices. A continuación, encontrarás los enlaces para descargar los sonidos que se han utilizado.</p>
+
+<ul>
+  <li><a href="https://drive.google.com/file/d/1mQyN39erpEtz1W8FHdypw9W4jfQOnaBT/view?usp=sharing">sonido moneda</a></li>
+  <li><a href="https://drive.google.com/file/d/1iN-wHC-iySxVD9-prWe9aEjXZ71htn6j/view?usp=sharing">sonido roca</a></li>
+</ul>
+
+<p>Deberás insertar el siguiente código en <strong>update</strong>. Bajo la linea “puntos = puntos + 1”.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sounds.coin.play()
+</code></pre></div></div>
+
+<p>Bajo la linea “if player.colliderect(roca):” y antes de <strong>estado</strong>, lo siguiente.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sounds.roca.play()
+</code></pre></div></div>
+
+<p>Con esto, el juego ya está terminado. Puedes hacer las modificaciones que creas necesarias.</p>
+
+<p>Retos:</p>
+
+<ul>
+  <li>Incrementar la velocidad de la roca sumando al movimiento la cantidad de puntos dividido por 5.</li>
+  <li>Prolongar el tiempo ajustando el valor del temporizador en la variable <strong>tiempo</strong>.</li>
+  <li>Elevar la cantidad de puntos que se consiguen con la obtención de las monedas o por el tiempo que has permanecido en el juego.</li>
+  <li>Reducir la velocidad del jugador.</li>
+</ul>
+
+<p>¡¡¡PRUEBA!!! y si notas que no da resultados, siempre tienes la opción de obtener el archivo original <a href="https://drive.google.com/file/d/1NeZMU2aT4sbRTZLDgJ5A_aiENBx-MrL7/view?usp=sharing">AQUÍ.</a></p>
+
+<p>Espero que lo hayas disfrutado y nos vemos en el próximo.</p>
+:ET
