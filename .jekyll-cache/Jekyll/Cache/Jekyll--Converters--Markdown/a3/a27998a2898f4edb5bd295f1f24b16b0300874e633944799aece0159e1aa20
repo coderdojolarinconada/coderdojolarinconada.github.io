@@ -1,0 +1,80 @@
+I"<p>Hola a todos, en este post vamos a tratar los “<strong>bloques personalizados</strong>” o “<strong>mis bloques</strong>” en Scratch.
+Como introducción, mencionar que en programación existen los términos función, procedimiento y método. Estos tres términos son muy parecidos, e incluso se llegan a confundir a veces, pero tienen pequeñas diferencias.</p>
+
+<ul>
+  <li>
+    <p>Una función es un conjunto de instrucciones agrupadas en un bloque que realizan una tarea determinada y, generalmente, suele devolver un valor al ejecutarse. Este valor devuelto puede ser un número, una palabra u otro diferente. Por ejemplo, una función que realiza una suma de dos números y nos devuelve el resultado total.</p>
+  </li>
+  <li>
+    <p>Un procedimiento hace exactamente lo mismo, pero no devuelve ningún valor, solo se ejecuta. Por ejemplo, un procedimiento que al ejecutarse haga sonar un sonido.</p>
+  </li>
+  <li>
+    <p>Un método también realiza lo mismo que los dos anteriores, pero siempre relativo a un objeto concreto. Por ejemplo, el movimiento de saltar de un personaje determinado.</p>
+  </li>
+</ul>
+
+<p>Aunque el método puede ser igual que un procedimiento, el procedimiento sería para todos los personajes o para otros eventos y es independiente, mientras que el método está conectado a un personaje.</p>
+
+<p>Ahora que hemos visto las diferencias entre unos y otros, Scratch ha simplificado estas diferencias para facilitar el uso por los principiantes en la programación.</p>
+
+<p>¿Para qué se utilizan en Scratch?</p>
+
+<p>Para organizar mejor nuestro código, reutilizar ese código repetidamente y no tener la necesidad de reescribirlo cada vez que lo utilicemos. Los bloques son una herramienta muy útil para realizar proyectos más complejos</p>
+
+<p>¿Cómo se crean estos bloques personalizados?</p>
+
+<p>Es muy fácil:</p>
+
+<ul>
+  <li>Ve a la sección “Mis bloques” en Scratch.</li>
+  <li>Haz clic en “Crear un bloque”.</li>
+  <li>Dale un nombre a tu bloque personalizado.</li>
+  <li>Arrastra los bloques que quieras introducir en su interior.</li>
+  <li>Y listo. Solo tienes que utilizar la llamada a ese bloque cuando quieras utilizarlo.</li>
+</ul>
+
+<p><span style="display:block;text-align:center;max-width:400px; margin:auto;"> <img src="/images/mov_lateral.png" alt="ejemplo1" /></span></p>
+
+<p>Cuando haces clic en crear el bloque personalizado aparece la siguiente pantalla. Observa que podemos añadir una entrada de datos con un número, texto, lógico(verdadero o falso) y una etiquetas a esas entradas. Además, en la parte inferior aparece “Ejecutar al instante”, con el efecto en nuestro bloque de ejecutarlo de forma muy rápida dentro de nuestro programa.</p>
+
+<p><span style="display:block;text-align:center;max-width:400px; margin:auto;"> <img src="/images/crear.png" alt="crear" /></span></p>
+
+<p>En el siguiente ejemplo realizaremos un bloque personalizado que realizará la suma de dos parámetros o entradas (así se llaman los datos númericos que pasamos a nuestro bloque). Se pregunta el valor del primer número y la respuesta se introduce en la variable “numero1” y el segundo número en la variable “numero2”.</p>
+
+<p>Al llamar a la función, pasamos las dos variables en las cajas de entrada de datos o parámetros y nuestro bloque los recibe para dar el resultado de la suma. Los nombres que tienen los parámetros del bloque (numero 1 y numero 2) son independientes de los datos que le pasamos (variables numero1 y numero2). Puedes llamarlos como tu creas. Aunque es fundamental asignar nombres que tengan un significado y que estén vinculados con la función real de ese bloque. Por ejemplo, si el bloque se encarga de sumar dos números, puedes optar por el nombre muy creativo de “Suma”, “sumando 1” y “sumando 2”. De otra forma, nos perderemos por el camino, es decir, cuando pase tiempo desde que lo realizaste o haya demasiado código, puede pasar que no te acuerdes para que sirve ese bloque.</p>
+
+<p><span style="display:block;text-align:center;max-width:400px; margin:auto;"> <img src="/images/suma.png" alt="ejemplo2" /></span></p>
+
+<p>Si quieres que en vez de sumar, sea restar, podemos editar el bloque personalizado haciendo clic sobre él con el botón secundario de nuestro ratón.</p>
+
+<ul>
+  <li>Le cambias el nombre a tu bloque personalizado y si quieres el nombre de los dos parámetros.</li>
+  <li>La operación por el bloque de operadores “restar”.</li>
+  <li>El resultado por “El resultado de la resta es”.</li>
+  <li>Listo, ya hemos reutilizado un bloque personalizado.</li>
+</ul>
+
+<p><span style="display:block;text-align:center;max-width:400px; margin:auto;"> <img src="/images/resta.png" alt="ejemplo3" /></span></p>
+
+<p>Otros usos para los bloques personalizados son:</p>
+
+<ul>
+  <li>
+    <p>Dibujar formas geométricas (“Dibujar un cuadrado”).</p>
+  </li>
+  <li>
+    <p>Movimientos personalizados (“Bailar”).</p>
+  </li>
+  <li>
+    <p>Simplificar tareas repetitivas (“Cambiar puntuación en un momento del juego”).</p>
+  </li>
+  <li>
+    <p>Mini juegos o rutinas de un personaje(“Lanzar hechizo”).</p>
+  </li>
+</ul>
+
+<p>También se pueden utilizar variables en el interior y a través de los parámetros modificar esas variables. ¡¡¡ Experimenta y crea tus propios bloques personalizados!!!</p>
+
+<p>Nos vemos en el siguiente.</p>
+
+:ET
