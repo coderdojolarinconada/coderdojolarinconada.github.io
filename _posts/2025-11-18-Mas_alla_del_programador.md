@@ -16,15 +16,14 @@ Daremos un breve recorrido, sin nombrar a todas (sería interminable), por las d
 
 <span style="display:block;text-align:center;max-width:400px; margin:auto;padding: 10px 0px"> ![laboratorio]</span>
 
-En el área de Ciencia e investigación, disciplinas como la biología, química, física y ciencias sociales manejan grandes cantidades de datos, desarrollan modelos y simulaciones y automatizan procesos en laboratorios.
+Cpmenzamos por el área de Ciencia e investigación, pues disciplinas como la biología, química, física y ciencias sociales manejan grandes cantidades de datos, desarrollan modelos y simulaciones y automatizan procesos en laboratorios.
 
-En Finanzas y Banca, hay puestos como analista financiero, gestor de riesgos y operadores de bolsa.
+Dentro del área de Finanzas y Banca, hay puestos como analista financiero, gestor de riesgos y operadores de bolsa que utilizan continuamente la programación para mayor eficacia.
 
-Otros sectores como Diseño gráfico y arte, Marketing y publicidad, Ingeniería e incluso Arquitectura, donde les resulta útil la programación.
+Podemos nombrar otros sectores, como Diseño gráfico y arte, Marketing y publicidad, Ingeniería o Arquitectura, donde les resulta útil la programación.
 
 <br/>
-
-El deporte, es uno de los sectores que ha cambiado más por el uso de la programación. 
+Cambiando de tercio, el área del deporte es uno de los sectores que ha cambiado más por el uso de la programación. 
 
 - Podemos mencionar a Analistas de rendimiento que estudian las estadisticas deportivas y el rendimiento de los fichajes.
 
@@ -37,17 +36,17 @@ El deporte, es uno de los sectores que ha cambiado más por el uso de la program
 
 <span style="display:block;text-align:center;max-width:400px; margin:auto;padding: 10px 0px"> ![sensores]</span>
 
-Fuera del deporte, se pueden mencionar otros campos como:
+Por otro lado, se pueden mencionar campos como:
 
 - Periodismo y comunicación
 - Agricultura
-- Humanidades y Cinencias sociales (Lingüística, Arqueología e Historia).
+- Humanidades y Ciencias sociales (Lingüística, Arqueología e Historia).
 
 <span style="display:block;text-align:center;max-width:400px; margin:auto;padding: 10px 0px"> ![aplicacion]</span>
 
-La lista podría ser más extensa, pero sería excesivo nombrar todas y cada una de las profesiones que, aunque no pertenecen al ambito de la programación, si la utilizan para alcanzar sus objetivos.
+La lista podría ser más extensa, pero sería excesivo nombrar todas y cada una de las profesiones que, aunque no pertenecen al ámbito de la programación, si la utilizan para alcanzar sus objetivos.
 
-Y ahora, ¿crees que es ventajoso aprender a programar o todavía piensas que programar es solo para informáticos?
+Y ahora, ¿crees que es ventajoso aprender a programar o todavía piensas que programar es solo para programadores?
 
 !! Seguimos en el próximo ¡¡
 
