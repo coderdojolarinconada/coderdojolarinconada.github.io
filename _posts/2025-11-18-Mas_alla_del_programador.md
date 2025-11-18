@@ -16,7 +16,7 @@ Daremos un breve recorrido, sin nombrar a todas (sería interminable), por las d
 
 <span style="display:block;text-align:center;max-width:400px; margin:auto;padding: 10px 0px"> ![laboratorio]</span>
 
-Cpmenzamos por el área de Ciencia e investigación, pues disciplinas como la biología, química, física y ciencias sociales manejan grandes cantidades de datos, desarrollan modelos y simulaciones y automatizan procesos en laboratorios.
+Comenzamos por el área de Ciencia e investigación, pues disciplinas como la biología, química, física y ciencias sociales manejan grandes cantidades de datos, desarrollan modelos y simulaciones y automatizan procesos en laboratorios.
 
 Dentro del área de Finanzas y Banca, hay puestos como analista financiero, gestor de riesgos y operadores de bolsa que utilizan continuamente la programación para mayor eficacia.
 
