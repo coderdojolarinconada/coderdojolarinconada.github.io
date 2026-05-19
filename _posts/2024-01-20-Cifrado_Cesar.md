@@ -33,7 +33,7 @@ El cifrado César es uno de los métodos más antiguos y sencillos de criptograf
 
 <span class="post-redondea" style="display:block;text-align:center;margin: 40px 0px;">![Rot13]</span>
 
-En este enlace tenéis un programa realizado en Scratch para cifrar y descifrar tus mensajes. Prueba e investiga la forma de realizar esto.
+En este enlace tienes un programa realizado en Scratch para cifrar y descifrar tus mensajes. Prueba e investiga la forma de realizar esto.
 <a class="boton-negro-verde-post" target="_blank" href="https://scratch.mit.edu/projects/945034378">Cifrado César Scratch</a>
 
 
